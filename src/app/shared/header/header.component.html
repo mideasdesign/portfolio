@@ -1,1 +1,113 @@
-<p>header works!</p>
+    <!-- #region mobile Nav Section-->
+    <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto sm:hidden">
+        <div class=" max-w-7xl flex sm:items-center justify-between p-4 mx-auto">
+            <a href="#" class="flex justify-center items-center">
+                <img src="./assets/images/logo.svg" class="h-8" alt="Logo Markus Fischer" />
+            </a>
+            <div class="flex items-center  justify-between mt-5">
+                <div>
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    border border-(--secondary-color) transition-colors">
+                        DE
+                    </button>
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    border border-(--secondary-color) hover:border-(--primary-color) transition-colors">
+                        EN
+                    </button>
+                </div>
+                <div onclick="burgermenu()" class="burger ">
+                <div class="layers"></div>
+                <div class="layers"></div>
+                <div class="layers"></div>
+                </div>
+            </div>
+            <div id="togglemenu" class="menu hidden">
+                <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 px-5">
+                    <li class="py-4 text-center"><a href="#why-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Why me</a></li>
+                    <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Skills</a></li>
+                    <li class="py-4 text-center"><a href="#projects" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Projects</a></li>
+                    <li class="py-4 text-center"><a href="#contact" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #endregion -->
+    <!-- #region Hero Section -->
+    <header class="relative pt-16 px-6 overflow-hidden">
+        <div class=" max-w-7xl big-grid mx-auto text-center z-40">
+            <div class="">
+                <img src="./assets/images/person.png" alt="Markus Fischer" class="bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center sm: bg-transparent">
+            </div>
+            <div class="grid grid-cols-1 mt-6 content-center-safe place-content-center-safe">
+                <div class="flex flex-wrap justify-center max-h-20">
+                    <a href="#">
+                        <img src="./assets/images/logo.svg" class="min-h-10" alt="Logo Markus Fischer" />
+                    </a>
+                </div>
+                <div class="">
+                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-(--accent-color) my-(--space-xs-s)">
+                        Markus Fischer
+                    </h1>
+                    <h2 class="text-xl sm:text-2xl text-(--accent-color) uppercase tracking-wider">
+                        Frontend Developer
+                    </h2>
+                </div>
+                <div class="h-32 flex flex-wrap justify-center gap-4">
+                    <a href="#">
+                        <img src="./assets/images/icons/icon-github/github-light.svg" class="h-7" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/icons/icon-mail/mail-light.svg" class="h-7" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/images/icons/icons-linkedin/linkedin-light.svg" class="h-7" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- #endregion -->
+    <!-- #region Nav Section-->
+    <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden sm:block">
+        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between p-4 mx-auto">
+            <a href="#" class="flex items-center">
+                <img src="./assets/images/logo.svg" class="h-8" alt="Logo Markus Fischer" />
+                <span class="text-lg font-light text-gray-700">markus fischer</span>
+            </a>
+            <div class="flex items-center md:order-2">
+                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                border border-(--secondary-color) transition-colors">
+                    DE
+                </button>
+                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                border border-(--secondary-color) hover:border-(--primary-color) transition-colors">
+                    EN
+                </button>
+                <div onclick="burgermenu()" class="burger">
+                <div class="layers"></div>
+                <div class="layers"></div>
+                <div class="layers"></div>
+                </div>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent bg-gray-800  border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#why-me" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Why me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #endregion -->
