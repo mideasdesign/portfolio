@@ -15,13 +15,13 @@
                         EN
                     </button>
                 </div>
-                <div onclick="burgermenu()" class="burger ">
+                <div #burger (click)="burgermenu()" class="burger">
                 <div class="layers"></div>
                 <div class="layers"></div>
                 <div class="layers"></div>
                 </div>
             </div>
-            <div id="togglemenu" class="menu hidden">
+            <div #togglemenu class="menu hidden">
                 <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 px-5">
                     <li class="py-4 text-center"><a href="#why-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Why me</a></li>
                     <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Skills</a></li>
@@ -83,7 +83,7 @@
                 border border-(--secondary-color) hover:border-(--primary-color) transition-colors">
                     EN
                 </button>
-                <div onclick="burgermenu()" class="burger">
+                <div click="burgermenu()" class="burger">
                 <div class="layers"></div>
                 <div class="layers"></div>
                 <div class="layers"></div>
