@@ -67,7 +67,7 @@
                                     }
                             </div>
                             <div class="grid-cols-[1/-1] flex text-sm justify-center-center">
-                                    <input #privacy='ngModel' [(ngModel)]="contactData.policy" type="checkbox" name="privacy-policy" id="privacy-policy" class="mr-2" required>
+                                    <input #privacy='ngModel' [(ngModel)]="contactData.policy" type="checkbox" name="privacy-policy" id="privacy-policy" class="mr- h-4 w-4 bg-[url(./assets/images/list-icon.svg)] bg contain bg-center bg-no-repeat" required>
                                     <label for="privacy-police">I've read the <a href="privacy" class="text-(--secondary-color) hover:text-(--accent-color)">Privacy-Policy</a> and agree to the processing of my data as outlined.</label>
                                     @if (!privacy.valid && privacy.touched) {
                                         <span> class="text-red-500 pt-4"Please accept the Privacy Policy</span>

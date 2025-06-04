@@ -2,7 +2,7 @@
     <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto sm:hidden">
         <div class=" max-w-7xl flex sm:items-center justify-between p-4 mx-auto">
             <a href="#" class="flex justify-center items-center">
-                <img src="./assets/images/logo.svg" class="h-8" alt="Logo Markus Fischer" />
+                <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
             </a>
             <div class="flex items-center  justify-between mt-5">
                 <div>
@@ -11,7 +11,7 @@
                         DE
                     </button>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) hover:border-(--primary-color) transition-colors">
+                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
                         EN
                     </button>
                 </div>
@@ -41,7 +41,7 @@
             <div class="grid grid-cols-1 mt-6 content-center-safe place-content-center-safe">
                 <div class="flex flex-wrap justify-center max-h-20">
                     <a href="#">
-                        <img src="./assets/images/logo.svg" class="min-h-10" alt="Logo Markus Fischer" />
+                        <img src="./assets/images/logo.svg" class="min-h-14" alt="Logo Markus Fischer" />
                     </a>
                 </div>
                 <div class="">
@@ -54,13 +54,18 @@
                 </div>
                 <div class="h-32 flex flex-wrap justify-center gap-4">
                     <a href="#" class="hover:mask-type-alpha fill-gray-700/70">
-                        <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7" alt="">
+                        <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
                     <a href="#">
-                        <img src="./assets/images/icons/icon-mail/mail-light-blue.svg" class="h-7 hover:" alt="">
+                        <img src="./assets/images/icons/icon-mail/mail-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
                     <a href="#">
-                        <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7" alt="">
+                        <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a href="#why-me">
+                        <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
                     </a>
                 </div>
             </div>
@@ -70,9 +75,9 @@
     <!-- #region Nav Section-->
     <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden sm:block">
         <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between p-4 mx-auto">
-            <a href="#" class="flex items-center">
-                <img src="./assets/images/logo.svg" class="h-8" alt="Logo Markus Fischer" />
-                <span class="text-lg font-light text-gray-700">markus fischer</span>
+            <a href="#" class="flex flex-col items-center">
+                <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
+                <span class="text-sm font-light text-gray-700">markus fischer</span>
             </a>
             <div class="flex items-center md:order-2">
                 <button type="button" data-dropdown-toggle="language-dropdown-menu" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
@@ -80,7 +85,7 @@
                     DE
                 </button>
                 <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                border border-(--secondary-color) hover:border-(--primary-color) transition-colors">
+                border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
                     EN
                 </button>
                 <div click="burgermenu()" class="burger">
