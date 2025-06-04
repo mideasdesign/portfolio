@@ -102,12 +102,17 @@
   --font-heading: 'Anta';
   --grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
-  input,
+*{
+  scroll-behavior: smooth;
+
+}  
+input,
   button,
   select,
   textarea{
     font:inherit;
   }
+
 
   p{
     color: #F8F5EC;
