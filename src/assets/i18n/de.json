@@ -1,6 +1,160 @@
 {
-    "main": {
-        "hello": "gutenTag {{ value }}",
-        "title": "translation Demo Deutsch"
+    
+  "projects": {
+    "buttons": {
+      "join": "1. Join",
+      "elpollo": "2. ElPollo Loco",
+      "bubble": "3. Da Bubble"
+    },
+    "join": {
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Diese App ist ein Slack-Klon, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
+      },
+      "team": {
+        "title": "Meine Erfahrung in der Teamarbeit",
+        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+      },
+      "technologies": {
+        "title": "Technologien"
+      },
+      "buttons": {
+        "live": "Live-Demo",
+        "github": "GitHub"
+      }
+    },
+    "elpollo": {
+      "title": "El Pollo Loco",
+      "text1": "Dieses Projekt ist ein Jump'n'Run-Spiel mit handgezeichneten Grafiken, in dem ein kleiner Held gegen verrückte Hühner kämpft.",
+      "text2": "Es wurde komplett in JavaScript entwickelt, mit Fokus auf sauberer Objektstruktur und Animationen.",
+      "text3": "Ein Highlight war die Implementierung von Kollisionserkennung und Game-Loop-Mechanik."
+    },
+    "bubble": {
+      "title": "Da Bubble",
+      "text1": "In diesem Projekt handelt es sich um eine moderne, responsiv gestaltete Portfolio-Website mit einem außergewöhnlichen Designkonzept.",
+      "text2": "Ziel war es, mit Scroll-Effekten und Animationen ein immersives Erlebnis zu schaffen.",
+      "text3": "Zum Einsatz kamen HTML, SCSS, JavaScript und responsive Layouttechniken."
     }
+  },
+
+  "main": {
+    "title": "Warum ich?",
+    "hello": "Markus, ein kreativer Frontend-Entwickler aus Deutschland.",
+    "desc-why": "Ich bin ein erfahrener Webdesigner und Entwickler mit einem Auge für Detail und einem starken Gespür für Nutzererfahrung. Mein Ziel ist es, moderne, performante und ästhetisch ansprechende Weblösungen zu entwickeln, die nicht nur gut aussehen, sondern auch funktionieren."
+  },
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "workingOn": "Woran ich gerade arbeite",
+    "workingDesc": "Aktuell vertiefe ich meine Kenntnisse in modernen Webtechnologien und Frameworks, um noch performantere und skalierbare Anwendungen zu entwickeln."
+  },
+  "testimonials": {
+    "title": "Brauchen Sie einen Teamplayer?",
+    "subtitle": "Das sagen Kolleg:innen über die Zusammenarbeit mit mir",
+    "entries": [
+      {
+        "name": "Sarah Williams",
+        "role": "Produktmanagerin bei DesignHub",
+        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+      },
+      {
+        "name": "Sarah Williams",
+        "role": "Produktmanagerin bei DesignHub",
+        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+      },
+      {
+        "name": "Sarah Williams",
+        "role": "Produktmanagerin bei DesignHub",
+        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontaktiere mich",
+    "info": "Ich bin derzeit offen für neue Möglichkeiten und spannende Projekte. Lass uns zusammenarbeiten! Melde dich gerne bei mir. Ich bin immer offen für neue Ideen, kreative Projekte oder eine gemeinsame Vision.",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "form": {
+      "title": "Schreib mir eine Nachricht",
+      "name": {
+        "label": "Name",
+        "placeholder": "Dein Name",
+        "error": "Bitte gib deinen Namen ein"
+      },
+      "email": {
+        "label": "E-Mail",
+        "placeholder": "deine.email@beispiel.de",
+        "error": "Bitte gib eine gültige E-Mail-Adresse ein"
+      },
+      "subject": {
+        "label": "Betreff",
+        "placeholder": "Worum geht es?",
+        "error": "Bitte gib einen Betreff ein"
+      },
+      "message": {
+        "label": "Nachricht",
+        "placeholder": "Deine Nachricht...",
+        "error": "Bitte gib eine Nachricht ein"
+      },
+      "privacy": {
+        "text": "Ich habe die",
+        "link": "Datenschutzerklärung",
+        "error": "Bitte akzeptiere die Datenschutzerklärung"
+      },
+      "submit": "Nachricht senden"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "sections": {
+      "1": {
+        "heading": "1. Verantwortliche Stelle",
+        "content": {
+          "name": "Name: Markus Fischer",
+          "address": "Adresse: siehe Impressum",
+          "email": "E-Mail: hello[at]markusfischer-developer.de",
+          "website": "Webseite: markusfischer-developer.de"
+        }
+      },
+      "2": {
+        "heading": "2. Allgemeine Hinweise",
+        "text": "Ich nehme den Schutz Ihrer persönlichen Daten sehr ernst. Ihre personenbezogenen Daten werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung behandelt."
+      },
+      "3": {
+        "heading": "3. Erhebung und Verarbeitung personenbezogener Daten",
+        "text1": "Die Nutzung dieser Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf dieser Seite personenbezogene Daten (z. B. Name oder E-Mail-Adresse) erhoben werden, erfolgt dies auf freiwilliger Basis – z. B. über das Kontaktformular.",
+        "text2": "Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben."
+      },
+      "4": {
+        "heading": "4. Kontaktformular",
+        "text1": "Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert.",
+        "text2": "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO."
+      },
+      "5": {
+        "heading": "5. Server-Log-Dateien",
+        "text": "Der Hosting-Provider erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt:",
+        "list": [
+          "Browsertyp und Browserversion",
+          "Verwendetes Betriebssystem",
+          "Referrer URL",
+          "Hostname des zugreifenden Rechners",
+          "Uhrzeit der Serveranfrage",
+          "IP-Adresse"
+        ]
+      },
+      "6": {
+        "heading": "6. Ihre Rechte",
+        "text1": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.",
+        "text2": "Zur Ausübung dieser Rechte kontaktieren Sie mich bitte per E-Mail (siehe oben)."
+      },
+      "7": {
+        "heading": "7. SSL- bzw. TLS-Verschlüsselung",
+        "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung."
+      }
+    }
+  }
+
 }
