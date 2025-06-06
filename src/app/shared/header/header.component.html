@@ -52,14 +52,14 @@
                         Frontend Developer
                     </h2>
                 </div>
-                <div class="h-32 flex flex-wrap justify-center gap-4">
-                    <a href="#" class="hover:mask-type-alpha fill-gray-700/70">
+                <div class="h-32 flex flex-wrap justify-center gap-4 hover:cursor-pointer">
+                    <a href="https://github.com/mideasdesign" class="hover:mask-type-alpha fill-gray-700/70">
                         <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
-                    <a href="#">
+                    <a href="mailto:hello@markusfischer-developer.de">
                         <img src="./assets/images/icons/icon-mail/mail-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/markus-fischer-25a5b68b/">
                         <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
                 </div>
@@ -74,25 +74,28 @@
     <!-- #endregion -->
     <!-- #region Nav Section-->
     <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden sm:block">
-        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between p-4 mx-auto">
-            <a href="#" class="flex flex-col items-center">
+        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between p-4 mx-auto hover:cursor-pointer">
+                       <div>
+                <a href="#" class="flex flex-col items-center">
                 <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
                 <span class="text-sm font-light text-gray-700">markus fischer</span>
-            </a>
+                </a>
+            </div> 
             <div class="flex items-center md:order-2">
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                <div>
+                    <button type="button" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) transition-colors">
                         {{ 'lang.de' | translate }}
                     </button>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    <button type="button" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
                        {{ 'lang.en' | translate }}
                     </button>
                 </div>
                 <div click="burgermenu()" class="burger">
-                <div class="layers"></div>
-                <div class="layers"></div>
-                <div class="layers"></div>
+                    <div class="layers"></div>
+                    <div class="layers"></div>
+                    <div class="layers"></div>
                 </div>
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">

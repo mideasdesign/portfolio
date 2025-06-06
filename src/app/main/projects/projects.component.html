@@ -1,62 +1,80 @@
 <!-- #region Projects -->
-    <section class="py-6 sm:py-12" id="projects">
-        <div class="mx-auto max-w-7xl">
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17" onclick="openProject('join')">1. Join</button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-17" onclick="openProject('elpollo')">2. ElPollo Loco</button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17" onclick="openProject('bubble')">3. Da Bubble</button>
-            
+<section class="py-6 sm:py-12" id="projects">
+  <div class="mx-auto max-w-7xl">
+    <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17" onclick="openProject('join')">
+      {{ 'projects.buttons.join' | translate }}
+    </button>
+    <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-17" onclick="openProject('elpollo')">
+      {{ 'projects.buttons.elpollo' | translate }}
+    </button>
+    <button class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17" onclick="openProject('bubble')">
+      {{ 'projects.buttons.bubble' | translate }}
+    </button>
+  </div>
 
+  <div class="bg-gray-700">
+    <div class="mx-auto max-w-7xl bg-gray-700">
+      <div id="join" class="p-8 big-grid gap-10">
+        <div class="text-base">
+          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
+            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
+            {{ 'projects.join.about.title' | translate }}
+          </h5>
+          <p class="mb-4 pl-8">{{ 'projects.join.about.text' | translate }}</p>
+
+          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
+            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
+            {{ 'projects.join.process.title' | translate }}
+          </h5>
+          <p class="mb-4 pl-8">{{ 'projects.join.process.text' | translate }}</p>
+
+          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
+            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
+            {{ 'projects.join.team.title' | translate }}
+          </h5>
+          <p class="pl-8">{{ 'projects.join.team.text' | translate }}</p>
         </div>
-        <div class=" bg-gray-700">
-            <div class="mx-auto max-w-7xl bg-gray-700">
-                <div id="join" class="p-8 big-grid gap-10">
-                    <div class="text-base">
-                        <h5 class="text-(--secondary-color) font-semibold text-lg flex "><img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">About the project</h5>
-                        <p class="mb-4 pl-8">This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.</p>
-                        <h5 class="text-(--secondary-color) font-semibold text-lg flex"><img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">How I have organised my work process</h5>
-                        <p class="mb-4 pl-8">How do you keep your code clean and maintainable? Have you broken the project down into reusable modules or components? Focus on documentation, naming files, variables, classes and testing.</p>
-                        <h5 class="text-(--secondary-color) font-semibold text-lg flex"><img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">My group work experience</h5>
-                        <p class="pl-8">How many people were in the team and what was your role? Describe your tasks in 1-2 sentences, for example: login form, dashboard or chat functionality. What technologies did you use? It is nice to mention good teamwork and cooperation.</p>
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <div>
-                            <h5>Technologies</h5>
-                            <div class="flex flex-wrap gap-3">
-                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <img src="./assets/images/Screenshot project.svg" alt="">                                
-                        </div>
-                        <div>
-                            <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
-                                <a href="#liveTest">Live Test</a>
-                            </button>
-                            <button type="submit" class=" ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
-                                <a href="#github">github</a>
-                            </button>
-                        </div>
-                    </div>
-                        
-                </div>
 
-                <div id="elpollo" class="mx-w-7xl p-8" style="display:none">
-                    <h3>El Pollo Loco</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                </div>
-
-                <div id="bubble" class="mx-w7xl p-8" style="display:none">
-                    <h3>Da Bubble</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis aliquid, quisquam eaque quidem laboriosam libero hic, dolore officiis reprehenderit iste? Eum harum odit reprehenderit perferendis exercitationem alias. Sequi, laudantium.</p>
-                </div>
+        <div class="flex flex-col gap-4">
+          <div>
+            <h5>{{ 'projects.join.technologies.title' | translate }}</h5>
+            <div class="flex flex-wrap gap-3">
+              <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
+              <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
+              <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
+              <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
             </div>
+          </div>
+
+          <div>
+            <img src="./assets/images/Screenshot project.svg" alt="">
+          </div>
+
+          <div>
+            <button type="submit" class="py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
+              <a href="#liveTest">{{ 'projects.join.buttons.live' | translate }}</a>
+            </button>
+            <button type="submit" class="ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
+              <a href="#github">{{ 'projects.join.buttons.github' | translate }}</a>
+            </button>
+          </div>
         </div>
-    </section>
+      </div>
+
+      <div id="elpollo" class="mx-w-7xl p-8" style="display:none">
+        <h3>{{ 'projects.elpollo.title' | translate }}</h3>
+        <p>{{ 'projects.elpollo.text1' | translate }}</p>
+        <p>{{ 'projects.elpollo.text2' | translate }}</p>
+        <p>{{ 'projects.elpollo.text3' | translate }}</p>
+      </div>
+
+      <div id="bubble" class="mx-w7xl p-8" style="display:none">
+        <h3>{{ 'projects.bubble.title' | translate }}</h3>
+        <p>{{ 'projects.bubble.text1' | translate }}</p>
+        <p>{{ 'projects.bubble.text2' | translate }}</p>
+        <p>{{ 'projects.bubble.text3' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- #endregion -->

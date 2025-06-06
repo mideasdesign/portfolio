@@ -56,7 +56,7 @@
     "subtitle": "Das sagen Kolleg:innen über die Zusammenarbeit mit mir",
     "entries": [
       {
-        "name": "Sarah Williams",
+        "name": "Mirkan Polet",
         "role": "Produktmanagerin bei DesignHub",
         "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
       },
@@ -73,12 +73,12 @@
     ]
   },
   "contact": {
-    "title": "Kontaktiere mich",
-    "info": "Ich bin derzeit offen für neue Möglichkeiten und spannende Projekte. Lass uns zusammenarbeiten! Melde dich gerne bei mir. Ich bin immer offen für neue Ideen, kreative Projekte oder eine gemeinsame Vision.",
+    "title": "So kannst du mich kontaktieren",
+    "info": "Ich freue mich auf neue Herausforderungen und spannende Projekte. Meld dich gern. Ich bin offen für frische Impulse, kreative Ansätze oder einfach gute Zusammenarbeit.",
     "emailLabel": "E-Mail",
     "phoneLabel": "Telefon",
     "form": {
-      "title": "Schreib mir eine Nachricht",
+      "title": "Schreib mir",
       "name": {
         "label": "Name",
         "placeholder": "Dein Name",
@@ -188,7 +188,55 @@
   },
     "footer": {
     "imprint": "Impressum",
+    "link-imprint": "impressum",
+    "link-privacy": "datenschutz",
     "privacy": "Datenschutz"
+  },
+  "privacy-page": {
+  "title": "Datenschutzerklärung",
+  "responsible": {
+    "title": "1. Verantwortliche Stelle",
+    "name": "Name",
+    "address": "Adresse",
+    "address_value": "siehe Impressum",
+    "email": "E-Mail",
+    "website": "Website"
+  },
+  "general": {
+    "title": "2. Allgemeine Hinweise",
+    "text": "Ich nehme den Schutz Ihrer persönlichen Daten sehr ernst. Ihre personenbezogenen Daten werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung behandelt."
+  },
+  "collection": {
+    "title": "3. Erhebung und Verarbeitung personenbezogener Daten",
+    "text1": "Die Nutzung dieser Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf dieser Seite personenbezogene Daten (z. B. Name oder E-Mail-Adresse) erhoben werden, erfolgt dies auf freiwilliger Basis – z. B. über das Kontaktformular.",
+    "text2": "Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben."
+  },
+  "contact_form": {
+    "title": "4. Kontaktformular",
+    "text": "Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert.",
+    "legal_basis": "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO."
+  },
+  "server_logs": {
+    "title": "5. Server-Log-Dateien",
+    "text": "Der Hosting-Provider erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt:",
+    "entries": {
+      "browser": "Browsertyp und Browserversion",
+      "os": "Verwendetes Betriebssystem",
+      "referrer": "Referrer URL",
+      "hostname": "Hostname des zugreifenden Rechners",
+      "time": "Uhrzeit der Serveranfrage",
+      "ip": "IP-Adresse"
+    }
+  },
+  "rights": {
+    "title": "6. Ihre Rechte",
+    "text1": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch.",
+    "text2": "Zur Ausübung dieser Rechte kontaktieren Sie mich bitte per E-Mail (siehe oben)."
+  },
+  "encryption": {
+    "title": "7. SSL- bzw. TLS-Verschlüsselung",
+    "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung."
   }
+}
 
 }

@@ -10,5 +10,10 @@ import { CommonModule } from '@angular/common';
   styleUrl: './testimonials.component.css'
 })
 export class TestimonialsComponent {
+  constructor(private translate: TranslateService) {
+  }
 
+  switchLang(lang: string) {
+    this.translate.use(lang);
+  }
 }

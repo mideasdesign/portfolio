@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
-
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-imprint',
@@ -11,5 +10,10 @@ import { CommonModule } from '@angular/common';
   styleUrl: './imprint.component.css'
 })
 export class ImprintComponent {
+  constructor(private translate: TranslateService) {
+  }
 
+  switchLang(lang: string) {
+    this.translate.use(lang);
+  }
 }

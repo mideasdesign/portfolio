@@ -10,23 +10,23 @@
     "description": "I’m currently improving my skills and learning new tools to create even better web experiences."
   },
   "testimonials": {
-    "title": "Need a Team Player?",
-    "subtitle": "Here's what my colleagues say about working with me",
+    "title": "Looking for a team player?",
+    "subtitle": "Here's what colleagues say about working with me",
     "entries": [
       {
-        "name": "Sarah Williams",
-        "role": "Product Manager at DesignHub",
-        "text": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into beautiful, functional interfaces is remarkable."
+        "name": "Mirkan Polet",
+        "role": "Junior Frontend Developer",
+        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
       },
       {
         "name": "Sarah Williams",
         "role": "Product Manager at DesignHub",
-        "text": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into beautiful, functional interfaces is remarkable."
+        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
       },
       {
         "name": "Sarah Williams",
         "role": "Product Manager at DesignHub",
-        "text": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into beautiful, functional interfaces is remarkable."
+        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
       }
     ]
   },
@@ -72,7 +72,7 @@
   },
   "contact": {
     "title": "Get In Touch",
-    "info": "I'm currently open to new opportunities and interesting projects. Let's work together! Feel free to reach out to me. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "info": "I’m always up for new challenges and exciting projects. Whether you’ve got a clear idea or just want to chat – feel free to reach out. I’m open to fresh ideas, creative input, or simply working together on something great.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "form": {
@@ -161,7 +161,7 @@
   "3": "Host name of the accessing computer",
   "4": "Time of the server request",
   "5": "IP address"
-},
+  },
   "nav": {
     "home": "Home",
     "why_me": "About me",
@@ -177,7 +177,7 @@
     "de": "DE",
     "en": "EN"
   },
-    "legal": {
+  "legal": {
     "title": "Legal Notice",
     "section_5": "Information according to § 5 TMG:",
     "name": "Markus Fischer",
@@ -186,16 +186,62 @@
       "city": "65187 Wiesbaden",
       "country": "Germany"
     },
-    "contact": "Contact:",
+  "contact": "Contact:",
     "phone": "Phone: +49 6119705560",
     "email": "Email: hello[at]markusfischer-developer.de",
     "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
     "same_address": "address as above."
   },
-    "footer": {
+  "footer": {
+      "link-imprint": "imprint",
+       "link-privacy": "privacy",
     "imprint": "Imprint",
     "privacy": "Privacy"
+  },
+  "privacy-page": {
+  "title": "Privacy Policy",
+  "responsible": {
+    "title": "1. Responsible Party",
+    "name": "Name",
+    "address": "Address",
+    "address_value": "see imprint",
+    "email": "Email",
+    "website": "Website"
+  },
+  "general": {
+    "title": "2. General Information",
+    "text": "I take the protection of your personal data very seriously. Your personal data is treated confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+  },
+  "collection": {
+    "title": "3. Collection and Processing of Personal Data",
+    "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
+    "text2": "This data will not be shared with third parties without your explicit consent."
+  },
+  "contact_form": {
+    "title": "4. Contact Form",
+    "text": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
+    "legal_basis": "Legal basis: Art. 6(1)(b) GDPR."
+  },
+  "server_logs": {
+    "title": "5. Server Log Files",
+    "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
+    "entries": {
+      "browser": "Browser type and version",
+      "os": "Operating system used",
+      "referrer": "Referrer URL",
+      "hostname": "Host name of the accessing computer",
+      "time": "Time of the server request",
+      "ip": "IP address"
+    }
+  },
+    "rights": {
+    "title": "6. Your Rights",
+    "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
+    "text2": "To exercise these rights, please contact me by email (see above)."
+  },
+    "encryption": {
+    "title": "7. SSL or TLS Encryption",
+    "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
+    }
   }
-
-
 }
