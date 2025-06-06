@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
-import {TranslatePipe, TranslateDirective} from "@ngx-translate/core";
+import {TranslateModule} from "@ngx-translate/core";
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [ProjectsComponent, ContactComponent, FormsModule, TranslatePipe, TranslateDirective],
+  imports: [ProjectsComponent, ContactComponent, TestimonialsComponent, FormsModule, TranslateModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })

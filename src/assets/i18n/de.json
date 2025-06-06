@@ -155,6 +155,40 @@
         "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung."
       }
     }
+  },
+    "nav": {
+    "home": "Home",
+    "why_me": "über mich",
+    "skills": "Skills",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Markus Fischer",
+    "title": "Frontend Developer"
+  },
+  "lang": {
+    "de": "DE",
+    "en": "EN"
+  },
+  "legal": {
+    "title": "Impressum",
+    "section_5": "Angaben gemäß § 5 TMG:",
+    "name": "Markus Fischer",
+    "address": {
+      "street": "Scheffelstr.1",
+      "city": "65187 Wiesbaden",
+      "country": "Deutschland"
+    },
+    "contact": "Kontakt:",
+    "phone": "Telefon: +49 6119705560",
+    "email": "E-Mail: hello[at]markusfischer-developer.de",
+    "responsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:",
+    "same_address": "Anschrift wie oben."
+  },
+    "footer": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
   }
 
 }

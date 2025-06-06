@@ -10,9 +10,15 @@
             <div class="text-(--primary-color) flex items-center">
                 <ul class="flex flex-wrap gap-3 text-(--primary-color)">
                     <li>
-                        <a href="imprint" class="hover:text-(--accent-color)">Imprint</a>
+                        <a href="imprint" class="hover:text-(--accent-color)">
+                        {{ 'footer.imprint' | translate }}
+                        </a>
                     </li>
-                    <li><a href="privacy-policy" class="hover:text-(--accent-color)">Privacy Policy</a></li>
+                    <li>
+                        <a href="privacy" class="hover:text-(--accent-color)">
+                        {{ 'footer.privacy' | translate }}
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="h-32 flex flex-wrap items-center justify-center gap-4">

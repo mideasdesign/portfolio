@@ -161,6 +161,41 @@
   "3": "Host name of the accessing computer",
   "4": "Time of the server request",
   "5": "IP address"
-}
+},
+  "nav": {
+    "home": "Home",
+    "why_me": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Markus Fischer",
+    "title": "Frontend Developer"
+  },
+  "lang": {
+    "de": "DE",
+    "en": "EN"
+  },
+    "legal": {
+    "title": "Legal Notice",
+    "section_5": "Information according to § 5 TMG:",
+    "name": "Markus Fischer",
+    "address": {
+      "street": "Scheffelstr.1",
+      "city": "65187 Wiesbaden",
+      "country": "Germany"
+    },
+    "contact": "Contact:",
+    "phone": "Phone: +49 6119705560",
+    "email": "Email: hello[at]markusfischer-developer.de",
+    "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
+    "same_address": "address as above."
+  },
+    "footer": {
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  }
+
 
 }

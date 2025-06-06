@@ -3,12 +3,12 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-testimonials',
   standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css'
+  templateUrl: './testimonials.component.html',
+  styleUrl: './testimonials.component.css'
 })
-export class FooterComponent {
+export class TestimonialsComponent {
 
 }

@@ -6,13 +6,13 @@
             </a>
             <div class="flex items-center  justify-between mt-5">
                 <div>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) transition-colors">
-                        DE
+                        {{ 'lang.de' | translate }}
                     </button>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                        EN
+                       {{ 'lang.en' | translate }}
                     </button>
                 </div>
                 <div #burger (click)="burgermenu()" class="burger">
@@ -23,10 +23,10 @@
             </div>
             <div #togglemenu class="menu hidden">
                 <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 px-5">
-                    <li class="py-4 text-center"><a href="#why-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Why me</a></li>
-                    <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Skills</a></li>
-                    <li class="py-4 text-center"><a href="#projects" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Projects</a></li>
-                    <li class="py-4 text-center"><a href="#contact" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</a></li>
+                    <li class="py-4 text-center"><a href="#why-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#projects" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#contact" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
                 </ul>
             </div>
         </div>
@@ -80,14 +80,15 @@
                 <span class="text-sm font-light text-gray-700">markus fischer</span>
             </a>
             <div class="flex items-center md:order-2">
-                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                border border-(--secondary-color) transition-colors">
-                    DE
-                </button>
-                <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                    EN
-                </button>
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    border border-(--secondary-color) transition-colors">
+                        {{ 'lang.de' | translate }}
+                    </button>
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
+                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
+                       {{ 'lang.en' | translate }}
+                    </button>
+                </div>
                 <div click="burgermenu()" class="burger">
                 <div class="layers"></div>
                 <div class="layers"></div>
@@ -96,21 +97,10 @@
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
                 <ul class="flex flex-col p-4 md:p-0 mt-4 text-lg border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent bg-gray-800  border-gray-700">
-                    <li>
-                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                        <a href="#why-me" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Why me</a>
-                    </li>
-                    <li>
-                        <a href="#skills" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">Contact</a>
-                    </li>
+                    <li class="py-4 text-center"><a href="#why-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#projects" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#contact" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
                 </ul>
             </div>
         </div>

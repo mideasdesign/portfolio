@@ -1,22 +1,26 @@
 <section class="my-16" id="impressum-en">
-    <div class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center">
-        <h1 class="text-2xl font-semibold mb-4 text-(--secondary-color)">Legal Notice</h1>
-        <p><strong>Information according to § 5 TMG:</strong></p>
-        <p class="mt-2">
-            Markus Fischer<br>
-            Scheffelstr.1<br>
-            65187 Wiesbaden<br>
-            Germany
-        </p>
+  <div class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center">
+    <h1 class="text-2xl font-semibold mb-4 text-(--secondary-color)">
+      {{ 'legal.title' | translate }}
+    </h1>
 
-        <p class="mt-4"><strong>Contact:</strong><br>
-            Phone: +49 6119705560<br>
-            Email: hello[at]markusfischer-developer.de
-        </p>
+    <p><strong>{{ 'legal.section_5' | translate }}</strong></p>
 
-        <p class="mt-4 text-sm text-gray-600">
-            Responsible for content according to § 55 Abs. 2 RStV:<br>
-            Markus Fischer, address as above.
-        </p>
-    </div>
+    <p class="mt-2">
+      {{ 'legal.name' | translate }}<br>
+      {{ 'legal.address.street' | translate }}<br>
+      {{ 'legal.address.city' | translate }}<br>
+      {{ 'legal.address.country' | translate }}
+    </p>
+
+    <p class="mt-4"><strong>{{ 'legal.contact' | translate }}</strong><br>
+      {{ 'legal.phone' | translate }}<br>
+      {{ 'legal.email' | translate }}
+    </p>
+
+    <p class="mt-4 text-sm text-gray-600">
+      {{ 'legal.responsible' | translate }}<br>
+      {{ 'legal.name' | translate }}, {{ 'legal.same_address' | translate }}
+    </p>
+  </div>
 </section>

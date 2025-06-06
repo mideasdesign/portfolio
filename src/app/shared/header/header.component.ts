@@ -1,9 +1,11 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -11,6 +13,12 @@ export class HeaderComponent {
 @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
 @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
 
+  constructor(private translate: TranslateService) {
+  }
+
+  switchLang(lang: string) {
+    this.translate.use(lang);
+  }
 
   burgermenu(): void {
     const menu = this.menuRef.nativeElement;
