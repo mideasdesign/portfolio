@@ -158,7 +158,7 @@
   },
     "nav": {
     "home": "Home",
-    "why_me": "über mich",
+    "why_me": "Über mich",
     "skills": "Skills",
     "projects": "Projekte",
     "contact": "Kontakt"
@@ -188,8 +188,8 @@
   },
     "footer": {
     "imprint": "Impressum",
-    "link-imprint": "impressum",
-    "link-privacy": "datenschutz",
+    "link-imprint": "/de/impressum",
+    "link-privacy": "/de/datenschutz",
     "privacy": "Datenschutz"
   },
   "privacy-page": {
