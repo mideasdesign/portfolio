@@ -112,7 +112,11 @@ input,
   textarea{
     font:inherit;
   }
-
+.form-group{
+  display: flex;
+  flex-direction: column;
+  height: 6.25rem;
+}
 
   p{
     color: #F8F5EC;

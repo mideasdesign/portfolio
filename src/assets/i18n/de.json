@@ -161,7 +161,12 @@
     "why_me": "Über mich",
     "skills": "Skills",
     "projects": "Projekte",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "link_home": "/",
+    "link_why_me": "/de/#why-me",
+    "link_skills": "/de/#skills",
+    "link_projects": "/de/#projects",
+    "link_contact": "/de/#contact"
   },
   "hero": {
     "name": "Markus Fischer",
