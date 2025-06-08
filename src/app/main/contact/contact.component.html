@@ -44,17 +44,16 @@
             {{ 'contact.form.title' | translate }}
           </h3>
 
-          <form class="space-y-4" (ngSubmit)="onSubmit(contactform)" #contactform="ngForm">
+          <form class="space-y-4" (ngSubmit)="onSubmit(contactForm)" #contactForm = 'ngForm'>
             <!-- Name -->
             <div class="form-group">
               <label for="name" class="text-sm text-gray-300 mb-1">
                 {{ 'contact.form.name.label' | translate }}
               </label>
-              <input #name="ngModel" [(ngModel)]="contactData.name" name="name" id="name"
+              <input #name="ngModel" [(ngModel)]="contactData.name" name="name"
                      class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
                      type="text"
                      placeholder="{{ 'contact.form.name.placeholder' | translate }}"
-                     pattern="[A-Za-zÄÖÜäöüß]{2,}\\s+[A-Za-zÄÖÜäöüß]{2,}"
                      required>
               @if (!name.valid && name.touched) {
                 <span class="text-red-500">
@@ -68,11 +67,10 @@
               <label for="email" class="text-sm text-gray-300 mb-1">
                 {{ 'contact.form.email.label' | translate }}
               </label>
-              <input #email="ngModel" [(ngModel)]="contactData.email" name="email" id="email"
+              <input #email="ngModel" [(ngModel)]="contactData.email" name="email"
                      class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
                      type="email"
                      placeholder="{{ 'contact.form.email.placeholder' | translate }}"
-                     pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
                      required>
               @if (!email.valid && email.touched) {
                 <span class="text-red-500">
@@ -86,7 +84,7 @@
               <label for="subject" class="text-sm text-gray-300 mb-1">
                 {{ 'contact.form.subject.label' | translate }}
               </label>
-              <input #subject="ngModel" [(ngModel)]="contactData.subject" name="subject" id="subject"
+              <input #subject="ngModel" [(ngModel)]="contactData.subject" name="subject"
                      class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
                      type="text"
                      placeholder="{{ 'contact.form.subject.placeholder' | translate }}"
@@ -103,7 +101,7 @@
               <label for="message" class="text-sm text-gray-300 mb-1">
                 {{ 'contact.form.message.label' | translate }}
               </label>
-              <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message" id="message"
+              <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message"
                         rows="5"
                         class="w-full px-4 py-3 h-28 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
                         placeholder="{{ 'contact.form.message.placeholder' | translate }}"
@@ -117,7 +115,7 @@
 
             <!-- Privacy Checkbox -->
             <div class="flex items-start gap-2 text-sm">
-              <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy" id="privacy-policy"
+              <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy"
                      type="checkbox"
                      class="h-4 w-4"
                      required>

@@ -17,11 +17,11 @@ http = inject(HttpClient);
   contactData ={
     name: '',
     email: '',
-    subject: '',
     message: '',
-    policy: ''
+    policy: '',
+    subject: '',
   };
- mailTest = true;
+   mailTest = false;
 
   post = {
     endPoint: 'https://markusfischer-developer.de/sendMail.php',
