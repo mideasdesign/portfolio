@@ -28,16 +28,46 @@
       }
     },
     "elpollo": {
-      "title": "El Pollo Loco",
-      "text1": "Dieses Projekt ist ein Jump'n'Run-Spiel mit handgezeichneten Grafiken, in dem ein kleiner Held gegen verrückte Hühner kämpft.",
-      "text2": "Es wurde komplett in JavaScript entwickelt, mit Fokus auf sauberer Objektstruktur und Animationen.",
-      "text3": "Ein Highlight war die Implementierung von Kollisionserkennung und Game-Loop-Mechanik."
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Dieses jump'n' run, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
+      },
+      "team": {
+        "title": "Meine Erfahrung in der Teamarbeit",
+        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+      },
+      "technologies": {
+        "title": "Technologien"
+      },
+      "buttons": {
+        "live": "Live-Demo",
+        "github": "GitHub"
+      }
     },
     "bubble": {
-      "title": "Da Bubble",
-      "text1": "In diesem Projekt handelt es sich um eine moderne, responsiv gestaltete Portfolio-Website mit einem außergewöhnlichen Designkonzept.",
-      "text2": "Ziel war es, mit Scroll-Effekten und Animationen ein immersives Erlebnis zu schaffen.",
-      "text3": "Zum Einsatz kamen HTML, SCSS, JavaScript und responsive Layouttechniken."
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Das ist bubble, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
+      },
+      "team": {
+        "title": "Meine Erfahrung in der Teamarbeit",
+        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+      },
+      "technologies": {
+        "title": "Technologien"
+      },
+      "buttons": {
+        "live": "Live-Demo",
+        "github": "GitHub"
+      }
     }
   },
 
