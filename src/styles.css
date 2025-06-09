@@ -98,6 +98,7 @@
   --base-color: #FFFDFD;
   --light-gray:#7DABC5;
   --dark-gray: #2D383F;
+  --gray: #374153;
   --font-primary: 'Josefin Sans';
   --font-heading: 'Anta';
   --grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
@@ -121,6 +122,14 @@ input,
   p{
     color: #F8F5EC;
   }
+  button.tab-active{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: var(--gray);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .small-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));

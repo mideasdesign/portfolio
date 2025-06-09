@@ -2,20 +2,20 @@
 <section class="py-6 sm:py-12" id="projects">
   <div class="mx-auto max-w-7xl">
     <button 
-      class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17" 
-      [class.bg-gray-700]="isActive('join')"
+      class=" hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) min-w-25" 
+      [class.tab-active]="isActive('join')"
       (click)="setActiveTab('join')">
       {{ 'projects.buttons.join' | translate }}
     </button>
     <button 
-      class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-17"
-      [class.bg-gray-700]="isActive('elpollo')"
+      class=" hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-17"
+      [class.tab-active]="isActive('elpollo')"
       (click)="setActiveTab('elpollo')">
       {{ 'projects.buttons.elpollo' | translate }}
     </button>
     <button 
-      class="hover:bg-gray-700 hover:rounded-t-3xl p2 sm:p-4 text-(--secondary-color) min-w-17"
-      [class.bg-gray-700]="isActive('bubble')"
+      class="hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) min-w-17"
+      [class.tab-active]="isActive('bubble')"
       (click)="setActiveTab('bubble')">
       {{ 'projects.buttons.bubble' | translate }}
     </button>
@@ -24,7 +24,7 @@
   <div class="bg-gray-700">
     <div class="mx-auto max-w-7xl bg-gray-700">
       <!-- Join Tab Content -->
-      <div *ngIf="isActive('join')" class="p-8 big-grid gap-10">
+      <div *ngIf="isActive('join')" class="p-8 big-grid gap-10 ">
         <div class="text-base">
           <h5 class="text-(--secondary-color) font-semibold text-lg flex">
             <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
@@ -85,12 +85,6 @@
             {{ 'projects.elpollo.process.title' | translate }}
           </h5>
           <p class="mb-4 pl-8">{{ 'projects.elpollo.process.text' | translate }}</p>
-
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.elpollo.team.title' | translate }}
-          </h5>
-          <p class="pl-8">{{ 'projects.elpollo.team.text' | translate }}</p>
         </div>
 
         <div class="flex flex-col gap-4">

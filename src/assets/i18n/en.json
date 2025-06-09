@@ -1,8 +1,8 @@
 {
   "main": {
     "title": "Why Work With Me?",
-    "hello": "a passionate frontend developer from Germany.",
-    "desc-why": "With over 20 years of experience in web design and development, I bring both creativity and technical expertise to every project."
+    "hello": "creative frontend developer from Wiesbaden.",
+    "desc-why": "I am an experienced web designer and developer with an eye for detail and a strong sense of user experience. My goal is to develop modern, performant and aesthetically pleasing web solutions that not only look good, but also work."
   },
   "skills": {
     "title": "My Skills",
@@ -16,12 +16,12 @@
       {
         "name": "Mirkan Polet",
         "role": "Junior Frontend Developer",
-        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
+        "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!"
       },
       {
-        "name": "Sarah Williams",
-        "role": "Product Manager at DesignHub",
-        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
+        "name": "Simon Fuchs",
+        "role": "Junior Frontend Developer",
+        "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. "
       },
       {
         "name": "Sarah Williams",
@@ -60,15 +60,11 @@
     "elpollo": {
       "about": {
         "title": "About the project",
-        "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+        "text": "El Pollo Loco is a browser-based platform game with HTML5, CSS3 and modern JavaScript (ES6+), without frameworks. Pepe the hero of the game moves through the level and collects coins and bottles. He has to avoid the crazy chickens and chicks by jumping. The collected bottles are thrown at the boss and hopefully killed."
       },
       "process": {
-        "title": "How I have organised my work process",
-        "text": "How do you keep your code clean and maintainable? Have you broken the project down into reusable modules or components? Focus on documentation, naming files, variables, classes and testing."
-      },
-      "team": {
-        "title": "My group work experience",
-        "text": "How many people were in the team and what was your role? Describe your tasks in 1-2 sentences, for example: login form, dashboard or chat functionality. What technologies did you use? It is nice to mention good teamwork and cooperation."
+        "title": "Technical basics",
+        "text": "Display of the game world and all objects (characters, background, enemies) was realized within the Canvas API. Using requestAnimationFrame or setInterval, for example, movements and collisions were realized. The game should also be playable on smaller screens."
       },
       "technologies": {
         "title": "Technologies"

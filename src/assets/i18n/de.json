@@ -30,18 +30,11 @@
     "elpollo": {
       "about": {
         "title": "Über das Projekt",
-        "text": "Dieses jump'n' run, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
       },
       "process": {
-        "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
-      },
-      "team": {
-        "title": "Meine Erfahrung in der Teamarbeit",
-        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
-      },
-      "technologies": {
-        "title": "Technologien"
+        "title": "Technische Grundlagen",
+        "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
       },
       "buttons": {
         "live": "Live-Demo",
@@ -73,7 +66,7 @@
 
   "main": {
     "title": "Warum ich?",
-    "hello": "Markus, ein kreativer Frontend-Entwickler aus Deutschland.",
+    "hello": "kreativer Frontend-Entwickler aus Wiesbaden.",
     "desc-why": "Ich bin ein erfahrener Webdesigner und Entwickler mit einem Auge für Detail und einem starken Gespür für Nutzererfahrung. Mein Ziel ist es, moderne, performante und ästhetisch ansprechende Weblösungen zu entwickeln, die nicht nur gut aussehen, sondern auch funktionieren."
   },
   "skills": {
@@ -87,13 +80,13 @@
     "entries": [
       {
         "name": "Mirkan Polet",
-        "role": "Produktmanagerin bei DesignHub",
-        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+        "role": "Junior Frontend Entwickler",
+        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Er war nicht nur sehr zuverlässig und kompetent, sondern hat auch mit viel Engagement und Kreativität gearbeitet. Ich habe enorm viel gelernt und würde jederzeit wieder mit ihm ein Projekt starten!"
       },
       {
-        "name": "Sarah Williams",
-        "role": "Produktmanagerin bei DesignHub",
-        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+        "name": "Simon Fuchs",
+        "role": "Junior Frontend Entwickler",
+        "quote": "In unserem Projekt waren Markus' Kenntnisse von HTML-Strukturen und CSS von großem Wert. Dass er trotz all seiner Erfahrung immer interessiert ist, noch mehr zu lernen und bereit ist, auch andere Wege auszuprobieren, beeindruckt mich."
       },
       {
         "name": "Sarah Williams",
