@@ -8,11 +8,11 @@
                 <div>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) transition-colors">
-                        {{ 'lang.de' | translate }}
+                        DE
                     </button>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                       {{ 'lang.en' | translate }}
+                    border border-(--secondary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
+                      EN
                     </button>
                 </div>
                 <div #burger (click)="burgermenu()" class="burger">
@@ -41,7 +41,7 @@
             <div class="grid grid-cols-1 mt-6 content-center-safe place-content-center-safe">
                 <div class="flex flex-wrap justify-center max-h-20">
                     <a href="#">
-                        <img src="./assets/images/logo.svg" class="min-h-14" alt="Logo Markus Fischer" />
+                        <img src="./assets/images/logo.svg" [routerLink]="['/routePath']" fre routerLinkActive="router-link-active"  class="min-h-14" alt="Logo Markus Fischer" />
                     </a>
                 </div>
                 <div class="">
@@ -64,7 +64,7 @@
                     </a>
                 </div>
                 <div class="flex justify-center">
-                    <a [routerLink]="['#why-me']" routerLinkActive="router-link-active">
+                    <a [routerLink]="['/why-me']" routerLinkActive="router-link-active">
                         <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
                     </a>
                 </div>
@@ -83,13 +83,13 @@
             </div> 
             <div class="flex items-center md:order-2">
                 <div>
-                    <button type="button" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) transition-colors">
-                        {{ 'lang.de' | translate }}
+                    <button type="button" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700
+                    border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer)">
+                        DE
                     </button>
-                    <button type="button" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                       {{ 'lang.en' | translate }}
+                    <button type="button" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 
+                     bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center hover:cursor-pointer hover:text-(--accent-color)">
+                       EN
                     </button>
                 </div>
                 <div click="burgermenu()" class="burger">
@@ -99,11 +99,12 @@
                 </div>
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto gap-5" id="navbar-language">
-                <ul class="flex flex-col p-4 md:p-0 mt-4 text-lg border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent bg-gray-800  border-gray-700">
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
+                <ul class="flex p-4 md:p-0 mt-4 text-lg border md:space-x-8 border-0">
+                    <li class="py-4 text-center">
+                        <a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.contact' | translate }}</a></li>
                 </ul>
             </div>
         </div>
