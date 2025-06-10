@@ -5,7 +5,6 @@
         {{ 'contact.title' | translate }}
       </h2>
     </div>
-
     <div class="mx-auto max-w-7xl auto-grid overflow-hidden">
       <div>
         <!-- Contact Info -->
@@ -117,11 +116,11 @@
             <div class="flex items-start gap-2 text-sm">
               <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy"
                      type="checkbox"
-                     class="h-4 w-4"
+                     class="h-3 bg-(--primary-color) app"
                      required>
               <label for="privacy-policy">
                 {{ 'contact.form.privacy.text' | translate }}
-                <a href="/privacy" class="text-(--secondary-color) hover:text-(--accent-color)">
+                <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
                   {{ 'contact.form.privacy.link' | translate }}
                 </a>
               </label>
@@ -135,7 +134,7 @@
             <!-- Submit Button -->
             <div class="grid grid-cols-grid-cols-[1/-1] place-content-end">
               <button type="submit"
-                      class="py-3 px-6 rounded-lg border border-(--secondary-color) transition-colors hover:bg-(--secondary-color)">
+                      class="py-3 px-6 rounded-lg  transition-colors btn-gradient">
                 {{ 'contact.form.submit' | translate }}
               </button>
             </div>

@@ -72,7 +72,7 @@
   "skills": {
     "title": "Meine Fähigkeiten",
     "workingOn": "Woran ich gerade arbeite",
-    "workingDesc": "Aktuell vertiefe ich meine Kenntnisse in modernen Webtechnologien und Frameworks, um noch performantere und skalierbare Anwendungen zu entwickeln."
+    "workingDesc": "Aktuell vertiefe ich meine Kenntnisse in modernen Webtechnologien und Frameworks"
   },
   "testimonials": {
     "title": "Brauchen Sie einen Teamplayer?",
@@ -81,17 +81,20 @@
       {
         "name": "Mirkan Polet",
         "role": "Junior Frontend Entwickler",
-        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Er war nicht nur sehr zuverlässig und kompetent, sondern hat auch mit viel Engagement und Kreativität gearbeitet. Ich habe enorm viel gelernt und würde jederzeit wieder mit ihm ein Projekt starten!"
+        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Er war nicht nur sehr zuverlässig und kompetent, sondern hat auch mit viel Engagement und Kreativität gearbeitet. Ich habe enorm viel gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
+        "link": "LinkedIn Profil"
       },
       {
         "name": "Simon Fuchs",
         "role": "Junior Frontend Entwickler",
-        "quote": "In unserem Projekt waren Markus' Kenntnisse von HTML-Strukturen und CSS von großem Wert. Dass er trotz all seiner Erfahrung immer interessiert ist, noch mehr zu lernen und bereit ist, auch andere Wege auszuprobieren, beeindruckt mich."
+        "quote": "In unserem Projekt waren Markus' Kenntnisse von HTML-Strukturen und CSS von großem Wert. Dass er trotz all seiner Erfahrung immer interessiert ist, noch mehr zu lernen und bereit ist, auch andere Wege auszuprobieren, beeindruckt mich.",
+        "link": "LinkedIn Profil"
       },
       {
         "name": "Sarah Williams",
         "role": "Produktmanagerin bei DesignHub",
-        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert."
+        "quote": "Die Zusammenarbeit mit Markus war ein Game-Changer für unser Team. Seine Fähigkeit, komplexe Anforderungen zu verstehen und in funktionale, ansprechende Interfaces zu übersetzen, ist bemerkenswert.",
+        "link": "LinkedIn Profil"
       }
     ]
   },

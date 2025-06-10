@@ -6,8 +6,8 @@
   },
   "skills": {
     "title": "My Skills",
-    "in_progress": "I'm working on",
-    "description": "I’m currently improving my skills and learning new tools to create even better web experiences."
+    "workingOn": "I'm working on",
+    "workingDesc": "I’m currently improving my skills and learning new tools to create even better web experiences."
   },
   "testimonials": {
     "title": "Looking for a team player?",
@@ -16,17 +16,20 @@
       {
         "name": "Mirkan Polet",
         "role": "Junior Frontend Developer",
-        "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!"
+        "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!",
+        "link": "LinkedIn Profile"
       },
       {
         "name": "Simon Fuchs",
         "role": "Junior Frontend Developer",
-        "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. "
+        "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. ",
+        "link": "LinkedIn Profile"
       },
       {
         "name": "Sarah Williams",
         "role": "Product Manager at DesignHub",
-        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable."
+        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable.",
+        "link": "LinkedIn Profile"
       }
     ]
   },
@@ -124,7 +127,7 @@
         "error": "Please enter a message"
       },
       "privacy": {
-        "text": "I've read the",
+        "text": "I've read and accept the",
         "link": "Privacy Policy",
         "error": "Please accept the Privacy Policy"
       },
