@@ -6,7 +6,7 @@ import { Router, RouterModule } from '@angular/router';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, TranslateModule, Router, RouterModule],
+  imports: [CommonModule, TranslateModule, RouterModule],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
