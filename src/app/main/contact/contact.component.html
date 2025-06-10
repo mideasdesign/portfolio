@@ -114,10 +114,7 @@
 
             <!-- Privacy Checkbox -->
             <div class="flex items-start gap-2 text-sm">
-              <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy"
-                     type="checkbox"
-                     class="h-3 bg-(--primary-color) app"
-                     required>
+              <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy" type="checkbox" class="w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" required>
               <label for="privacy-policy">
                 {{ 'contact.form.privacy.text' | translate }}
                 <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
@@ -134,7 +131,7 @@
             <!-- Submit Button -->
             <div class="grid grid-cols-grid-cols-[1/-1] place-content-end">
               <button type="submit"
-                      class="py-3 px-6 rounded-lg  transition-colors btn-gradient">
+                      class="py-3 px-6 rounded-lg  border border-(--secondary-color) rounded-2xl transition-colors btn-gradient hover:text-(--primary-color)">
                 {{ 'contact.form.submit' | translate }}
               </button>
             </div>

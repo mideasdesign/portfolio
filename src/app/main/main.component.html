@@ -7,12 +7,13 @@
       <h2 class="text-4xl font-bold text-center font-heading text-(--secondary-color) mb-4">
         {{ 'main.title' | translate }}
       </h2>
-      <div class="big-grid items-center gap-4">
-        <div>
-          <div>
-            <img src="./assets/images/icons/misc/location.svg" class="inline-block" alt=""></div>
-          <div>
-            <div class="text-2xl text-(--secondary-color) wrap-break-word px-10">
+      <div class=" big-grid gap-4 place-content-start">
+        <div class="flex w-full items-center">
+          <div class=" flex">
+            <img src="./assets/images/icons/misc/location.svg"  alt="">
+          </div>
+          <div class="flex">
+            <div class="text-xl text-(--secondary-color) wrap-break-word px-8">
               {{ 'main.hello' | translate }}
             </div>
           </div>
@@ -42,9 +43,9 @@
           <img src="./assets/images/icons/icon-skills/restapi.svg" class="h-20" alt="">
         </div>
         <div class="p-12 max-w-80 bg-[url(./assets/images/ellipse02.svg)] bg-no-repeat bg-contain bg-center bg-blend-soft-light flex flex-col justify-center text-center">
-          <h5 class="text-lg pb-5">{{ 'skills.workingOn' | translate }}</h5>
+          <h5 class="text-sm pb-5">{{ 'skills.workingOn' | translate }}</h5>
           <img src="./assets/images/icons/icon-skills/css.svg" class="h-17 pb-4" alt="">
-          <p>{{ 'skills.workingDesc' | translate }}</p>
+          <p class="text-sm">{{ 'skills.workingDesc' | translate }}</p>
         </div>
       </div>
     </div>
