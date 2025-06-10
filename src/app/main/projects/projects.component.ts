@@ -7,22 +7,13 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule, TranslateModule],
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-  activeTab: string = 'join';
-
-  constructor(private translate: TranslateService) {}
+  constructor(private translate: TranslateService) {
+  }
 
   switchLang(lang: string) {
     this.translate.use(lang);
-  }
-
-  setActiveTab(tab: string) {
-    this.activeTab = tab;
-  }
-
-  isActive(tab: string): boolean {
-    return this.activeTab === tab;
   }
 }
