@@ -2,8 +2,8 @@
     <section class="py-6 sm:py-12 md:px-8" id="skills">
         <div class="sm:mx-auto max-w-7xl px-4">
             <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'skills.title' | translate }}</h3>
-            <div class="flex flex-wrap justify-center xl:justfiy-start">
-                <div class="sm:mx-auto flex flex-wrap justify-center gap-3">
+            <div class="flex flex-wrap flex-col lg:flex-row">
+                <div class="sm:mx-auto flex flex-wrap justify-center items-center gap-5 sm:gap-8 sm:flex-1 p-5 sm:p-10 xl:2">
                     <img src="./assets/images/icons/icon-skills/css.svg" class="h-20 hover:animate-pulse" alt="">
                     <img src="./assets/images/icons/icon-skills/html.svg" class="h-20 hover:animate-ping" alt="">
                     <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-20 hover:animate-pulse" alt="">
@@ -12,15 +12,20 @@
                     <img src="./assets/images/icons/icon-skills/firebase.svg" class="h-20 hover:animate-pulse" alt="">
                     <img src="./assets/images/icons/icon-skills/restapi.svg" class="h-20 hover:animate-pulse" alt="">
                 </div>
-                <div class="pt-6 sm:pl-7 flex flex-col flex-wrap justify-center">
-                    <h5 class="text-2xl text-(--secondary-color) text-center text-balance">
-                        {{ 'skills.workingOn' | translate }}
-                    </h5>
-                        <img src="./assets/images/icons/icon-skills/css.svg" class="h-20 pb-4" alt="">
-                    <p class="text-balance text-center">
-                        {{ 'skills.workingDesc' | translate }}
-                    </p>
+                <div class="mt-8 sm:pl-7 flex flex-col flex-wrap justify-center sm:flex-1 lg:w-1/2">
+                    <div class="flex flex-col bg-[url(./assets/images/ellipse25.svg)] bg-no-repeat bg-center bg bg-contain justify-center p-5">
+                        <h5 class="text-2xl text-(--secondary-color) text-center text-balance py-3">
+                            {{ 'skills.workingOn' | translate }}
+                        </h5>
+                        <img src="./assets/images/icons/icon-skills/tailwind-css-logo.svg" class="h-13 pb-4" alt="">
+                        <div class="flex justify-center">
+                            <p class="text-balance text-center text-sm py-4 max-w-50">
+                                {{ 'skills.workingDesc' | translate }}
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </section>
