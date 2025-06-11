@@ -18,19 +18,19 @@
         </div>
         <div class=" bg-gray-700">
             <div class="sm:mx-auto max-w-7xl bg-gray-700 px-4">
-                <div id="join" *ngIf="isActive('join')" class="py-6 sm:big-grid sm:gap-10 text-center">
-                    <div class="text-base text-balance">
+                <div id="join" *ngIf="isActive('join')" class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                    <div class="text-base text-balance flex-1">
                         <h5 class="text-(--secondary-color) text-lg">
                             {{ 'projects.join.about.title' | translate }}
                         </h5>
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.join.about.text' | translate }}
                         </p>
 
                         <h5 class="text-(--secondary-color) text-lg">
                             {{ 'projects.join.process.title' | translate }}
                         </h5>
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.join.process.text' | translate }}
                         </p>
 
@@ -38,22 +38,22 @@
                             
                             {{ 'projects.join.team.title' | translate }}
                         </h5>
-                        <p class="sm:pl-8 text-balance">
+                        <p class=" text-balance">
                             {{ 'projects.join.team.text' | translate }}
                         </p>
                     </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5">
-                        <div class="flex flex-col justify-center">
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
+                        <div class="flex flex-col justify-center lg:justify-start">
                             <h5 class="text-lg text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
+                            <div class="flex flex-wrap justify-center lg:justify-start sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div>
-                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        <div class="flex justify-center lg:justify-start">
+                            <img src="./assets/images/Screenshot project.svg" class="min-w-[280px] max-w-full" alt="">                                
                         </div>
                         <div class="mt-5">
                             <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
@@ -66,44 +66,35 @@
                     </div>
                       
                 </div>
-                <div id="elpollo" *ngIf="isActive('elpollo')" class="py-6 big-grid sm:gap-10">
-                    <div class="text-base p-4">
+                <div id="elpollo" *ngIf="isActive('elpollo')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                    <div class="text-base text-balance flex-1">
                         <h5 class="text-(--secondary-color) text-base">
                             {{ 'projects.elpollo.about.title' | translate }}
                         </h5>
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.elpollo.about.text' | translate }}
                         </p>
                         <h5 class="text-(--secondary-color) text-base text-balance">
-
                             {{ 'projects.elpollo.process.title' | translate }}
                         </h5> 
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.elpollo.process.text' | translate }}
                         </p>
-                        <h5 class="text-(--secondary-color) text-base text-balance">
-                            {{ 'projects.elpollo.team.title' | translate }}
-                        </h5>
-                        <p class="sm:pl-8">
-                            {{ 'projects.elpollo.team.text' | translate }}
-                        </p>
                     </div>
-                    <div class="flex flex-col gap-4">
-                        <div>
-                            <h5 class="text-(--secondary-color) text-base text-balance">
-                              {{ 'projects.elpollo.technologies.title' | translate }}
-                            </h5>
-                            <div class="flex flex-wrap gap-3">
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
+                        <div class="flex flex-col justify-center xl:justify-start">
+                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center xl:justify-start sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div>
-                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        <div class="flex justify-center xl:justify-start">
+                            <img src="./assets/images/Screenshot project.svg" class="min-w-[280px] max-w-full" alt="">                                
                         </div>
-                        <div>
+                        <div class="mt-5">
                             <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
                                 <a href="#liveTest">Live Test</a>
                             </button>
@@ -114,43 +105,41 @@
                     </div>
                       
                 </div>
-                <div id="bubble" *ngIf="isActive('bubble')" class="py-6 sm:big-grid sm:gap-10">
-                    <div class="text-base">
+                <div id="bubble" *ngIf="isActive('bubble')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                    <div class="text-base text-balance flex-1">
                         <h5 class="text-(--secondary-color) text-base text-balance">
                             {{ 'projects.bubble.about.title' | translate }}
                         </h5>
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.bubble.about.text' | translate }}
                         </p>
                         <h5 class="text-(--secondary-color) text-base text-balance">
                             {{ 'projects.bubble.process.title' | translate }}
                         </h5>
-                        <p class="mb-4 sm:pl-8 text-balance">
+                        <p class="mb-4  text-balance">
                             {{ 'projects.bubble.process.text' | translate }}
                         </p>
                         <h5 class="text-(--secondary-color) text-base text-balance">
                             {{ 'projects.bubble.team.title' | translate }}
                         </h5>
-                        <p class="sm:pl-8">
+                        <p class="">
                             {{ 'projects.bubble.team.text' | translate }}
                         </p>
                     </div>
-                    <div class="flex flex-col gap-4">
-                        <div>
-                            <h5 class="text-(--secondary-color) text-base text-balance">
-                              {{ 'projects.bubble.technologies.title' | translate }}
-                            </h5>
-                            <div class="flex flex-wrap gap-3">
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
+                        <div class="flex flex-col justify-center xl:justify-start">
+                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.bubble.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center xl:justify-start sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div>
-                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        <div class="flex justify-center xl:justify-start">
+                            <img src="./assets/images/Screenshot project.svg" class="min-w-[280px] max-w-full" alt="">                                
                         </div>
-                        <div>
+                        <div class="mt-5">
                             <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
                                 <a href="#liveTest">Live Test</a>
                             </button>
