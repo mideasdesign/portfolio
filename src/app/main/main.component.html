@@ -5,17 +5,17 @@
           <h2 class="text-4xl font-bold text-center font-heading text-(--secondary-color) mb-8">
               {{ 'main.title' | translate }}
           </h2>
-          <div class="flex flex-wrap sm:items-center justify-center xl:justfiy-start">
-              <div class="mb-5">
-                  <div class="flex justify-center lg:justfiy-start">
-                      <img src="./assets/images/icons/misc/location.svg" class="inline-block" alt=""> 
+          <div class="flex flex-wrap flex-col lg: flex-row sm:items-center justify-center xl:justfiy-start">
+              <div class="mb-5 lg:flex-1 flex flex-col lg:flex-row">
+                  <div class="flex justify-center lg:justfiy-start flex-col lg:flex-row">
+                      <img src="./assets/images/icons/misc/location.svg" class="w-20" alt=""> 
                   </div>
-                  <div class="flex justify-center lg:justfiy-start">
-                      <span class="text-2xl text-center xl:text-left"> <span class="text-(--secondary-color)"> I'm </span>{{ 'main.hello' | translate }}</span>
+                  <div class="flex justify-center lg:justfiy-start px-5">
+                      <span class="text-2xl text-center lg:text-left"> <span class="text-(--secondary-color)"> I'm </span>{{ 'main.hello' | translate }}</span>
                   </div>
               </div>
-              <div class="flex justify-center lg:justfiy-start">
-                  <p class="text-base text-center text-balance xl:text-left">
+              <div class="flex justify-center lg:justfiy-start lg:flex-1">
+                  <p class="text-base text-center text-balance lg:text-left">
                       {{ 'main.desc-why' | translate }}
                   </p>                        
               </div>
