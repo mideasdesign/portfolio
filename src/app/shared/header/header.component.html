@@ -8,11 +8,11 @@
                 <div>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
                     border border-(--secondary-color) transition-colors">
-                        {{ 'lang.de' | translate }}
+                        DE
                     </button>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                       {{ 'lang.en' | translate }}
+                    border border-(--secondary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
+                      EN
                     </button>
                 </div>
                 <div #burger (click)="burgermenu()" class="burger">
@@ -33,26 +33,26 @@
     </nav>
     <!-- #endregion -->
     <!-- #region Hero Section -->
-    <header class="relative pt-16 px-6 overflow-hidden">
-        <div class=" max-w-7xl big-grid mx-auto text-center z-40">
-            <div class="">
-                <img src="./assets/images/person.png" alt="Markus Fischer" class="bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center sm: bg-transparent">
+    <header class="relative lg:pt-10 overflow-hidden">
+        <div class=" max-w-7xl flex flex-col lg:flex-row md:mx-auto text-center z-40  justify-between px-4">
+            <div class="flex justify-center">
+                <img src="./assets/images/person.webp"  alt="Markus Fischer" class=" mask-contain mask-size-[127%] mask-[url(./assets/images/maske-portait.svg)] mask-no-repeat mask-center mask-origin-border xl:mask-none bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center min-w-[280px] sm:w-auto max-h-[40rem] sm: bg-transparent">
             </div>
-            <div class="grid grid-cols-1 mt-6 content-center-safe place-content-center-safe">
+            <div class="flex flex-col justify-center mt-8">
                 <div class="flex flex-wrap justify-center max-h-20">
                     <a href="#">
-                        <img src="./assets/images/logo.svg" class="min-h-14" alt="Logo Markus Fischer" />
+                        <img src="./assets/images/logo.svg" [routerLink]="['/']" routerLinkActive="router-link-active"  class="min-h-14" alt="Logo Markus Fischer" />
                     </a>
                 </div>
-                <div class="">
-                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-(--accent-color) my-(--space-xs-s)">
+                <div class="flex flex-col justify-center">
+                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-center text-(--accent-color) my-(--space-xs-s)">
                         Markus Fischer
                     </h1>
                     <h2 class="text-xl sm:text-2xl text-(--accent-color) uppercase tracking-wider">
                         Frontend Developer
                     </h2>
                 </div>
-                <div class="h-32 flex flex-wrap justify-center gap-4 hover:cursor-pointer">
+                <div class="h-32 flex flex-wrap justify-center gap-4 hover:cursor-pointer mt-5">
                     <a href="https://github.com/mideasdesign" class="hover:mask-type-alpha fill-gray-700/70">
                         <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
@@ -63,8 +63,8 @@
                         <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
                     </a>
                 </div>
-                <div class="flex justify-center">
-                    <a [routerLink]="['#why-me']" routerLinkActive="router-link-active">
+                <div class="hidden sm:flex justify-center">
+                    <a [routerLink]="['/why-me']" routerLinkActive="router-link-active">
                         <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
                     </a>
                 </div>
@@ -75,21 +75,28 @@
     <!-- #region Nav Section-->
     <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden sm:block">
         <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between p-4 mx-auto hover:cursor-pointer">
-                       <div>
                 <a href="#" class="flex flex-col items-center">
                 <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
                 <span class="text-sm font-light text-gray-700">markus fischer</span>
                 </a>
-            </div> 
-            <div class="flex items-center md:order-2">
-                <div>
-                    <button type="button" (click)="switchLang('de')" class="iinline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) transition-colors">
-                        {{ 'lang.de' | translate }}
+            <div class="flex  items-center justify-between hidden w-full md:flex md:w-auto gap-5" id="navbar-language">
+                <ul class="flex p-4 md:p-0 text-lg border md:space-x-8 border-0">
+                    <li class="p-4 text-center">
+                        <a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.contact' | translate }}</a></li>
+                </ul>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex  items-center">
+                    <button type="button" (click)="switchLang('de')" class="flex items-center justify-center px-2  text-sm text-gray-700
+                    border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer">
+                       <span class="pt-1">DE</span> 
                     </button>
-                    <button type="button" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) hover:border-(--primary-color) hover:bg-[url(./assets/images/list-icon.svg)] transition-colors">
-                       {{ 'lang.en' | translate }}
+                    <button type="button" (click)="switchLang('en')" class="flex items-center justify-center px-2  text-sm text-gray-700 
+                     bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center hover:cursor-pointer hover:text-(--accent-color)">
+                      <span class="pt-1">EN</span> 
                     </button>
                 </div>
                 <div click="burgermenu()" class="burger">
@@ -97,14 +104,6 @@
                     <div class="layers"></div>
                     <div class="layers"></div>
                 </div>
-            </div>
-            <div class="items-center justify-between hidden w-full md:flex md:w-auto gap-5" id="navbar-language">
-                <ul class="flex flex-col p-4 md:p-0 mt-4 text-lg border rounded-lg md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent bg-gray-800  border-gray-700">
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
-                </ul>
             </div>
         </div>
     </nav>

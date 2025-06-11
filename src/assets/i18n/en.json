@@ -1,7 +1,7 @@
 {
   "main": {
     "title": "Why Work With Me?",
-    "hello": "creative frontend developer from Wiesbaden.",
+    "hello": "a creative frontend developer from Wiesbaden.",
     "desc-why": "I am an experienced web designer and developer with an eye for detail and a strong sense of user experience. My goal is to develop modern, performant and aesthetically pleasing web solutions that not only look good, but also work."
   },
   "skills": {
@@ -34,6 +34,7 @@
     ]
   },
   "projects": {
+    "title": "My Projects",
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",

@@ -1,6 +1,7 @@
 {
     
   "projects": {
+    "title": "Meine Projekte",
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
