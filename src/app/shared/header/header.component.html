@@ -33,19 +33,19 @@
     </nav>
     <!-- #endregion -->
     <!-- #region Hero Section -->
-    <header class="relative pt-10 overflow-hidden">
-        <div class=" max-w-7xl big-grid mx-auto text-center z-40">
+    <header class="relative lg:pt-10 overflow-hidden">
+        <div class=" max-w-7xl flex flex-col lg:flex-row md:mx-auto text-center z-40  justify-between px-4">
             <div class="flex justify-center">
-                <img src="./assets/images/person.webp"  alt="Markus Fischer" class="bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center w-[280px] sm:w-auto max-h-[40rem] sm: bg-transparent">
+                <img src="./assets/images/person.webp"  alt="Markus Fischer" class="bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center min-w-[280px] sm:w-auto max-h-[40rem] sm: bg-transparent">
             </div>
-            <div class="grid grid-cols-1 mt-6 content-center-safe place-content-center-safe">
+            <div class="flex flex-col justify-center mt-8">
                 <div class="flex flex-wrap justify-center max-h-20">
                     <a href="#">
                         <img src="./assets/images/logo.svg" [routerLink]="['/']" routerLinkActive="router-link-active"  class="min-h-14" alt="Logo Markus Fischer" />
                     </a>
                 </div>
-                <div>
-                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-(--accent-color) my-(--space-xs-s)">
+                <div class="flex flex-col justify-center">
+                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-center text-(--accent-color) my-(--space-xs-s)">
                         Markus Fischer
                     </h1>
                     <h2 class="text-xl sm:text-2xl text-(--accent-color) uppercase tracking-wider">
