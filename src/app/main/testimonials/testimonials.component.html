@@ -1,24 +1,29 @@
-  <section id="testimonials" class="py-6 sm:py-12">
-    <div class="mx-auto max-w-7xl px-6 md:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-(--secondary-color)">
-          {{ 'testimonials.title' | translate }}
-        </h2>
-        <p class="text-xl text-blue-300 max-w-2xl mx-auto">
-          {{ 'testimonials.subtitle' | translate }}
-        </p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
-        <div *ngFor="let t of ( 'testimonials.entries' | translate )">
-          <div class="sm:bg-[url(./assets/images/ellipse02.svg)] bg-center bg-contain sm:p-16 bg-no-repeat text-center">
-            <div class="text-center mb-5">
-              <h4 class="text-xl text-(--secondary-color)">{{ t.name }}</h4>
-              <p class="text-(--accent-color) text-sm">{{ t.role }}</p>
+<!-- #region Testimonial Section -->
+    <section id="testimonials" class="py-6 sm:py-12">
+        <div class="mx-auto max-w-7xl px-6 md:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-(--secondary-color)">
+                    {{ 'testimonials.title' | translate }}
+                </h2>
+                <p class="text-xl text-blue-300 max-w-2xl mx-auto">
+                    {{ 'testimonials.subtitle' | translate }}
+                </p>
             </div>
-            <p class="text-(--accent-color) italic text-sm">{{ t.quote }}</p>
-            <a href="#" class="text-sm text-(--secondary-color) hover:text-(--accent-color)">{{ t.link }}</a>
-          </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class="sm:bg-[url(./assets/images/ellipse02.svg)] bg-center bg-contain sm:p-16 bg-no-repeat text-center">
+                    <div class="text-center mb-6">
+                        <h4 class="text-2xl text-(--secondary-color) ">
+                            {{ t.name }}
+                        </h4>
+                        <p class="text-blue-300">
+                            {{ t.role }}
+                        </p>
+                    </div>
+                    <p class="text-gray-300 italic">
+                        {{ t.quote }}
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
+    <!-- #endregion -->

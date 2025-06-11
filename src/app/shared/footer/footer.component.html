@@ -1,27 +1,27 @@
      <!-- #region Footer Section-->
-     <footer class=" bg-(--secondary-color) order-4 p-4">
-        <div class="flex flex-wrap justify-evenly item-ceter mx-auto gap-6 max-w-7xl">
-            <div class="flex items-center gap-3">
+     <footer class=" bg-(--secondary-color) order-4">
+        <div class="flex flex-col flex-wrap justify-evenly item-ceter mx-auto sm:gap-6 max-w-7xl p-4">
+            <div class="flex justify-center gap-3">
                 <a href="#">
                     <img src="./assets/images/logo.svg" class="h-14" alt="Logo Markus Fischer" />
                     <span class="text-base font-light text-gray-700">markus fischer</span>
                 </a>
             </div>
-            <div class="text-(--primary-color) flex items-center">
+            <div class="text-(--primary-color) flex justify-center mt-5 items-center">
                 <ul class="flex flex-wrap gap-3 text-(--primary-color)">
                     <li>
-                        <a href="{{ 'footer.link-imprint' | translate }}" class="hover:text-(--accent-color)">
+                        <a href="{{ 'footer.link-imprint' | translate }}" class=" hover:animate-pulse">
                         {{ 'footer.imprint' | translate }}
                         </a>
                     </li>
                     <li>
-                        <a href="{{ 'footer.link-privacy' | translate }}" class="hover:text-(--accent-color)">
+                        <a href="{{ 'footer.link-privacy' | translate }}" class=" hover:animate-pulse">
                         {{ 'footer.privacy' | translate }}
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="h-32 flex flex-wrap items-center justify-center gap-4">
+            <div class="sm:h-32  mt-5 flex flex-wrap items-center justify-center gap-4">
                 <a href="https://github.com/mideasdesign">
                     <img src="./assets/images/icons/icon-github/github-light-blue-hover.svg" class="h-7 hover:animate-pulse" alt="">
                 </a>

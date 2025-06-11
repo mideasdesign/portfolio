@@ -1,143 +1,102 @@
-<section id="contact" class="py-6 sm:py-12">
-  <div class="mx-auto max-w-7xl px-6 md:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-heading text-(--secondary-color) mb-4">
-        {{ 'contact.title' | translate }}
-      </h2>
-    </div>
-    <div class="mx-auto max-w-7xl auto-grid overflow-hidden">
-      <div>
-        <!-- Contact Info -->
-        <div class="p-8 md:p-10 big-grid gap-6">
-          <div>
-            <p class="text-blue-300 max-w-2xl mx-auto">
-              {{ 'contact.info' | translate }}
-            </p>
-          </div>
-          <div>
-            <ul class="space-y-6">
-              <li class="flex items-center">
-                <img src="./assets/images/icons/misc/🦆 icon _email_blue.svg" alt="">
-                <div class="ml-2 inline-flex flex-wrap justify-center items-center">
-                  <h4 class="pr-[1ch]">{{ 'contact.emailLabel' | translate }}</h4>
-                  <a href="mailto:hello@markusfischer-developer.de"
-                     class="text-(--accent-color) hover:text-(--secondary-color) hover:transition-colors">
-                     hello&#64;markusfischer-developer.de
-                  </a>
+<!-- #region Contact Section -->
+    <section id="contact" class="py-6 sm:py-12 ">
+        <div class="sm:mx-auto max-w-7xl md:px-8">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl md:text-4xl text-(--secondary-color) mb-4">
+                    {{ 'contact.title' | translate }}
+                </h2>
+            </div>
+            <div class="sm:mx-auto max-w-7xl sm:auto-grid px-4">
+                <div>
+                    <!-- Contact Info -->
+                    <div class="md:p-10 sm:big-grid sm:gap-6">
+                        <div class="mb-8 text-center">
+                            <p class="text-base max-w-2xl sm:x-auto text-balance">
+                                {{ 'contact.info' | translate }}
+                            </p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li class="flex items-center pb-6">
+                                <img src="./assets/images/icons/misc/🦆 icon _email_blue.svg" alt="">
+                                    <div class="ml-2 inline-flex flex-wrap sm:justify-center sm:items-center">
+                                        <h4 class="text-lg font-semibold pr-[1ch]">{{ 'contact.emailLabel' | translate }}</h4>
+                                        <a href="mailto:info@markusfische-developer.de" class="text-(--accent-color) hover:text-(--secondary-color) hover:transition-colors">
+                                            info[at]markusfischer-developer.de
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="flex flex-wrap">
+                                <img src="./assets/images/icons/misc/🦆 icon _phone_.svg" alt="">
+                                    <div class="ml-2 inline-flex flex-wrap sm:justify-center sm:items-center">
+                                        <h4 class="text-lg font-semibold pr-[1ch]">{{ 'contact.phoneLabel' | translate }}</h4>
+                                        <a href="tel:+49 0611970506" class="text-(--accent-color) hover: transition-colors">+49 06119705066</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" mt-10 md:p-10">
+                        <h3 class="text-2xl text-(--secondary-color) mb-6">{{ 'contact.form.title' | translate }}</h3>
+                        <form class="space-y-4" (ngSubmit)="onSubmit(contactForm)" #contactForm = 'ngForm'>
+                            <div class="form-group">
+                                <label for="name" class=" text-gray-300 mb-1">Name</label>
+                                <input type="text" #name="ngModel" [(ngModel)]="contactData.name" name="name" class="w-full px-4 py-3 rounded-lg border border-(--secondary-color)  placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent" 
+                                    placeholder="{{ 'contact.form.name.placeholder' | translate }}">
+                                    @if (!name.valid && name.touched) {
+                                    <span class="text-red-500">
+                                    {{ 'contact.form.name.error' | translate }}
+                                    </span>
+                                      }
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class=" text-gray-300 mb-1">{{ 'contact.form.email.label' | translate }}</label>
+                                <input type="email"  #email="ngModel" [(ngModel)]="contactData.email" name="email" class="w-full px-4 py-3 rounded-lg border border-(--secondary-color)  placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent" 
+                                    placeholder="{{ 'contact.form.email.placeholder' | translate }}">
+                                    @if (!email.valid && email.touched) {
+                                        <span class="text-red-500">
+                                        {{ 'contact.form.email.error' | translate }}
+                                        </span>
+                                    }
+                                                        </div>
+                            <div class="formg-roup">
+                                <label for="subject" class=" text-gray-300 mb-1">{{ 'contact.form.subject.label' | translate }}</label>
+                                <input type="text"  #subject="ngModel" [(ngModel)]="contactData.subject" name="subject" class="w-full px-4 py-3 rounded-lg border border-(--secondary-color)  placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent" 
+                                    placeholder="{{ 'contact.form.subject.placeholder' | translate }}">
+                                    @if (!subject.valid && subject.touched) {
+                                        <span class="text-red-500">
+                                        {{ 'contact.form.subject.error' | translate }}
+                                        </span>
+                                    }
+                            </div>
+                            <div class="formg-roup">
+                                <label for="message" class=" text-gray-300 mb-1">{{ 'contact.form.message.label' | translate }}</label>
+                                <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message" rows="6" class="w-full px-4 py-3 rounded-lg border border-(--secondary-color)  placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent" 
+                                    placeholder="{{ 'contact.form.message.placeholder' | translate }}"></textarea>
+                                    @if (!message.valid && message.touched) {
+                                        <span class="text-red-500 ">
+                                        {{ 'contact.form.message.error' | translate }}
+                                        </span>
+                                    }
+                            </div>
+                            <div class="grid-cols-[1/-1] flex text-sm justify-center-center">
+                                    <input type="checkbox" name="privacy-police" #privacy="ngModel" [(ngModel)]="contactData.policy" class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]">
+                                    <label for="privacy-police">{{ 'contact.form.privacy.text' | translate }}
+                                        <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
+                                        {{ 'contact.form.privacy.link' | translate }}
+                                        </a>
+                                    </label> 
+                              
+                            </div>
+                            <div class="grid grid-cols-grid-cols-[1/-1] place-content-end">
+                                <button type="submit" class=" py-3 px-6 rounded-lg border border-(--secondary-color) transition-colors hover:cursor-pointer hover:bg-(--secondary-color) hover:outline-none hover:ring-2 hover:ring-gray-700 focus:ring-offset-2 hover:ring-offset-gray-700">
+                                    {{ 'contact.form.submit' | translate }}
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-              </li>
-              <li class="flex items-start">
-                <img src="./assets/images/icons/misc/🦆 icon _phone_.svg" alt="">
-                <div class="ml-2 inline-flex flex-wrap justify-center items-center">
-                  <h4 class="pr-[1ch]">{{ 'contact.phoneLabel' | translate }}</h4>
-                  <a href="tel:+49123456789" class="text-(--accent-color) hover:transition-colors">+49 123 456 789</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="p-8 md:p-10">
-          <h3 class="text-2xl font-heading mb-6 text-(--secondary-color)">
-            {{ 'contact.form.title' | translate }}
-          </h3>
-
-          <form class="space-y-4" (ngSubmit)="onSubmit(contactForm)" #contactForm = 'ngForm'>
-            <!-- Name -->
-            <div class="form-group">
-              <label for="name" class="text-sm text-gray-300 mb-1">
-                {{ 'contact.form.name.label' | translate }}
-              </label>
-              <input #name="ngModel" [(ngModel)]="contactData.name" name="name"
-                     class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
-                     type="text"
-                     placeholder="{{ 'contact.form.name.placeholder' | translate }}"
-                     required>
-              @if (!name.valid && name.touched) {
-                <span class="text-red-500">
-                  {{ 'contact.form.name.error' | translate }}
-                </span>
-              }
             </div>
-
-            <!-- Email -->
-            <div class="form-group">
-              <label for="email" class="text-sm text-gray-300 mb-1">
-                {{ 'contact.form.email.label' | translate }}
-              </label>
-              <input #email="ngModel" [(ngModel)]="contactData.email" name="email"
-                     class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
-                     type="email"
-                     placeholder="{{ 'contact.form.email.placeholder' | translate }}"
-                     required>
-              @if (!email.valid && email.touched) {
-                <span class="text-red-500">
-                  {{ 'contact.form.email.error' | translate }}
-                </span>
-              }
-            </div>
-
-            <!-- Subject -->
-            <div class="form-group">
-              <label for="subject" class="text-sm text-gray-300 mb-1">
-                {{ 'contact.form.subject.label' | translate }}
-              </label>
-              <input #subject="ngModel" [(ngModel)]="contactData.subject" name="subject"
-                     class="w-full px-4 py-3 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
-                     type="text"
-                     placeholder="{{ 'contact.form.subject.placeholder' | translate }}"
-                     required>
-              @if (!subject.valid && subject.touched) {
-                <span class="text-red-500">
-                  {{ 'contact.form.subject.error' | translate }}
-                </span>
-              }
-            </div>
-
-            <!-- Message -->
-            <div class="form-group">
-              <label for="message" class="text-sm text-gray-300 mb-1">
-                {{ 'contact.form.message.label' | translate }}
-              </label>
-              <textarea #message="ngModel" [(ngModel)]="contactData.message" name="message"
-                        rows="5"
-                        class="w-full px-4 py-3 h-28 rounded-lg border border-(--secondary-color) placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-transparent"
-                        placeholder="{{ 'contact.form.message.placeholder' | translate }}"
-                        required></textarea>
-              @if (!message.valid && message.touched) {
-                <span class="text-red-500 ">
-                  {{ 'contact.form.message.error' | translate }}
-                </span>
-              }
-            </div>
-
-            <!-- Privacy Checkbox -->
-            <div class="flex items-start gap-2 text-sm">
-              <input #privacy="ngModel" [(ngModel)]="contactData.policy" name="privacy-policy" type="checkbox" class="w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" required>
-              <label for="privacy-policy">
-                {{ 'contact.form.privacy.text' | translate }}
-                <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
-                  {{ 'contact.form.privacy.link' | translate }}
-                </a>
-              </label>
-              @if (!privacy.valid && privacy.touched) {
-                <span class="text-red-500">
-                  {{ 'contact.form.privacy.error' | translate }}
-                </span>
-              }
-            </div>
-
-            <!-- Submit Button -->
-            <div class="grid grid-cols-grid-cols-[1/-1] place-content-end">
-              <button type="submit"
-                      class="py-3 px-6 rounded-lg  border border-(--secondary-color) rounded-2xl transition-colors btn-gradient hover:text-(--primary-color)">
-                {{ 'contact.form.submit' | translate }}
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        </div>            
+    </section>
+    <!-- #endregion -->

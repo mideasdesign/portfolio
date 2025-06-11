@@ -1,166 +1,167 @@
 <!-- #region Projects -->
-<section class="py-6 sm:py-12" id="projects">
-  <div class="mx-auto max-w-7xl">
-    <button 
-      class=" hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) min-w-25" 
-      [class.tab-active]="isActive('join')"
-      (click)="setActiveTab('join')">
-      {{ 'projects.buttons.join' | translate }}
-    </button>
-    <button 
-      class=" hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-17"
-      [class.tab-active]="isActive('elpollo')"
-      (click)="setActiveTab('elpollo')">
-      {{ 'projects.buttons.elpollo' | translate }}
-    </button>
-    <button 
-      class="hover:bg-gray-700 hover:rounded-t-2xl p2 sm:p-4 text-(--secondary-color) min-w-17"
-      [class.tab-active]="isActive('bubble')"
-      (click)="setActiveTab('bubble')">
-      {{ 'projects.buttons.bubble' | translate }}
-    </button>
-  </div>
-
-  <div class="bg-gray-700">
-    <div class="mx-auto max-w-7xl bg-gray-700">
-      <!-- Join Tab Content -->
-      <div *ngIf="isActive('join')" class="p-8 big-grid gap-10 ">
-        <div class="text-base">
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.join.about.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.join.about.text' | translate }}</p>
-
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.join.process.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.join.process.text' | translate }}</p>
-
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.join.team.title' | translate }}
-          </h5>
-          <p class="pl-8">{{ 'projects.join.team.text' | translate }}</p>
-        </div>
-
-        <div class="flex flex-col gap-4">
-          <div>
-            <h5>{{ 'projects.join.technologies.title' | translate }}</h5>
-            <div class="flex flex-wrap gap-3">
-              <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+    <section class="py-6 sm:py-12" id="projects">
+        <div class="mx-auto max-w-7xl px-1">
+            <div>
+                <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'projects.title' | translate }}</h3>
             </div>
-          </div>
-
-          <div>
-            <img src="./assets/images/Screenshot project.svg" alt="">
-          </div>
-
-          <div>
-            <button type="submit" class="btn-gradient py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer">
-              <a href="#liveTest">{{ 'projects.join.buttons.live' | translate }}</a>
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('join')" (click)="setActiveTab('join')">
+                {{ 'projects.buttons.join' | translate }}
             </button>
-            <button type="submit" class="ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--accent-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
-              <a href="#github">{{ 'projects.join.buttons.github' | translate }}</a>
+
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[4px] sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-15"[class.tab-active]="isActive('elpollo')" (click)="setActiveTab('elpollo')">
+                2. ElPollo Loco
             </button>
-          </div>
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('bubble')" (click)="setActiveTab('bubble')">
+                3. Da Bubble
+            </button>
+            
         </div>
-      </div>
+        <div class=" bg-gray-700">
+            <div class="sm:mx-auto max-w-7xl bg-gray-700 px-4">
+                <div id="join" *ngIf="isActive('join')" class="py-6 sm:big-grid sm:gap-10 text-center">
+                    <div class="text-base text-balance">
+                        <h5 class="text-(--secondary-color) text-lg">
+                            {{ 'projects.join.about.title' | translate }}
+                        </h5>
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.join.about.text' | translate }}
+                        </p>
 
-      <!-- Elpollo Tab Content -->
-      <div *ngIf="isActive('elpollo')" class="p-8 big-grid gap-10">
-        <div class="text-base">
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.elpollo.about.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.elpollo.about.text' | translate }}</p>
+                        <h5 class="text-(--secondary-color) text-lg">
+                            {{ 'projects.join.process.title' | translate }}
+                        </h5>
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.join.process.text' | translate }}
+                        </p>
 
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.elpollo.process.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.elpollo.process.text' | translate }}</p>
-        </div>
+                        <h5 class="text-(--secondary-color) text-lg">
+                            
+                            {{ 'projects.join.team.title' | translate }}
+                        </h5>
+                        <p class="sm:pl-8 text-balance">
+                            {{ 'projects.join.team.text' | translate }}
+                        </p>
+                    </div>
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5">
+                        <div class="flex flex-col justify-center">
+                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
+                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        </div>
+                        <div class="mt-5">
+                            <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
+                                <a href="#liveTest">Live Test</a>
+                            </button>
+                            <button type="submit" class=" ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
+                                <a href="#github">github</a>
+                            </button>
+                        </div>
+                    </div>
+                      
+                </div>
+                <div id="elpollo" *ngIf="isActive('elpollo')" class="py-6 big-grid sm:gap-10">
+                    <div class="text-base p-4">
+                        <h5 class="text-(--secondary-color) text-base">
+                            {{ 'projects.elpollo.about.title' | translate }}
+                        </h5>
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.elpollo.about.text' | translate }}
+                        </p>
+                        <h5 class="text-(--secondary-color) text-base text-balance">
 
-        <div class="flex flex-col gap-4">
-          <div>
-            <h5>{{ 'projects.elpollo.technologies.title' | translate }}</h5>
-            <div class="flex flex-wrap gap-3">
-              <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            {{ 'projects.elpollo.process.title' | translate }}
+                        </h5> 
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.elpollo.process.text' | translate }}
+                        </p>
+                        <h5 class="text-(--secondary-color) text-base text-balance">
+                            {{ 'projects.elpollo.team.title' | translate }}
+                        </h5>
+                        <p class="sm:pl-8">
+                            {{ 'projects.elpollo.team.text' | translate }}
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h5 class="text-(--secondary-color) text-base text-balance">
+                              {{ 'projects.elpollo.technologies.title' | translate }}
+                            </h5>
+                            <div class="flex flex-wrap gap-3">
+                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        </div>
+                        <div>
+                            <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
+                                <a href="#liveTest">Live Test</a>
+                            </button>
+                            <button type="submit" class=" ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
+                                <a href="#github">github</a>
+                            </button>
+                        </div>
+                    </div>
+                      
+                </div>
+                <div id="bubble" *ngIf="isActive('bubble')" class="py-6 sm:big-grid sm:gap-10">
+                    <div class="text-base">
+                        <h5 class="text-(--secondary-color) text-base text-balance">
+                            {{ 'projects.bubble.about.title' | translate }}
+                        </h5>
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.bubble.about.text' | translate }}
+                        </p>
+                        <h5 class="text-(--secondary-color) text-base text-balance">
+                            {{ 'projects.bubble.process.title' | translate }}
+                        </h5>
+                        <p class="mb-4 sm:pl-8 text-balance">
+                            {{ 'projects.bubble.process.text' | translate }}
+                        </p>
+                        <h5 class="text-(--secondary-color) text-base text-balance">
+                            {{ 'projects.bubble.team.title' | translate }}
+                        </h5>
+                        <p class="sm:pl-8">
+                            {{ 'projects.bubble.team.text' | translate }}
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <h5 class="text-(--secondary-color) text-base text-balance">
+                              {{ 'projects.bubble.technologies.title' | translate }}
+                            </h5>
+                            <div class="flex flex-wrap gap-3">
+                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
+                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/images/Screenshot project.svg" class="w-[280px]" alt="">                                
+                        </div>
+                        <div>
+                            <button type="submit" class=" py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
+                                <a href="#liveTest">Live Test</a>
+                            </button>
+                            <button type="submit" class=" ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
+                                <a href="#github">github</a>
+                            </button>
+                        </div>
+                    </div>
+                      
+                </div>
             </div>
-          </div>
-
-          <div>
-            <img src="./assets/images/Screenshot project.svg" alt="">
-          </div>
-
-          <div>
-            <button type="submit" class="py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
-              <a href="#liveTest">{{ 'projects.elpollo.buttons.live' | translate }}</a>
-            </button>
-            <button type="submit" class="ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
-              <a href="#github">{{ 'projects.elpollo.buttons.github' | translate }}</a>
-            </button>
-          </div>
         </div>
-      </div>
-
-      <!-- Bubble Tab Content -->
-      <div *ngIf="isActive('bubble')" class="p-8 big-grid gap-10">
-        <div class="text-base">
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.bubble.about.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.bubble.about.text' | translate }}</p>
-
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.bubble.process.title' | translate }}
-          </h5>
-          <p class="mb-4 pl-8">{{ 'projects.bubble.process.text' | translate }}</p>
-
-          <h5 class="text-(--secondary-color) font-semibold text-lg flex">
-            <img src="./assets/images/list-icon.svg" class="mr-3 h-5 mt-1" alt="">
-            {{ 'projects.bubble.team.title' | translate }}
-          </h5>
-          <p class="pl-8">{{ 'projects.bubble.team.text' | translate }}</p>
-        </div>
-
-        <div class="flex flex-col gap-4">
-          <div>
-            <h5>{{ 'projects.bubble.technologies.title' | translate }}</h5>
-            <div class="flex flex-wrap gap-3">
-              <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-              <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
-            </div>
-          </div>
-
-          <div>
-            <img src="./assets/images/Screenshot project.svg" alt="">
-          </div>
-
-          <div>
-            <button type="submit" class="py-3 px-6 rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color)">
-              <a href="#liveTest">{{ 'projects.bubble.buttons.live' | translate }}</a>
-            </button>
-            <button type="submit" class="ml-4 py-3 px-6 rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent">
-              <a href="#github">{{ 'projects.bubble.buttons.github' | translate }}</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- #endregion -->
+    </section>
+    <!-- #endregion -->

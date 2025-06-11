@@ -106,6 +106,10 @@
 *{
   scroll-behavior: smooth;
 
+}
+img{
+  display: block;
+  max-width:100%;
 }  
 input,
   button,
@@ -156,7 +160,7 @@ input,
   }
     .bubble-rotate{
       
-      animation: gradient 8s ease infinite;
+      animation: bubble-rotaiton 5s ease infinite;
     }
         @keyframes bubble-rotation {
     0% {
