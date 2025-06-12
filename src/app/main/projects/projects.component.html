@@ -1,7 +1,7 @@
 <!-- #region Projects -->
-    <section class="py-6 sm:py-12" id="projects">
+    <section class="py-6 sm:py-12">
         <div class="mx-auto max-w-7xl px-1">
-            <div>
+            <div id="projects">
                 <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'projects.title' | translate }}</h3>
             </div>
             <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('join')" (click)="setActiveTab('join')">
@@ -39,19 +39,19 @@
                         </p>
                     </div>
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
-                        <div class="flex flex-col justify-center lg:justify-start">
-                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center lg:justify-start sm:gap-3 py-4">
+                        <div class="flex flex-col justify-center ">
+                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center  sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div class="flex justify-center lg:justify-start">
+                        <div class="flex justify-center ">
                             <img src="./assets/images/screenshot-join.svg" class="min-w-[280px] max-w-full" alt="">                                
                         </div>
-                        <div class="mt-5">
+                        <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 text-sm rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
                                 <a href="#liveTest">Live Test</a>
                             </button>
@@ -78,23 +78,23 @@
                         </p>
                     </div>
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
-                        <div class="flex flex-col justify-center xl:justify-start">
+                        <div class="flex flex-col justify-center">
                             <h5 class="text-lg text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center xl:justify-start sm:gap-3 py-4">
+                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div class="flex justify-center xl:justify-start">
-                            <img src="./assets/images/screenshot-join.svg" class="min-w-[280px] max-w-full" alt="">                                
+                        <div class="flex justify-center">
+                            <img src="./assets/images/screenshot-elpollo.svg" class="min-w-[280px] max-w-full rounded-3xl" alt="">                                
                         </div>
-                        <div class="mt-5">
+                        <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
                                 <a href="#liveTest">Live Test</a>
                             </button>
-                            <button type="submit" class=" ml-4 py-2 px-3 rounded-2xl text-sm text-(--secondary-color) hover:text-(--primary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer hover:bg-transparent hover:animate-pulse">
+                            <button type="submit" class=" ml-4 py-2 px-3 rounded-2xl text-sm text-(--secondary-color) hover:text-(--primary-color) border border-(--secondary-color) bg-(--secondary-color) transition-colors hover:cursor-pointer hover:bg-transparent hover:animate-pulse">
                                 <a href="https://github.com/mideasdesign/el-pollo-locco">github</a>
                             </button>
                         </div>
@@ -123,19 +123,19 @@
                         </p>
                     </div>
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
-                        <div class="flex flex-col justify-center xl:justify-start">
-                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.bubble.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center xl:justify-start sm:gap-3 py-4">
+                        <div class="flex flex-col justify-center">
+                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.bubble.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
                                 <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
                                 <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
                             </div>
                         </div>
-                        <div class="flex justify-center xl:justify-start">
+                        <div class="flex justify-center">
                             <img src="./assets/images/Screenshot project.svg" class="min-w-[280px] max-w-full" alt="">                                
                         </div>
-                        <div class="mt-5">
+                        <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 text-sm rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
                                 <a href="#liveTest">Live Test</a>
                             </button>

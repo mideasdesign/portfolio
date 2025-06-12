@@ -102,6 +102,16 @@
   --font-primary: 'Josefin Sans';
   --font-heading: 'Anta';
   --grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+--animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
 }
 *{
   scroll-behavior: smooth;
@@ -120,7 +130,7 @@ input,
 .form-group{
   display: flex;
   flex-direction: column;
-  height: 6.25rem;
+  height: 6.85rem;
 }
 
   p{
@@ -158,3 +168,17 @@ input,
       background-position: 0% 50%;
     }
   }
+  animate-bubble{
+    background: url("./assets/images/ellipse25.svg") no-repeat contain center;
+    animation: bubble 1s ease-in-out infinite;
+
+  }
+  @keyframes bubble {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+}
