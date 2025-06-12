@@ -129,7 +129,8 @@
       "privacy": {
         "text": "Ich habe die",
         "link": "Datenschutzerklärung",
-        "error": "Bitte akzeptiere die Datenschutzerklärung"
+        "error": "Bitte akzeptiere die Datenschutzerklärung",
+        "read": "gelesen und akzeptiere sie."
       },
       "submit": "Nachricht senden"
     }

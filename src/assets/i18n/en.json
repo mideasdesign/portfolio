@@ -128,9 +128,10 @@
         "error": "Please enter a message"
       },
       "privacy": {
-        "text": "I've read and accept the",
+        "text": "I've read the",
         "link": "Privacy Policy",
-        "error": "Please accept the Privacy Policy"
+        "error": "Please accept the Privacy Policy",
+        "read": "and accept it."
       },
       "submit": "Send Message"
     }

@@ -142,27 +142,12 @@ input,
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
-  .btn-gradient:hover{
-    background: linear-gradient(-45deg, var(--secondary-color), #89D5D9, #89A2D9, var(--secondary-color));
-	background-size: 200% 200%;
+ .btn-gradient:hover{
+  background: linear-gradient(-45deg, var(--secondary-color), #89D5D9, #89A2D9, var(--secondary-color));
+	background-size: 400% 400%;
 	animation: gradient 8s ease infinite;
   }
     @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-    .bubble-rotate{
-      
-      animation: bubble-rotaiton 5s ease infinite;
-    }
-        @keyframes bubble-rotation {
     0% {
       background-position: 0% 50%;
     }

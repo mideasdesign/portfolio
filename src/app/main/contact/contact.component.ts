@@ -35,7 +35,7 @@ http = inject(HttpClient);
     },
   };
 
-  onSubmit(ngForm: NgForm) {
+onSubmit(ngForm: NgForm) {
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
@@ -49,7 +49,6 @@ http = inject(HttpClient);
           complete: () => console.info('send post complete'),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-
       ngForm.resetForm();
     }
   }
