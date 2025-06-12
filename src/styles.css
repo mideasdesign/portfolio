@@ -115,6 +115,7 @@
 }
 *{
   scroll-behavior: smooth;
+  position: relative;
 
 }
 img{
@@ -168,17 +169,59 @@ input,
       background-position: 0% 50%;
     }
   }
-  animate-bubble{
-    background: url("./assets/images/ellipse25.svg") no-repeat contain center;
-    animation: bubble 1s ease-in-out infinite;
+  .headerbox{
+    position:absolute;
+    inset:auto  0 0;
+    bottom: 0;
+    padding: 0.5rem;
 
   }
-  @keyframes bubble {
-    0%,
-    100% {
-      transform: rotate(-3deg);
+  .animate-me {
+    position: relative;
+    background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
+    /* Other styles for your container */
+  }
+.animate-me:hover{
+  background-image: none;
+  }
+
+.animate-me:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
+    animation: bubble 3s ease-in-out infinite;
+    pointer-events: none; /* Allows clicks to pass through to the element below */
+  }
+  .animate-bubble {
+    position: relative;
+    background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
+    /* Other styles for your container */
+  }
+.animate-bubble:hover{
+  background-image: none;
+  }
+
+.animate-bubble:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
+    animation: bubble 2s ease-in-out infinite;
+    pointer-events: none; /* Allows clicks to pass through to the element below */
+}
+
+@keyframes bubble {
+    0%, 100% {
+        transform: rotate(-10deg);
     }
     50% {
-      transform: rotate(3deg);
+        transform: rotate(10deg);
     }
 }
