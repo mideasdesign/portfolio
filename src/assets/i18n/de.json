@@ -185,16 +185,11 @@
     }
   },
     "nav": {
-    "home": "Home",
-    "why_me": "Über mich",
-    "skills": "Skills",
-    "projects": "Projekte",
-    "contact": "Kontakt",
     "link_home": "/",
-    "link_why_me": "/de/#why-me",
-    "link_skills": "/de/#skills",
-    "link_projects": "/de/#projects",
-    "link_contact": "/de/#contact"
+    "link_why_me": "Über mich",
+    "link_skills": "Fähigkeiten",
+    "link_projects": "projekte",
+    "link_contact": "Kontakt"
   },
   "hero": {
     "name": "Markus Fischer",

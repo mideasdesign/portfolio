@@ -11,8 +11,13 @@ import { Router, RouterModule } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+[x: string]: any|string;
   @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
   @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
+
+  get currentLang(): string {
+    return this.translate.currentLang;
+  }
 
   constructor(
     private translate: TranslateService,
