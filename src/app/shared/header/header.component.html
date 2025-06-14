@@ -33,78 +33,81 @@
     </nav>
     <!-- #endregion -->
     <!-- #region Hero Section -->
-    <header class="relative min-h-svh">
-        <div class=" max-w-7xl flex flex-col md:flex-row md:mx-auto text-center px-4 relative">
-            <div class="flex  mr-12 animate-me absolute bottom-0">
-                <img src="./assets/images/person.webp"  alt="Markus Fischer" class="pt-8 max-h-[40rem]">
+    <header class="relative h-[calc(100svh-5rem)]">
+        <div class="  flex flex-col w-full mx-auto absolute bottom-0 text-center">
+            <div class="max-w-7xl justify-center gap-10 mx-auto items-center flex flex-col md:flex-row">
+                <div class="flex">
+                    <img src="./assets/images/person.webp" alt="Markus Fischer" class="max-h-[800px] animate-me sm: bg-transparent">
+                </div>
+                <div class="flex flex-col">
+                    <div class="flex flex-wrap justify-center max-h-20">
+                        <a href="#">
+                            <img src="./assets/images/logo.svg" class="min-h-14" alt="Logo Markus Fischer" />
+                        </a>
+                    </div>
+                    <div class="">
+                        <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-(--accent-color) my-(--space-xs-s)">
+                            Markus Fischer
+                        </h1>
+                        <h2 class="text-xl sm:text-2xl text-(--accent-color) uppercase tracking-wider">
+                            Frontend Developer
+                        </h2>
+                    </div>
+                    <div class="h-32 flex flex-wrap justify-center gap-4">
+                        <a href="#" class="hover:mask-type-alpha fill-gray-700/70">
+                            <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/icon-mail/mail-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
+                        </a>
+                    </div>
+                    <div class="flex justify-center">
+                        <a href="#why-me">
+                            <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="flex flex-col justify-center mt-8">
-                <div class="flex flex-wrap justify-center">
-                    <a href="#">
-                        <img src="./assets/images/logo.svg" [routerLink]="['/']" routerLinkActive="router-link-active"  class="min-h-14" alt="Logo Markus Fischer" />
-                    </a>
+        </div>        
+
+    </header>
+    <!-- #region Nav Section-->
+    <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden sm:block w-full h-20">
+        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between px-4 h-20 mx-auto hover:cursor-pointer">
+                <a href="#" class="flex flex-col items-center">
+                <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
+                <span class="text-sm font-light text-gray-700">markus fischer</span>
+                </a>
+            <div class="flex  items-center justify-between hidden w-full md:flex md:w-auto gap-4" id="navbar-language">
+                <ul class="flex md:p-0 text-lg border border-0">
+                    <li class="p-4 text-center">
+                        <a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="p-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.contact' | translate }}</a></li>
+                </ul>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex  items-center">
+                    <button type="button" (click)="switchLang('de')" class="flex items-center justify-center px-2  text-sm text-gray-700
+                    border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer">
+                    <span class="pt-1">DE</span> 
+                    </button>
+                    <button type="button" (click)="switchLang('en')" class="flex items-center justify-center px-2  text-sm text-gray-700 
+                    bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center hover:cursor-pointer hover:text-(--accent-color)">
+                    <span class="pt-1">EN</span> 
+                    </button>
                 </div>
-                <div class="flex flex-col justify-center">
-                    <h1 class="text-4xl/6 md:text-7xl/20  font-heading text-center text-(--accent-color) my-(--space-xs-s)">
-                        Markus Fischer
-                    </h1>
-                    <h2 class="text-xl sm:text-2xl text-(--accent-color) uppercase tracking-wider">
-                        Frontend Developer
-                    </h2>
-                </div>
-                <div class="h-32 flex flex-wrap justify-center gap-4 hover:cursor-pointer mt-5">
-                    <a href="https://github.com/mideasdesign" class="hover:mask-type-alpha fill-gray-700/70">
-                        <img src="./assets/images/icons/icon-github/github-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
-                    </a>
-                    <a href="mailto:hello@markusfischer-developer.de">
-                        <img src="./assets/images/icons/icon-mail/mail-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
-                    </a>
-                    <a href="https://www.linkedin.com/in/markus-fischer-25a5b68b/">
-                        <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue.svg" class="h-7 hover:animate-pulse" alt="">
-                    </a>
-                </div>
-                <div class="hidden sm:flex justify-center">
-                    <a [routerLink]="['/why-me']" routerLinkActive="router-link-active">
-                        <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
-                    </a>
+                <div click="burgermenu()" class="burger">
+                    <div class="layers"></div>
+                    <div class="layers"></div>
+                    <div class="layers"></div>
                 </div>
             </div>
         </div>
-    <!-- #region Nav Section-->
-        <nav class="bg-(--secondary-color) inset-[auto 0 0] bottom-0 absolute mx-auto hidden sm:block">
-            <div class="max-w-7xl flex flex-wrap items-center absolute bottom-0 justify-center sm:justify-between p-4 mx-auto hover:cursor-pointer">
-                    <a href="#" class="flex flex-col items-center">
-                    <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
-                    <span class="text-sm font-light text-gray-700">markus fischer</span>
-                    </a>
-                <div class="flex  items-center justify-between hidden w-full md:flex md:w-auto gap-5" id="navbar-language">
-                    <ul class="flex p-4 md:p-0 text-lg border md:space-x-8 border-0">
-                        <li class="p-4 text-center">
-                            <a href="{{ 'nav.link_why_me' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                        <li class="p-4 text-center"><a href="{{ 'nav.link_skills' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                        <li class="p-4 text-center"><a href="{{ 'nav.link_projects' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                        <li class="p-4 text-center"><a href="{{ 'nav.link_contact' | translate }}" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.contact' | translate }}</a></li>
-                    </ul>
-                </div>
-                <div class="flex justify-center">
-                    <div class="flex  items-center">
-                        <button type="button" (click)="switchLang('de')" class="flex items-center justify-center px-2  text-sm text-gray-700
-                        border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer">
-                        <span class="pt-1">DE</span> 
-                        </button>
-                        <button type="button" (click)="switchLang('en')" class="flex items-center justify-center px-2  text-sm text-gray-700 
-                        bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-contain bg-center hover:cursor-pointer hover:text-(--accent-color)">
-                        <span class="pt-1">EN</span> 
-                        </button>
-                    </div>
-                    <div click="burgermenu()" class="burger">
-                        <div class="layers"></div>
-                        <div class="layers"></div>
-                        <div class="layers"></div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+    </nav>
     <!-- #endregion -->
-    </header>
     <!-- #endregion -->

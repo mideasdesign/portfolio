@@ -179,7 +179,6 @@ input,
   .animate-me {
     position: relative;
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
-    /* Other styles for your container */
   }
 .animate-me:hover{
   background-image: none;
