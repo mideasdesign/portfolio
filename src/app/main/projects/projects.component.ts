@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
@@ -14,10 +14,9 @@ export class ProjectsComponent {
 
   constructor(private translate: TranslateService) {}
 
-  switchLang(lang: string) {
-    this.translate.use(lang);
+  switchLang(language: string){
+   this.translate.use(language);
   }
-
   setActiveTab(tab: string) {
     this.activeTab = tab;
   }

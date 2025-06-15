@@ -200,10 +200,10 @@
     "projects": "Projects",
     "contact": "Contact",
     "link_home": "/",
-    "link_why_me": "/en/#why-me",
-    "link_skills": "/en/#skills",
-    "link_projects": "/en/#projects",
-    "link_contact": "/en/#contact"
+    "link_why_me": "why-me",
+    "link_skills": "skills",
+    "link_projects": "projects",
+    "link_contact": "#contact"
   },
   "hero": {
     "name": "Markus Fischer",

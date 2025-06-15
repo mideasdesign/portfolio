@@ -5,11 +5,12 @@ import { FormsModule } from '@angular/forms';
 import {TranslateModule} from "@ngx-translate/core";
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SkillsComponent } from './skills/skills.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [SkillsComponent, ProjectsComponent, ContactComponent, TestimonialsComponent, FormsModule, TranslateModule],
+  imports: [AboutMeComponent, SkillsComponent, ProjectsComponent, ContactComponent, TestimonialsComponent, FormsModule, TranslateModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })

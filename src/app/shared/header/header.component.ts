@@ -1,12 +1,12 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, TranslateModule, RouterModule],
+  imports: [CommonModule, TranslateModule, RouterModule, TranslatePipe],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
@@ -15,27 +15,11 @@ export class HeaderComponent {
   @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
 
   constructor(
-    private translate: TranslateService,
-    private router: Router
-  ) {}
+    private translate: TranslateService) {}
 
-  switchLang(lang: string) {
-    this.translate.use(lang);
-    
-    // Get current URL without language prefix
-    const currentUrl = this.router.url;
-    let newUrl = currentUrl;
-    
-    // Remove any existing language prefix
-    newUrl = newUrl.replace(/^\/(en|de)\//, '/');
-    
-    // Add the new language prefix
-    newUrl = `/${lang}${newUrl}`;
-    
-    // Navigate to the new URL
-    this.router.navigateByUrl(newUrl);
+  switchLang(language: string){
+   this.translate.use(language);
   }
-
   burgermenu(): void {
     const menu = this.menuRef.nativeElement;
     const burger = this.burgerRef?.nativeElement;
