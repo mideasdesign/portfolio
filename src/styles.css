@@ -145,13 +145,23 @@ input,
     padding-right: 1rem;
   }
 
+.flex-bottom{
+  display: flex;
+  justify-content: flex-end;
+}
   .small-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
   }
     .big-grid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+  }
+  @media (width > 768px){
+    .big-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
   }
  .btn-gradient:hover{
   background: linear-gradient(-45deg, var(--secondary-color), #89D5D9, #89A2D9, var(--secondary-color));
@@ -198,7 +208,12 @@ input,
   .animate-bubble {
     position: relative;
     background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
-    /* Other styles for your container */
+    display:block;
+  }
+    @media (width < 765px){
+    .animate-bubble{
+      background-image: none;
+    }
   }
 .animate-bubble:hover{
   background-image: none;
