@@ -1,6 +1,6 @@
 <!-- #region Testimonial Section -->
     <section id="testimonials" class="py-6 sm:py-12">
-        <div class="mx-auto max-w-7xl px-6 md:px-8">
+        <div class="mx-auto max-w-7xl px-4 md:px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold font-heading mb-4 text-(--secondary-color)">
                     {{ 'testimonials.title' | translate }}
@@ -9,19 +9,20 @@
                     {{ 'testimonials.subtitle' | translate }}
                 </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
-                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class=" animate-bubble sm:p-16 text-center">
-                    <div class="text-center mb-6">
-                        <h4 class="text-2xl text-(--secondary-color) ">
+            <div class="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-8 text-center">
+                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class=" sm:p-17 text-center animate-bubble flex flex-col justify-center">
+                    <div class="text-center px-1 text-balance  flex flex-col justify-center">
+                        <h4 class="text-xl text-(--secondary-color) mb-2">
                             {{ t.name }}
                         </h4>
-                        <p class="text-(--accent-color)">
+                        <p class="text-(--accent-color) mb-1">
                             {{ t.role }}
+                        </p>                    
+                        <p class="text-gray-300  text-sm sm:px-2">
+                        {{ t.quote }}
                         </p>
                     </div>
-                    <p class="text-gray-300 italic text-base">
-                        {{ t.quote }}
-                    </p>
+
                 </div>
             </div>
         </div>
