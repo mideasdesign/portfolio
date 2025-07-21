@@ -113,11 +113,20 @@
     }
   }
 }
+
 *{
   scroll-behavior: smooth;
   position: relative;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  text-transform: none;
 
 }
+
 img{
   display: block;
   max-width:100%;
@@ -209,11 +218,6 @@ input,
     position: relative;
     background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
     display:block;
-  }
-    @media (width < 765px){
-    .animate-bubble{
-      background-image: none;
-    }
   }
 .animate-bubble:hover{
   background-image: none;

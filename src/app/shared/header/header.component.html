@@ -23,17 +23,17 @@
             </div>
             <div #togglemenu class="menu hidden">
                 <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 gap-5">
-                    <li class="py-4 text-center"><a href="about-me" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#skills" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#projects" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#contact" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="about-me" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#skills" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#projects" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
+                    <li class="py-4 text-center"><a href="#contact" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- #endregion -->
       <!-- #region Hero Section -->
-    <header class="relative min-h-[calc(100svh-5rem)] flex">
+    <header class="relative sm:min-h-[calc(100svh-5rem)] flex">
         <div class="  flex flex-col mx-auto text-center">
             <div class="max-w-7xl h-auto gap-10 mx-auto big-grid sm:h-full">
                 <div class="flex items-end p-4 sm:p-0 mask-[url(./assets/images/maske-portait.svg)] mask-no-repeat mask-top mask-size-[90%] sm:mask-none">

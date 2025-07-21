@@ -33,4 +33,13 @@ export class HeaderComponent {
       setTimeout(() => menu.classList.add('hidden'), 125);
     }
   }
+
+  closeMenu(): void {
+    const menu = this.menuRef.nativeElement;
+    const burger = this.burgerRef?.nativeElement;
+
+    menu.classList.remove('active');
+    burger?.classList.remove('active');
+    setTimeout(() => menu.classList.add('hidden'), 125);
+  }
 }
