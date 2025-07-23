@@ -133,6 +133,11 @@
         "read": "gelesen und akzeptiere sie."
       },
       "submit": "Nachricht senden"
+    },
+    "success": {
+      "title": "Nachricht gesendet!",
+      "message": "Vielen Dank für deine Nachricht. Ich werde mich so schnell wie möglich bei dir melden.",
+      "close": "Schließen"
     }
   },
   "privacy": {

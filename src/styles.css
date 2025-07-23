@@ -243,3 +243,10 @@ input,
         transform: rotate(10deg);
     }
 }
+.lang-backgr:hover{
+ background: url("./assets/images/ellipse24.svg") no-repeat center / contain;
+}
+.grid-skill{
+display:grid;
+grid-template-columns: repeat(autofit, minmax(60px, 1fr));
+}

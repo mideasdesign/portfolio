@@ -134,6 +134,11 @@
         "read": "and accept it."
       },
       "submit": "Send Message"
+    },
+    "success": {
+      "title": "Message sent!",
+      "message": "Thank you for your message. I will get back to you as soon as possible.",
+      "close": "Close"
     }
   },
   "privacy": {
