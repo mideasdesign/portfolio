@@ -212,19 +212,19 @@ input,
     right: 0;
     bottom: 0;
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
-    animation: bubble 3s ease-in-out infinite;
+    animation: pokemon-dex 3s ease-in-out infinite;
     pointer-events: none; /* Allows clicks to pass through to the element below */
   }
-  .animate-bubble {
+  .animate-pokemon-dex {
     position: relative;
     background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
     display:block;
   }
-.animate-bubble:hover{
+.animate-pokemon-dex:hover{
   background-image: none;
   }
 
-.animate-bubble:hover::before {
+.animate-pokemon-dex:hover::before {
     content: '';
     position: absolute;
     top: 0;
@@ -234,11 +234,11 @@ input,
     background: url("./assets/images/ellipse25.svg") no-repeat;
     background-size: contain;
     background-position: center;
-    animation: bubble 2s ease-in-out infinite;
+    animation: pokemon-dex 2s ease-in-out infinite;
     pointer-events: none; /* Allows clicks to pass through to the element below */
 }
 
-@keyframes bubble {
+@keyframes pokemon-dex {
     0%, 100% {
         transform: rotate(-15deg);
     }

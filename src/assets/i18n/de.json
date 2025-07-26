@@ -5,7 +5,7 @@
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
-      "bubble": "3. Da Bubble"
+      "pokemon-dex": "3. Pokemon-dex"
     },
     "join": {
       "about": {
@@ -42,18 +42,14 @@
         "github": "GitHub"
       }
     },
-    "bubble": {
+    "pokemon-dex": {
       "about": {
         "title": "Über das Projekt",
-        "text": "Das ist bubble, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+        "text": "Diese Webanwendung bietet ein interaktives Pokédex-Erlebnis. Nutzer können Pokémon durchsuchen, sich per Klick Details anzeigen lassen und durch die Pokémon-Liste navigieren. Die Gestaltung orientiert sich visuell am typischen Pokémon-Stil mit responsive Layout und Overlay-Detailansicht."
       },
       "process": {
         "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
-      },
-      "team": {
-        "title": "Meine Erfahrung in der Teamarbeit",
-        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+        "text": "Ich strukturiere meine Projekte in wiederverwendbare Module und Komponenten, um Übersicht und Skalierbarkeit zu gewährleisten. Sauberer Code entsteht bei mir durch klare Namenskonventionen, Dokumentation und gezielte Tests."
       },
       "technologies": {
         "title": "Technologien"

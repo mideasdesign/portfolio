@@ -10,8 +10,8 @@
             <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[4px] sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-15"[class.tab-active]="isActive('elpollo')" (click)="setActiveTab('elpollo')">
                 2. ElPollo Loco
             </button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('bubble')" (click)="setActiveTab('bubble')">
-                3. Da Bubble
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('pokemon-dex')" (click)="setActiveTab('pokemon-dex')">
+                3. Da pokemon-dex
             </button>
         </div>
         <div class=" bg-gray-700">
@@ -41,19 +41,19 @@
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
                         <div class="flex flex-col justify-center ">
                             <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center  sm:gap-3 py-4">
-                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            <div class="flex flex-wrap justify-center  gap-4 py-4">
+                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/typescript-o-font.svg" class="h-8" alt="">
                             </div>
                         </div>
                         <div class="flex justify-center ">
-                            <img src="./assets/images/screenshot-join.svg" class="min-w-[280px] max-w-full" alt="">                                
+                            <img src="./assets/images/screenshot-join.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">                                
                         </div>
                         <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
-                                <a href="https://join.markusfischer-developer.de">Live Test</a>
+                                <a href="https://join-app.markusfischer-developer.de">Live Test</a>
                             </button>
                             <button type="submit" class=" ml-4 py-2 px-3 rounded-2xl text-sm text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse">
                                 <a href="https://github.com/mideasdesign/join-app">github</a>
@@ -80,15 +80,15 @@
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
                         <div class="flex flex-col justify-center">
                             <h5 class="text-lg text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
-                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            <div class="flex flex-wrap justify-center  gap-4 py-4">
+                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/typescript-o-font.svg" class="h-8" alt="">
                             </div>
                         </div>
                         <div class="flex justify-center">
-                            <img src="./assets/images/screenshot-elpollo.svg" class="min-w-[280px] max-w-full rounded-3xl" alt="">                                
+                            <img src="./assets/images/screenshot-elpollo.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">                                
                         </div>
                         <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
@@ -101,46 +101,45 @@
                     </div>
                       
                 </div>
-                <div id="bubble" *ngIf="isActive('bubble')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                <div id="pokemon-dex" *ngIf="isActive('pokemon-dex')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
                     <div class="text-base text-balance flex-1">
                         <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.bubble.about.title' | translate }}
+                            {{ 'projects.pokemon-dex.about.title' | translate }}
                         </h5>
                         <p class="mb-4  text-balance">
-                            {{ 'projects.bubble.about.text' | translate }}
+                            {{ 'projects.pokemon-dex.about.text' | translate }}
                         </p>
                         <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.bubble.process.title' | translate }}
+                            {{ 'projects.pokemon-dex.process.title' | translate }}
                         </h5>
                         <p class="mb-4  text-balance">
-                            {{ 'projects.bubble.process.text' | translate }}
+                            {{ 'projects.pokemon-dex.process.text' | translate }}
                         </p>
                         <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.bubble.team.title' | translate }}
+                            {{ 'projects.pokemon-dex.team.title' | translate }}
                         </h5>
                         <p class="">
-                            {{ 'projects.bubble.team.text' | translate }}
+                            {{ 'projects.pokemon-dex.team.text' | translate }}
                         </p>
                     </div>
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
                         <div class="flex flex-col justify-center">
-                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.bubble.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center sm:gap-3 py-4">
-                                <img src="./assets/images/icons/icon-skills/css.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/html.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript.svg" class="h-10" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript.svg" class="h-10" alt="">
+                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.pokemon-dex.technologies.title' | translate }}</h5>
+                            <div class="flex flex-wrap justify-center  gap-4 py-4">
+                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
+                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
                             </div>
                         </div>
                         <div class="flex justify-center">
-                            <img src="./assets/images/Screenshot project.svg" class="min-w-[280px] max-w-full" alt="">                                
+                            <img src="./assets/images/screenshot-pokemon-dex.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">                                
                         </div>
                         <div class="mt-5 flex justify-center">
                             <button type="submit" class=" py-2 px-3 text-sm rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
-                                <a href="#liveTest">Live Test</a>
+                                <a href="https://pokemon-dex.markusfischer-developer.de/">Live Test</a>
                             </button>
                             <button type="submit" class=" ml-4 py-2 px-3 text-sm rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse">
-                                <a href="#github">github</a>
+                                <a href="https://github.com/mideasdesign/pokemon-dex">github</a>
                             </button>
                         </div>
                     </div>

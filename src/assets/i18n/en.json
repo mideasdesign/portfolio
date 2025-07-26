@@ -38,7 +38,7 @@
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
-      "bubble": "3. Da Bubble"
+      "pokemon-dex": "3. Da pokemon-dex"
     },
     "join": {
       "about": {
@@ -78,7 +78,7 @@
         "github": "GitHub"
       }
     },
-    "bubble": {
+    "pokemon-dex": {
       "about": {
         "title": "About the project",
         "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
