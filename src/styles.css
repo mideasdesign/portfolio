@@ -165,8 +165,9 @@ input,
     .big-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    margin-top:2rem;
   }
-  @media (width > 768px){
+  @media (width > 767px){
     .big-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -230,17 +231,19 @@ input,
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("./assets/images/ellipse25.svg") no-repeat center / contain;
+    background: url("./assets/images/ellipse25.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
     animation: bubble 2s ease-in-out infinite;
     pointer-events: none; /* Allows clicks to pass through to the element below */
 }
 
 @keyframes bubble {
     0%, 100% {
-        transform: rotate(-10deg);
+        transform: rotate(-15deg);
     }
     50% {
-        transform: rotate(10deg);
+        transform: rotate(2deg);
     }
 }
 .lang-backgr:hover{
@@ -248,5 +251,5 @@ input,
 }
 .grid-skill{
 display:grid;
-grid-template-columns: repeat(autofit, minmax(60px, 1fr));
+grid-template-columns: repeat(autofit, minmax(50px, 1fr));
 }
