@@ -67,7 +67,7 @@
                                     }
                             </div>
                             <div class="grid-cols-[1/-1] flex text-base justify-center-center mt-2">
-                                    <input type="checkbox" name="privacy-police" #privacy="ngModel" [(ngModel)]="contactData.policy" required class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" >
+                                    <input type="checkbox" id="privacy-police" name="message" #privacy="ngModel" [(ngModel)]="contactData.policy" required class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" >
                                     <label for="privacy-police">{{ 'contact.form.privacy.text' | translate }}
                                         <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
                                         {{ 'contact.form.privacy.link' | translate }} {{ 'contact.form.privacy.read' | translate }}
@@ -97,7 +97,7 @@
         <div class="success" (click)="closeOverlay()">
             <div class="bg-gray-700 rounded-lg p-8 max-w-md mx-4 text-center shadow-2xl transform transition-all duration-300 ease-in-out" (click)="$event.stopPropagation()">
                 <div class="mb-4">
-                    <svg class="mx-auto h-16 w-16 text-(--primary-color)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="mx-auto h-16 w-16 text-(--secondary-color)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                 </div>
