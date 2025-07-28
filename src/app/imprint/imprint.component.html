@@ -1,26 +1,27 @@
-<section class="my-16" id="impressum-en">
-  <div class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center">
-    <h1 class="text-2xl font-semibold mb-4 text-(--secondary-color)">
-      {{ 'legal.title' | translate }}
-    </h1>
+<app-header></app-header>
+<main class="max-w-4xl mx-auto px-4 py-12">
+  <section class="my-16" id="impressum-en">
+    <div class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center">
+      <h1 class="text-2xl font-semibold mb-4 text-(--secondary-color)">
+        {{ 'legal.title' | translate }}
+      </h1>
+      <p><strong>{{ 'legal.section_5' | translate }}</strong></p>
+      <p class="mt-2">
+        {{ 'legal.name' | translate }}<br>
+        {{ 'legal.address.street' | translate }}<br>
+        {{ 'legal.address.city' | translate }}<br>
+        {{ 'legal.address.country' | translate }}
+      </p>
+      <p class="mt-4"><strong>{{ 'legal.contact' | translate }}</strong><br>
+        {{ 'legal.phone' | translate }}<br>
+        {{ 'legal.email' | translate }}
+      </p>
+      <p class="mt-4 text-sm text-gray-600">
+        {{ 'legal.responsible' | translate }}<br>
+        {{ 'legal.name' | translate }}, {{ 'legal.same_address' | translate }}
+      </p>
+    </div>
+  </section>
+</main>
 
-    <p><strong>{{ 'legal.section_5' | translate }}</strong></p>
-
-    <p class="mt-2">
-      {{ 'legal.name' | translate }}<br>
-      {{ 'legal.address.street' | translate }}<br>
-      {{ 'legal.address.city' | translate }}<br>
-      {{ 'legal.address.country' | translate }}
-    </p>
-
-    <p class="mt-4"><strong>{{ 'legal.contact' | translate }}</strong><br>
-      {{ 'legal.phone' | translate }}<br>
-      {{ 'legal.email' | translate }}
-    </p>
-
-    <p class="mt-4 text-sm text-gray-600">
-      {{ 'legal.responsible' | translate }}<br>
-      {{ 'legal.name' | translate }}, {{ 'legal.same_address' | translate }}
-    </p>
-  </div>
-</section>
+<app-footer></app-footer>

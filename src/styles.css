@@ -253,3 +253,10 @@ input,
 display:grid;
 grid-template-columns: repeat(autofit, minmax(50px, 1fr));
 }
+.arrow-up{
+  display: block;
+  position: fixed;
+  bottom:22%;
+  right:2%;
+  z-index:9999;
+}
