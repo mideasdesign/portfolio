@@ -94,22 +94,22 @@
 
     <!-- Success Overlay -->
     @if (showSuccessOverlay()) {
-        <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" (click)="closeOverlay()">
-            <div class="bg-white rounded-lg p-8 max-w-md mx-4 text-center shadow-2xl transform transition-all duration-300 ease-in-out" (click)="$event.stopPropagation()">
+        <div class="success" (click)="closeOverlay()">
+            <div class="bg-gray-700 rounded-lg p-8 max-w-md mx-4 text-center shadow-2xl transform transition-all duration-300 ease-in-out" (click)="$event.stopPropagation()">
                 <div class="mb-4">
-                    <svg class="mx-auto h-16 w-16 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="mx-auto h-16 w-16 text-(--primary-color)" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                 </div>
                 <h3 class="text-2xl font-heading text-(--secondary-color) mb-4">
                     {{ 'contact.success.title' | translate }}
                 </h3>
-                <p class="text-gray-600 mb-6">
+                <p class="text-(--secondary-color) mb-6">
                     {{ 'contact.success.message' | translate }}
                 </p>
                 <button 
                     (click)="closeOverlay()" 
-                    class="px-6 py-3 bg-(--accent-color) text-white rounded-lg hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-(--accent-color) focus:ring-offset-2">
+                    class="px-6 py-3 bg-(--secondary-color) text-(--primary-color) rounded-lg hover:bg-opacity-90 transition-colors focus:outline-none focus:ring-2 focus:ring-(--secondary-color) focus:ring-offset-2">
                     {{ 'contact.success.close' | translate }}
                 </button>
             </div>
