@@ -66,7 +66,7 @@
                                         <span class="text-red-500 text-sm pt-4">{{ 'contact.form.message.error' | translate }}</span>
                                     }
                             </div>
-                            <div class="grid-cols-[1/-1] flex text-base justify-center-center">
+                            <div class="grid-cols-[1/-1] flex text-base justify-center-center mt-2">
                                     <input type="checkbox" name="privacy-police" #privacy="ngModel" [(ngModel)]="contactData.policy" required class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" >
                                     <label for="privacy-police">{{ 'contact.form.privacy.text' | translate }}
                                         <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">

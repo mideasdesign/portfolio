@@ -32,7 +32,7 @@ http = inject(HttpClient);
     message: '',
     policy: ''
   };
- mailTest = true;
+ mailTest = false;
 
   post = {
     endPoint: 'https://markusfischer-developer.de/sendMail.php',
