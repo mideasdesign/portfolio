@@ -214,10 +214,11 @@ input,
   }
   .animate-me {
     position: relative;
-    display: block;
+    
+    background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
   }
 
-.animate-me::before {
+.animate-me:hover::before {
     content: '';
     position: absolute;
     top: 0;
@@ -228,6 +229,7 @@ input,
     animation: pokemon-dex 2s ease-in-out infinite;
     pointer-events: none;
     z-index: 1;
+    cursor: poin;
   }
   .animate-pokemon-dex {
     position: relative;
