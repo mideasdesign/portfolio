@@ -140,7 +140,12 @@ input,
 .form-group{
   display: flex;
   flex-direction: column;
-  height: 6.85rem;
+  height: 7rem;
+}
+.textarea-form-group{
+  min-height: 6.85rem;
+  display: flex;
+  flex-direction: column;
 }
 
   p{
