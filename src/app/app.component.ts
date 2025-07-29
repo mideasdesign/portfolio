@@ -15,9 +15,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent implements OnInit {
   title = 'portfolio';
-  
-  // Signal für die Sichtbarkeit des Arrow-Up Buttons
-  showScrollButton = signal(false);
+
   
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('en');
@@ -27,19 +25,5 @@ export class AppComponent implements OnInit {
     const browserLang = this.translate.getBrowserLang() || 'en';
     const savedLang = localStorage.getItem('userLanguage') || browserLang;
     this.translate.use(savedLang.match(/en|de/) ? savedLang : 'en');
-  }
-
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll() {
-    // Button anzeigen wenn mehr als 500px gescrollt wurde
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    this.showScrollButton.set(scrollTop > 500);
-  }
-
-  scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
   }
 }

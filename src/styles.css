@@ -153,6 +153,15 @@ input,
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .sticky-nav{
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+  }
+  .header-height{
+    height: calc(100svh - 80px);
+  }
 
 .flex-bottom{
   display: flex;
@@ -198,13 +207,10 @@ input,
   }
   .animate-me {
     position: relative;
-    background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
-  }
-.animate-me:hover{
-  background-image: none;
+    display: block;
   }
 
-.animate-me:hover::before {
+.animate-me::before {
     content: '';
     position: absolute;
     top: 0;
@@ -212,8 +218,9 @@ input,
     right: 0;
     bottom: 0;
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
-    animation: pokemon-dex 3s ease-in-out infinite;
-    pointer-events: none; /* Allows clicks to pass through to the element below */
+    animation: pokemon-dex 2s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
   }
   .animate-pokemon-dex {
     position: relative;
@@ -253,12 +260,19 @@ input,
 display:grid;
 grid-template-columns: repeat(autofit, minmax(50px, 1fr));
 }
+.arrow-container{
+  display:flex;
+  padding:0 2rem;
+  justify-content: center;
+  align-items: center;
+}
 .arrow-up{
-  display: block;
-  position: fixed;
-  bottom:22%;
-  right:2%;
-  z-index:9999;
+display: flex;
+position:fixed;
+bottom:22%;
+padding: 0 2rem;
+width: 1440px;
+z-index:9999;
 }
 .success{
 position: fixed;

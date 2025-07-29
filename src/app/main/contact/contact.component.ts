@@ -19,7 +19,6 @@ export class ContactComponent {
   
   // Signal für das Overlay
   showSuccessOverlay = signal(false);
-  
   switchLang(language: string){
    this.translate.use(language);
 }

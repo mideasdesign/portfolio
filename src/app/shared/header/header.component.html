@@ -1,44 +1,11 @@
-    <!-- #region mobile Nav Section-->
-    <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto md:hidden">
-        <div class=" max-w-7xl flex sm:items-center justify-between p-4 mx-auto">
-            <a href="#" class="flex justify-center items-center">
-                <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
-            </a>
-            <div class="flex items-center  justify-between mt-5">
-                <div>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) transition-colors lang-backgr">
-                        DE
-                    </button>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" class="inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg 
-                    border border-(--secondary-color) lang-backgr transition-colors">
-                      EN
-                    </button>
-                </div>
-                <div #burger (click)="burgermenu()" class="burger">
-                <div class="layers"></div>
-                <div class="layers"></div>
-                <div class="layers"></div>
-                </div>
-            </div>
-            <div #togglemenu class="menu hidden">
-                <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 gap-5">
-                    <li class="py-4 text-center"><a href="about-me" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#skills" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#projects" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                    <li class="py-4 text-center"><a href="#contact" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.contact' | translate }}</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- #endregion -->
-      <!-- #region Hero Section -->
-    <header class="relative sm:min-h-[calc(100svh-5rem)] flex">
-        <div class="  flex flex-col mx-auto text-center">
+    <!-- #region Hero Section -->
+    <header class="relative header-height flex">
+        <div class="flex flex-col mx-auto text-center">
             <div class="max-w-7xl h-auto gap-10 mx-auto big-grid sm:h-full">
-                <div class="flex items-end  p-4 sm:p-0 ">
-                    <img [src]="personImage()" alt="Markus Fischer" class=" max-h-[600px] h-96  md:h-[auto] ml-8  md:bg-[url] bg-no-repeat bg-contain bg-center sm:bg-transparent">
-
+                <div class="flex items-end p-4 sm:p-0">
+                    <div class="relative animate-me max-h-[600px] md:h-[auto] sm:ml-8">
+                        <img [src]="personImage()" alt="Markus Fischer" class="relative z-10 max-h-[600px] md:h-[auto]">
+                    </div>
                 </div>
                 <div class="flex flex-col h-full">
                     <div class="flex-col flex-1 flex-bottom pb-8">
@@ -65,7 +32,7 @@
                             </a>
                         </div>
                         <div class=" justify-center hidden md:flex">
-                            <a href="#why-me">
+                            <a href="#about-me">
                                 <img src="./assets/images/arrow-down-default.svg" class="h-15 animate-bounce" alt="">
                             </a>
                         </div>
@@ -73,42 +40,5 @@
                 </div>
             </div>
         </div>        
-
     </header>
-    <!-- #region Nav Section-->
-    <nav class="bg-(--secondary-color) sticky top-0 z-50 mx-auto hidden md:block w-full h-20">
-        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between px-4 h-20 mx-auto hover:cursor-pointer">
-                <a href="#" class="flex flex-col items-center">
-                <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
-                <span class="text-sm font-light text-gray-700">markus fischer</span>
-                </a>
-            <div class=" items-center justify-between hidden w-full md:flex md:w-auto gap-4" id="navbar-language">
-                <ul class="flex md:p-0 text-lg ">
-                    <li class="p-4 text-center">
-                        <a href="#about-me" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.why_me' | translate }}</a></li>
-                    <li class="p-4 text-center"><a href="#skills" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.skills' | translate }}</a></li>
-                    <li class="p-4 text-center"><a href="#projects" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.projects' | translate }}</a></li>
-                    <li class="p-4 text-center"><a href="#contact" class=" text-center text-gray-900 hover:text-(--acccent-color)  md:p-0">{{ 'nav.contact' | translate }}</a></li>
-                </ul>
-            </div>
-            <div class="flex justify-center">
-                <div class="flex  items-center">
-                    <button type="button" (click)="switchLang('de')" class="flex items-center justify-center px-2  text-sm text-gray-700
-                    border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer lang-backgr">
-                    <span class="pt-1">DE</span> 
-                    </button>
-                    <button type="button" (click)="switchLang('en')" class="flex items-center justify-center px-2  text-sm text-gray-700 
-                    lang-backgr hover:cursor-pointer hover:text-(--accent-color)">
-                    <span class="pt-1">EN</span> 
-                    </button>
-                </div>
-                <div click="burgermenu()" class="burger">
-                    <div class="layers"></div>
-                    <div class="layers"></div>
-                    <div class="layers"></div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- #endregion -->
     <!-- #endregion -->
