@@ -273,6 +273,7 @@ bottom:22%;
 padding: 0 2rem;
 width: 1440px;
 z-index:9999;
+justify-content: end;
 }
 .success{
 position: fixed;
