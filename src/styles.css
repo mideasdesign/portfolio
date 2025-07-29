@@ -159,6 +159,13 @@ input,
     left: 0; 
     z-index: 1000;
   }
+    .sticky-mobile-nav{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+    width:100svw;
+  }
   .header-height{
     height: calc(100svh - 80px);
   }

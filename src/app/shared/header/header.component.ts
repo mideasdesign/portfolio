@@ -39,30 +39,4 @@ export class HeaderComponent {
     // Tailwind's md breakpoint ist 768px
     this.isMobile.set(window.innerWidth < 768);
   }
-
-  switchLang(language: string){
-   this.translate.use(language);
-  }
-  burgermenu(): void {
-    const menu = this.menuRef.nativeElement;
-    const burger = this.burgerRef?.nativeElement;
-
-    menu.classList.toggle('active');
-    burger?.classList.toggle('active');
-
-    if (menu.classList.contains('active')) {
-      menu.classList.remove('hidden');
-    } else {
-      setTimeout(() => menu.classList.add('hidden'), 125);
-    }
-  }
-
-  closeMenu(): void {
-    const menu = this.menuRef.nativeElement;
-    const burger = this.burgerRef?.nativeElement;
-
-    menu.classList.remove('active');
-    burger?.classList.remove('active');
-    setTimeout(() => menu.classList.add('hidden'), 125);
-  }
 }
