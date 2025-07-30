@@ -217,11 +217,14 @@ input,
     padding: 0.5rem;
 
   }
-  .animate-me {
+.animate-me {
     position: relative;
     
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
-  }
+ @media (width < 767px){
+    background: none;
+  } 
+}
 
 .animate-me:hover::before {
     content: '';
