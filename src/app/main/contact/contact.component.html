@@ -81,7 +81,8 @@
                             <div class="grid grid-cols-grid-cols-[1/-1] place-content-end">
                                 <button 
                                     type="submit" 
-                                    class="py-3 px-6 rounded-lg border border-(--secondary-color) transition-colors hover:cursor-pointer hover:animate-pulse disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:animate-none disabled:hover:btn-none">
+                                    [disabled]="!contactform.form.valid"
+                                    class="py-3 px-6 rounded-lg border border-(--secondary-color) transition-colors cursor-pointer hover:animate-pulse hover:btn-gradient disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:animate-none">
                                     {{ 'contact.form.submit' | translate }}
                                 </button>
                             </div>
