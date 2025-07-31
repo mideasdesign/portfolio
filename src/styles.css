@@ -58,8 +58,8 @@
   --font-display: 'Josefin Sans', 'sans';
   --text-*:initial;  
   --text-xs: clamp(0.5425rem, 0.5086rem + 0.1695vw, 0.64rem);
-  --text-sm: clamp(0.7813rem, 0.7052rem + 0.3804vw, 1rem);
-  --text-base:clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
+  --text-sm: clamp(0.7813rem, 0.7052rem + 0.3804vw, 0.95rem);
+  --text-base:clamp(1rem, 0.9643rem + 0.1786vw, 1rem);
   --text-lg: clamp(1.1rem, 1.1411rem + 0.2946vw, 1.4063rem);
 
 --text-xl:clamp(1.2rem, 1.1411rem + 0.2946vw, 1.4063rem);
@@ -168,6 +168,9 @@ input,
   }
   .header-height{
     height: calc(100svh - 80px);
+    @media (width < 767px){
+      height: 100svh;
+    }
   }
 
 .flex-bottom{
@@ -241,6 +244,28 @@ input,
   }
 
 .animate-pokemon-dex:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("./assets/images/ellipse25.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: pokemon-dex 2s ease-in-out infinite;
+    pointer-events: none; /* Allows clicks to pass through to the element below */
+}
+  .animate-testimonials {
+    position: relative;
+    background: url("./assets/images/ellipse25.svg") no-repeat center / cover;
+    display:block;
+  }
+.animate-testimonials:hover{
+  background-image: none;
+  }
+
+.animate-testimonials:hover::before {
     content: '';
     position: absolute;
     top: 0;
