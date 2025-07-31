@@ -10,72 +10,51 @@
                 </p>
             </div>
             
-            <!-- Unified Testimonials Container -->
+            <!-- Unified Responsive Testimonials Container -->
             <div class="relative">
-                <!-- Mobile Swipe Carousel -->
-                <div class="md:hidden">
-                    <div class="overflow-hidden">
+                <!-- Container für alle Testimonials mit responsivem Verhalten -->
+                <div class="overflow-hidden md:overflow-visible">
+                    <div 
+                        class="flex transition-transform duration-300 ease-in-out md:justify-center md:items-center md:text-center md:gap-4 lg:gap-8 md:px-2 lg:px-5 md:overflow-x-auto"
+                        [style.transform]="'translateX(-' + (currentIndex() * 100) + '%)'"
+                        [class.md:transform-none]="true"
+                        (touchstart)="onTouchStart($event)"
+                        (touchmove)="onTouchMove($event)"
+                        (touchend)="onTouchEnd()"
+                    >
                         <div 
-                            class="flex transition-transform duration-300 ease-in-out"
-                            [style.transform]="'translateX(-' + (currentIndex() * 100) + '%)'"
-                            (touchstart)="onTouchStart($event)"
-                            (touchmove)="onTouchMove($event)"
-                            (touchend)="onTouchEnd()"
+                            *ngFor="let t of ( 'testimonials.entries' | translate ); trackBy: trackByFn; let i = index" 
+                            class="w-full flex-shrink-0 sm:px-4 md:w-auto md:px-0"
                         >
-                            <div 
-                                *ngFor="let t of ( 'testimonials.entries' | translate ); trackBy: trackByFn; let i = index" 
-                                class="w-full flex-shrink-0 px-4"
-                            >
-                                <div class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
-                                    <div class="text-center p-7 w-full max-w-[290px] mx-auto text-balance flex flex-col justify-center">
-                                        <h4 class="text-xl text-(--secondary-color) mb-1">
-                                            {{ t.name }}
-                                        </h4>
-                                        <p class="text-(--accent-color) mb-[6px]">
-                                            {{ t.role }}
-                                        </p>                    
-                                        <p class="text-gray-300 text-base">
-                                            {{ t.quote }}
-                                        </p>
-                                        <span>
-                                            <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
-                                        </span>
-                                    </div>
+                            <div class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-4 md:p-3 lg:p-5">
+                                <div class="text-center px-5 py-5 sm:p-7 md:p-4 lg:p-7 w-full max-w-[290px] md:w-[250px] lg:w-[280px] mx-auto text-balance flex flex-col justify-center items-center">
+                                    <h4 class="text-xl md:text-lg lg:text-xl text-(--secondary-color) mb-1">
+                                        {{ t.name }}
+                                    </h4>
+                                    <p class="text-(--accent-color) mb-[6px] md:text-sm lg:text-base">
+                                        {{ t.role }}
+                                    </p>                    
+                                    <p class="text-gray-300 text-base md:text-sm lg:text-base">
+                                        {{ t.quote }}
+                                    </p>
+                                    <span>
+                                        <a href="#" class="mt-4 text-(--secondary-color) md:text-sm lg:text-base">{{ t.link }}</a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Navigation Dots (Mobile only) -->
-                    <div class="flex justify-center mt-6 gap-2">
-                        <button 
-                            *ngFor="let t of ( 'testimonials.entries' | translate ); let i = index"
-                            (click)="goToTestimonial(i)"
-                            class="w-3 h-3 rounded-full transition-all duration-200"
-                            [class]="currentIndex() === i ? 'bg-(--secondary-color)' : 'bg-gray-400'"
-                            [attr.aria-label]="'Testimonial ' + (i + 1)"
-                        ></button>
-                    </div>
                 </div>
                 
-                <!-- Desktop Layout -->
-                <div class="hidden md:flex gap-4 lg:gap-8 px-2 lg:px-5 justify-center items-center text-center overflow-x-auto">
-                    <div *ngFor="let t of ( 'testimonials.entries' | translate )" class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-3 lg:p-5 flex-shrink-0">
-                        <div class="text-center p-4 lg:p-7 w-[250px] lg:w-[290px] text-balance flex flex-col justify-center">
-                            <h4 class="text-lg lg:text-xl text-(--secondary-color) mb-1">
-                                {{ t.name }}
-                            </h4>
-                            <p class="text-(--accent-color) mb-[6px] text-sm lg:text-base">
-                                {{ t.role }}
-                            </p>                    
-                            <p class="text-gray-300 text-sm lg:text-base">
-                                {{ t.quote }}
-                            </p>
-                            <span>
-                                <a href="#" class="mt-4 text-(--secondary-color) text-sm lg:text-base">{{ t.link }}</a>
-                            </span>
-                        </div>
-                    </div>
+                <!-- Navigation Dots (nur Mobile sichtbar) -->
+                <div class="flex justify-center mt-6 gap-2 md:hidden">
+                    <button 
+                        *ngFor="let t of ( 'testimonials.entries' | translate ); let i = index"
+                        (click)="goToTestimonial(i)"
+                        class="w-3 h-3 rounded-full transition-all duration-200"
+                        [class]="currentIndex() === i ? 'bg-(--secondary-color)' : 'bg-gray-400'"
+                        [attr.aria-label]="'Testimonial ' + (i + 1)"
+                    ></button>
                 </div>
             </div>
         </div>
