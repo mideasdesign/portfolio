@@ -5,7 +5,7 @@
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
-      "pokemon-dex": "3. Pokemon-dex"
+      "pokemon-dex": "3. Pokedex"
     },
     "join": {
       "about": {
@@ -18,7 +18,7 @@
       },
       "team": {
         "title": "Meine Erfahrung in der Teamarbeit",
-        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
       },
       "technologies": {
         "title": "Technologien"

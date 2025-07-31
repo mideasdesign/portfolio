@@ -9,23 +9,70 @@
                     {{ 'testimonials.subtitle' | translate }}
                 </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-col-2 lg:grid-cols-3 gap-8 text-center">
-                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class=" text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
-                    <div class="text-center p-6 sm:p-10 md:p-4 md:mt-20 lg:mt-8 text-balance  flex flex-col justify-center">
+            
+            <!-- Mobile Swipe Carousel -->
+            <div class="md:hidden relative">
+                <div class="overflow-hidden">
+                    <div 
+                        class="flex transition-transform duration-300 ease-in-out"
+                        [style.transform]="'translateX(-' + (currentIndex() * 100) + '%)'"
+                        (touchstart)="onTouchStart($event)"
+                        (touchmove)="onTouchMove($event)"
+                        (touchend)="onTouchEnd()"
+                    >
+                        <div 
+                            *ngFor="let t of ( 'testimonials.entries' | translate ); trackBy: trackByFn; let i = index" 
+                            class="w-full flex-shrink-0 px-4"
+                        >
+                            <div class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
+                                <div class="text-center p-7 w-full max-w-[290px] mx-auto text-balance flex flex-col justify-center">
+                                    <h4 class="text-xl text-(--secondary-color) mb-1">
+                                        {{ t.name }}
+                                    </h4>
+                                    <p class="text-(--accent-color) mb-[6px]">
+                                        {{ t.role }}
+                                    </p>                    
+                                    <p class="text-gray-300 text-base">
+                                        {{ t.quote }}
+                                    </p>
+                                    <span>
+                                        <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Dots -->
+                <div class="flex justify-center mt-6 gap-2">
+                    <button 
+                        *ngFor="let t of ( 'testimonials.entries' | translate ); let i = index"
+                        (click)="goToTestimonial(i)"
+                        class="w-3 h-3 rounded-full transition-all duration-200"
+                        [class]="currentIndex() === i ? 'bg-(--secondary-color)' : 'bg-gray-400'"
+                        [attr.aria-label]="'Testimonial ' + (i + 1)"
+                    ></button>
+                </div>
+            </div>
+            
+            <!-- Desktop Layout -->
+            <div class="hidden md:flex gap-8 px-5 justify-center items-center text-center">
+                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
+                    <div class="text-center p-7 w-[290px] text-balance flex flex-col justify-center">
                         <h4 class="text-xl text-(--secondary-color) mb-1">
                             {{ t.name }}
                         </h4>
                         <p class="text-(--accent-color) mb-[6px]">
                             {{ t.role }}
                         </p>                    
-                        <p class="text-gray-300  text-base">
+                        <p class="text-gray-300 text-base">
                         {{ t.quote }}
                         </p>
                         <span>
-                            <a href="#" class="mt-4 text-(--secondary-color)">Profil linkedIn</a>
+                            <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
                         </span>
                     </div>
-
                 </div>
             </div>
         </div>
