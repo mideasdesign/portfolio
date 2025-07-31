@@ -140,7 +140,7 @@ input,
 .form-group{
   display: flex;
   flex-direction: column;
-  height: 7rem;
+  height: 6.7rem;
 }
 .textarea-form-group{
   min-height: 6.85rem;

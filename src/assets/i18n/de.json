@@ -78,20 +78,20 @@
     "entries": [
       {
         "name": "Mirkan Polet",
-        "role": "Junior Frontend Entwickler",
+        "role": "Frontend Entwickler",
         "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Ich habe enorm viel von Ihn gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
         "link": "LinkedIn Profil"
       },
       {
         "name": "Simon Fuchs",
-        "role": "Junior Frontend Entwickler",
+        "role": "Frontend Entwickler",
         "quote": "Markus’ fundierte HTML- und CSS-Kenntnisse sowie seine Offenheit für neue Ansätze haben unser Projekt maßgeblich bereichert.",
         "link": "LinkedIn Profil"
       },
       {
         "name": "Marco Giering",
-        "role": "Junior Frontend Entwickler",
-        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Ich habe enorm viel von Ihn gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
+        "role": "Frontend Entwickler",
+        "quote": "Die Zusammenarbeit mit Markus war bereichernd und hat Spaß gemacht. Seine HTML/CSS-Skills und Offenheit für neue Ideen haben das Projekt deutlich vorangebracht.",
         "link": "LinkedIn Profil"
       }
     ]
@@ -106,27 +106,27 @@
       "name": {
         "label": "Name",
         "placeholder": "Dein Name",
-        "error": "Bitte gib deinen Namen ein"
+        "error": "Gib deinen Namen ein"
       },
       "email": {
         "label": "E-Mail",
         "placeholder": "deine.email@beispiel.de",
-        "error": "Bitte gib eine gültige E-Mail-Adresse ein"
+        "error": "Gib eine gültige E-Mail-Adresse ein"
       },
       "subject": {
         "label": "Betreff",
         "placeholder": "Worum geht es?",
-        "error": "Bitte gib einen Betreff ein"
+        "error": "Gib einen Betreff ein"
       },
       "message": {
         "label": "Nachricht",
         "placeholder": "Deine Nachricht...",
-        "error": "Bitte gib eine Nachricht ein"
+        "error": "Gib eine Nachricht ein"
       },
       "privacy": {
         "text": "Ich habe die",
         "link": "Datenschutzerklärung",
-        "error": "Bitte akzeptiere die Datenschutzerklärung",
+        "error": "Akzeptiere die Datenschutzerklärung",
         "read": "gelesen und akzeptiere sie."
       },
       "submit": "Nachricht senden"

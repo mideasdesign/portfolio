@@ -16,20 +16,20 @@
     "entries": [
       {
         "name": "Mirkan Polet",
-        "role": "Junior Frontend Developer",
+        "role": "Frontend Developer",
         "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!",
         "link": "LinkedIn Profile"
       },
       {
         "name": "Simon Fuchs",
-        "role": "Junior Frontend Developer",
+        "role": "Frontend Developer",
         "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. ",
         "link": "LinkedIn Profile"
       },
       {
-        "name": "Sarah Williams",
-        "role": "Product Manager at DesignHub",
-        "quote": "Working with Markus was a game-changer for our team. His ability to understand complex requirements and translate them into functional, appealing interfaces is remarkable.",
+        "name": "Marco Giering",
+        "role": "Frontend Developer",
+        "quote": "Working with Markus was enriching and fun. His HTML/CSS skills and openness to new ideas have significantly advanced the project.",
         "link": "LinkedIn Profile"
       }
     ]
@@ -112,7 +112,7 @@
       "email": {
         "label": "Email",
         "placeholder": "your.email@example.com",
-        "error": "Please enter a valid email address"
+        "error": "Enter a valid email address"
       },
       "subject": {
         "label": "Subject",
