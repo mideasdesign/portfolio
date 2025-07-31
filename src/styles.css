@@ -174,7 +174,7 @@ input,
   .header-height{
     height: calc(100svh - 80px);
     @media (width < 767px){
-      height: 100svh;
+      height: 100%;
     }
   }
 
