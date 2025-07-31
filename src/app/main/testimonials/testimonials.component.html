@@ -10,68 +10,71 @@
                 </p>
             </div>
             
-            <!-- Mobile Swipe Carousel -->
-            <div class="md:hidden relative">
-                <div class="overflow-hidden">
-                    <div 
-                        class="flex transition-transform duration-300 ease-in-out"
-                        [style.transform]="'translateX(-' + (currentIndex() * 100) + '%)'"
-                        (touchstart)="onTouchStart($event)"
-                        (touchmove)="onTouchMove($event)"
-                        (touchend)="onTouchEnd()"
-                    >
+            <!-- Unified Testimonials Container -->
+            <div class="relative">
+                <!-- Mobile Swipe Carousel -->
+                <div class="md:hidden">
+                    <div class="overflow-hidden">
                         <div 
-                            *ngFor="let t of ( 'testimonials.entries' | translate ); trackBy: trackByFn; let i = index" 
-                            class="w-full flex-shrink-0 px-4"
+                            class="flex transition-transform duration-300 ease-in-out"
+                            [style.transform]="'translateX(-' + (currentIndex() * 100) + '%)'"
+                            (touchstart)="onTouchStart($event)"
+                            (touchmove)="onTouchMove($event)"
+                            (touchend)="onTouchEnd()"
                         >
-                            <div class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
-                                <div class="text-center p-7 w-full max-w-[290px] mx-auto text-balance flex flex-col justify-center">
-                                    <h4 class="text-xl text-(--secondary-color) mb-1">
-                                        {{ t.name }}
-                                    </h4>
-                                    <p class="text-(--accent-color) mb-[6px]">
-                                        {{ t.role }}
-                                    </p>                    
-                                    <p class="text-gray-300 text-base">
-                                        {{ t.quote }}
-                                    </p>
-                                    <span>
-                                        <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
-                                    </span>
+                            <div 
+                                *ngFor="let t of ( 'testimonials.entries' | translate ); trackBy: trackByFn; let i = index" 
+                                class="w-full flex-shrink-0 px-4"
+                            >
+                                <div class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
+                                    <div class="text-center p-7 w-full max-w-[290px] mx-auto text-balance flex flex-col justify-center">
+                                        <h4 class="text-xl text-(--secondary-color) mb-1">
+                                            {{ t.name }}
+                                        </h4>
+                                        <p class="text-(--accent-color) mb-[6px]">
+                                            {{ t.role }}
+                                        </p>                    
+                                        <p class="text-gray-300 text-base">
+                                            {{ t.quote }}
+                                        </p>
+                                        <span>
+                                            <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Navigation Dots (Mobile only) -->
+                    <div class="flex justify-center mt-6 gap-2">
+                        <button 
+                            *ngFor="let t of ( 'testimonials.entries' | translate ); let i = index"
+                            (click)="goToTestimonial(i)"
+                            class="w-3 h-3 rounded-full transition-all duration-200"
+                            [class]="currentIndex() === i ? 'bg-(--secondary-color)' : 'bg-gray-400'"
+                            [attr.aria-label]="'Testimonial ' + (i + 1)"
+                        ></button>
+                    </div>
                 </div>
                 
-                <!-- Navigation Dots -->
-                <div class="flex justify-center mt-6 gap-2">
-                    <button 
-                        *ngFor="let t of ( 'testimonials.entries' | translate ); let i = index"
-                        (click)="goToTestimonial(i)"
-                        class="w-3 h-3 rounded-full transition-all duration-200"
-                        [class]="currentIndex() === i ? 'bg-(--secondary-color)' : 'bg-gray-400'"
-                        [attr.aria-label]="'Testimonial ' + (i + 1)"
-                    ></button>
-                </div>
-            </div>
-            
-            <!-- Desktop Layout -->
-            <div class="hidden md:flex gap-8 px-5 justify-center items-center text-center">
-                <div *ngFor="let t of ( 'testimonials.entries' | translate )" class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-5">
-                    <div class="text-center p-7 w-[290px] text-balance flex flex-col justify-center">
-                        <h4 class="text-xl text-(--secondary-color) mb-1">
-                            {{ t.name }}
-                        </h4>
-                        <p class="text-(--accent-color) mb-[6px]">
-                            {{ t.role }}
-                        </p>                    
-                        <p class="text-gray-300 text-base">
-                        {{ t.quote }}
-                        </p>
-                        <span>
-                            <a href="#" class="mt-4 text-(--secondary-color)">{{ t.link }}</a>
-                        </span>
+                <!-- Desktop Layout -->
+                <div class="hidden md:flex gap-4 lg:gap-8 px-2 lg:px-5 justify-center items-center text-center overflow-x-auto">
+                    <div *ngFor="let t of ( 'testimonials.entries' | translate )" class="text-center animate-pokemon-dex flex flex-col justify-center items-center p-3 lg:p-5 flex-shrink-0">
+                        <div class="text-center p-4 lg:p-7 w-[250px] lg:w-[290px] text-balance flex flex-col justify-center">
+                            <h4 class="text-lg lg:text-xl text-(--secondary-color) mb-1">
+                                {{ t.name }}
+                            </h4>
+                            <p class="text-(--accent-color) mb-[6px] text-sm lg:text-base">
+                                {{ t.role }}
+                            </p>                    
+                            <p class="text-gray-300 text-sm lg:text-base">
+                                {{ t.quote }}
+                            </p>
+                            <span>
+                                <a href="#" class="mt-4 text-(--secondary-color) text-sm lg:text-base">{{ t.link }}</a>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>

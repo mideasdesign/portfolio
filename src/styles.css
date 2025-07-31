@@ -173,6 +173,9 @@ input,
   }
   .header-height{
     height: calc(100svh - 80px);
+    @media (width < 767px){
+      height: 100svh;
+    }
   }
 
 .flex-bottom{
@@ -219,7 +222,6 @@ input,
   }
 .animate-me {
     position: relative;
-    
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
  @media (width < 767px){
     background: none;
@@ -291,6 +293,9 @@ padding: 0 2rem;
 width: 1440px;
 z-index:9999;
 justify-content: end;
+@media (width < 1100px){
+  width: 100%;
+}
 }
 .success{
 position: fixed;
