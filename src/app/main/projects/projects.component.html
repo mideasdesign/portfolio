@@ -5,13 +5,13 @@
             <div>
                 <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'projects.title' | translate }}</h3>
             </div>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('join')" (click)="setActiveTab('join')">
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15 hover:cursor-pointer" [class.tab-active]="isActive('join')" (click)="setActiveTab('join')">
                 {{ 'projects.buttons.join' | translate }}
             </button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[4px] sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-15"[class.tab-active]="isActive('elpollo')" (click)="setActiveTab('elpollo')">
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[4px] sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-15 hover:cursor-pointer"[class.tab-active]="isActive('elpollo')" (click)="setActiveTab('elpollo')">
                 2. ElPollo Loco
             </button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15" [class.tab-active]="isActive('pokemon-dex')" (click)="setActiveTab('pokemon-dex')">
+            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15 hover:cursor-pointer" [class.tab-active]="isActive('pokemon-dex')" (click)="setActiveTab('pokemon-dex')">
                 3. Pokedex
             </button>
         </div>
@@ -39,7 +39,7 @@
                             {{ 'projects.join.team.text' | translate }}
                         </p>
                     </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1 z-[9000]">
                         <div class="flex flex-col justify-center ">
                             <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
                             <div class="flex flex-wrap justify-center  gap-4 py-4">

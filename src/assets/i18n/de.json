@@ -106,7 +106,7 @@
       "name": {
         "label": "Name",
         "placeholder": "Dein Name",
-        "error": "Gib deinen Namen ein"
+        "error": "Gib deinen Vor- und Nachnamen ein"
       },
       "email": {
         "label": "E-Mail",
