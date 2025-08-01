@@ -17,7 +17,7 @@ export class ContactComponent {
 
   constructor(private translate: TranslateService){}
   
-  // Signal für das Overlay
+  // Signal for the overlay
   showSuccessOverlay = signal(false);
   switchLang(language: string){
    this.translate.use(language);
@@ -45,29 +45,39 @@ http = inject(HttpClient);
   };
 
   onSubmit(ngForm: NgForm) {
-    if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
-      this.http.post(this.post.endPoint, this.post.body(this.contactData))
-        .subscribe({
-          next: (response) => {
-            ngForm.resetForm();
-            this.showSuccessOverlay.set(true);
-            // Overlay nach 3 Sekunden automatisch schließen
-            setTimeout(() => this.showSuccessOverlay.set(false), 3000);
-          },
-          error: (error) => {
-            console.error(error);
-          },
-          complete: () => console.info('send post complete'),
-        });
-    } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-      ngForm.resetForm();
-      this.showSuccessOverlay.set(true);
-      // Overlay nach 3 Sekunden automatisch schließen (für Test-Modus)
-      setTimeout(() => this.showSuccessOverlay.set(false), 3000);
+    if (ngForm.submitted && ngForm.form.valid) {
+      if (!this.mailTest) {
+        this.sendEmail(ngForm);
+      } else {
+        this.handleTestMode(ngForm);
+      }
     }
   }
 
-  // Methode zum manuellen Schließen des Overlays
+  private sendEmail(ngForm: NgForm) {
+    this.http.post(this.post.endPoint, this.post.body(this.contactData))
+      .subscribe({
+        next: (response) => this.handleSubmitSuccess(ngForm),
+        error: (error) => console.error(error),
+        complete: () => console.info('send post complete'),
+      });
+  }
+
+  private handleTestMode(ngForm: NgForm) {
+    ngForm.resetForm();
+    this.showSuccessOverlay.set(true);
+    // Close overlay automatically after 3 seconds (for test mode)
+    setTimeout(() => this.showSuccessOverlay.set(false), 3000);
+  }
+
+  private handleSubmitSuccess(ngForm: NgForm) {
+    ngForm.resetForm();
+    this.showSuccessOverlay.set(true);
+    // Close overlay automatically after 3 seconds
+    setTimeout(() => this.showSuccessOverlay.set(false), 3000);
+  }
+
+  // Method to manually close the overlay
   closeOverlay() {
     this.showSuccessOverlay.set(false);
   }

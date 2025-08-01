@@ -5,6 +5,7 @@ import { Component, OnInit, HostListener, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { LanguageService } from './shared/services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -17,13 +18,15 @@ export class AppComponent implements OnInit {
   title = 'portfolio';
 
   
-  constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang('en');
+  constructor(
+    private translate: TranslateService,
+    private languageService: LanguageService
+  ) {
+    // The LanguageService initializes the language automatically
   }
 
   ngOnInit() {
-    const browserLang = this.translate.getBrowserLang() || 'en';
-    const savedLang = localStorage.getItem('userLanguage') || browserLang;
-    this.translate.use(savedLang.match(/en|de/) ? savedLang : 'en');
+    // Language initialization is now handled by the LanguageService
+    // No further initialization needed
   }
 }

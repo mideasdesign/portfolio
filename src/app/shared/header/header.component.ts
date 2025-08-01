@@ -14,10 +14,10 @@ export class HeaderComponent {
   @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
   @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
 
-  // Signal für die Bildschirmgröße
+  // Signal for screen size
   isMobile = signal(false);
   
-  // Computed Signal für das passende Bild
+  // Computed signal for the appropriate image
   personImage = computed(() => 
     this.isMobile() 
       ? './assets/images/person-mobile.webp' 
@@ -26,7 +26,7 @@ export class HeaderComponent {
 
   constructor(
     private translate: TranslateService) {
-    // Initiale Prüfung der Bildschirmgröße
+    // Initial screen size check
     this.checkScreenSize();
   }
 
@@ -36,7 +36,7 @@ export class HeaderComponent {
   }
 
   private checkScreenSize() {
-    // Tailwind's md breakpoint ist 768px
+    // Tailwind's md breakpoint is 768px
     this.isMobile.set(window.innerWidth < 768);
   }
 }

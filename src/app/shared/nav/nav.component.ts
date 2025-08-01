@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild, signal, computed, inject, HostListene
 import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-nav',
@@ -14,10 +15,10 @@ export class NavComponent {
     @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
     @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
 
-  // Signal für die Bildschirmgröße
+  // Signal for screen size
   isMobile = signal(false);
   
-  // Computed Signal für das passende Bild
+  // Computed signal for the appropriate image
   personImage = computed(() => 
     this.isMobile() 
       ? './assets/images/markus-fischer-mobile.webp' 
@@ -25,8 +26,10 @@ export class NavComponent {
   );
 
   constructor(
-    private translate: TranslateService) {
-    // Initiale Prüfung der Bildschirmgröße
+    private translate: TranslateService,
+    public languageService: LanguageService
+  ) {
+    // Initial screen size check
     this.checkScreenSize();
   }
 
@@ -36,12 +39,12 @@ export class NavComponent {
   }
 
   private checkScreenSize() {
-    // Tailwind's md breakpoint ist 768px
+    // Tailwind's md breakpoint is 768px
     this.isMobile.set(window.innerWidth < 768);
   }
 
   switchLang(language: string){
-   this.translate.use(language);
+   this.languageService.switchLanguage(language);
   }
   burgermenu(): void {
     const menu = this.menuRef.nativeElement;
@@ -50,6 +53,10 @@ export class NavComponent {
     menu.classList.toggle('active');
     burger?.classList.toggle('active');
 
+    this.handleMenuVisibility(menu);
+  }
+
+  private handleMenuVisibility(menu: HTMLElement): void {
     if (menu.classList.contains('active')) {
       menu.classList.remove('hidden');
     } else {

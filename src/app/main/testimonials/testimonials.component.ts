@@ -19,7 +19,7 @@ export class TestimonialsComponent {
     this.translate.use(lang);
   }
 
-  // Testimonials aus der Translation holen
+  // Get testimonials from translation
   getTestimonials() {
     const translations = this.translate.instant('testimonials.entries');
     return Array.isArray(translations) ? translations : [];
@@ -44,19 +44,23 @@ export class TestimonialsComponent {
     if (!this.isDragging) return;
     
     const diffX = this.startX - this.currentX;
-    const threshold = 50; // Mindest-Swipe-Distanz in Pixeln
+    const threshold = 50; // Minimum swipe distance in pixels
     
     if (Math.abs(diffX) > threshold) {
-      if (diffX > 0) {
-        // Swipe nach links - nächstes Testimonial
-        this.nextTestimonial();
-      } else {
-        // Swipe nach rechts - vorheriges Testimonial
-        this.previousTestimonial();
-      }
+      this.handleSwipe(diffX);
     }
     
     this.isDragging = false;
+  }
+
+  private handleSwipe(diffX: number) {
+    if (diffX > 0) {
+      // Swipe left - next testimonial
+      this.nextTestimonial();
+    } else {
+      // Swipe right - previous testimonial
+      this.previousTestimonial();
+    }
   }
 
   nextTestimonial() {

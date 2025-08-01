@@ -197,15 +197,15 @@
   },
   "nav": {
     "home": "Home",
-    "why_me": "About me",
+    "about-me": "About me",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
     "link_home": "/",
-    "link_why_me": "why-me",
+    "link_why_me": "about-me",
     "link_skills": "skills",
     "link_projects": "projects",
-    "link_contact": "#contact"
+    "link_contact": "contact"
   },
   "hero": {
     "name": "Markus Fischer",

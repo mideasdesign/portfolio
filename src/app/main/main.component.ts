@@ -22,9 +22,9 @@ export class MainComponent {
   @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
   @ViewChild('burger', {static:false}) burgerRef!: ElementRef<HTMLElement>;
 
-  // Signal für Mobile Menu
+  // Signal for Mobile Menu
   showMobileMenu = signal(false);
-  // Signal für die Sichtbarkeit des Arrow-Up Buttons
+  // Signal for Arrow-Up button visibility
   showScrollButton = signal(false);
 
   constructor(private translate: TranslateService) {}
@@ -42,7 +42,7 @@ export class MainComponent {
   }
     @HostListener('window:scroll', ['$event'])
     onWindowScroll() {
-      // Button anzeigen wenn mehr als 500px gescrollt wurde
+      // Show button when scrolled more than 500px
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
       this.showScrollButton.set(scrollTop > 500);
     }

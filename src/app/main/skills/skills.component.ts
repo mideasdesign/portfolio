@@ -15,5 +15,7 @@ export class SkillsComponent {
 
   switchLang(language: string){
    this.translate.use(language);
+   // Save language to LocalStorage
+   localStorage.setItem('userLanguage', language);
   }
 }
