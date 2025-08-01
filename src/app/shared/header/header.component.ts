@@ -20,7 +20,7 @@ export class HeaderComponent {
   // Computed Signal für das passende Bild
   personImage = computed(() => 
     this.isMobile() 
-      ? './assets/images/markus-fischer-mobile.webp' 
+      ? './assets/images/person-mobile.webp' 
       : './assets/images/person.webp'
   );
 
