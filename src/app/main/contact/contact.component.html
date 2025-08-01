@@ -68,7 +68,7 @@
                                     }
                             </div>
                             <div class="grid-cols-[1/-1] flex text-base justify-center-center mt-2 h-[105px]">
-                                    <input type="checkbox" id="privacy" name="privacy-police" #privacy="ngModel" [(ngModel)]="contactData.policy" required class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/list-icon.svg)]" >
+                                    <input type="checkbox" id="privacy" name="privacy-police" #privacy="ngModel" [(ngModel)]="contactData.policy" required class="mr-2 w-5 h-5 text-blue-600 appearance-none bg-[url(./assets/images/icons/misc/check-box-default.svg)] bg-center bg-contain bg-no-repeat checked:bg-[url(./assets/images/icons/misc/check-box-checked.svg)]" >
                                     <label for="privacy">{{ 'contact.form.privacy.text' | translate }}
                                         <a [routerLink]="['privacy']" routerLinkActive="router-link-active" class="text-(--secondary-color) hover:text-(--accent-color)">
                                         {{ 'contact.form.privacy.link' | translate }} {{ 'contact.form.privacy.read' | translate }}

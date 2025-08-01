@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,0,-1)">
+        <defs>
+            <mask id="Mask">
+            
+                <g transform="matrix(1,-0,-0,1,-0,1)"><image id="_Image1" width="24px" height="20px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAAAAACy3qJfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAFElEQVQYlWPsYsAOmHCIj0oMeQkANhEAstbo+iAAAAAASUVORK5CYII="/>
+                </g>
+            </mask>
+        </defs>
+        <g mask="url(#Mask)">
+            <path d="M9.161,19.108C6.812,18.295 4.65,16.2 3.292,13.619C1.933,11.035 1.477,8.153 2.276,5.844C2.913,4.003 5.039,2.814 7.983,2.431C10.687,2.08 13.728,2.472 15.976,3.392L16.414,3.583C18.679,4.631 20.065,6.161 20.71,7.969C21.362,9.794 21.301,12.024 20.437,14.519C19.616,16.891 18.017,18.43 16.047,19.193C14.057,19.962 11.625,19.961 9.161,19.108Z" style="fill:none;fill-rule:nonzero;stroke:rgb(137,188,217);stroke-width:2px;"/>
+        </g>
+    </g>
+</svg>
