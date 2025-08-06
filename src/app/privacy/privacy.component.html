@@ -1,44 +1,95 @@
-<app-nav></app-nav>
-<main class="max-w-4xl mx-auto px-4 py-12 privacy-container">
-  <h1 class="text-3xl font-bold mb-8">{{ 'privacy-page.title' | translate }}</h1>
+<div class="privacy-containter">
+    <app-nav></app-nav>
+    <main class="mx-auto px-4 py-12 privacy-content">
+        <section class="my-16" id="impressum-en">
+            <div class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center">
+                <h1 class="text-3xl font-bold mb-8">{{ 'privacy-page.title' | translate }}</h1>
+                <h2 class="text-2xl text-{--secondary-color) mb-4">{{ 'privacy-page.responsible.title' | translate }}
+                </h2>
+                <p>
+                    <strong>{{ 'privacy-page.responsible.name' | translate }}:</strong> Markus Fischer<br>
+                    <strong>{{ 'privacy-page.responsible.address' | translate }}:</strong> {{
+                    'privacy-page.responsible.address_value' | translate }}<br>
+                    <strong>{{ 'privacy-page.responsible.email' | translate }}:</strong>
+                    hello[at]markusfischer-developer.de<br>
+                    <strong>{{ 'privacy-page.responsible.website' | translate }}:</strong> markusfischer-developer.de
+                </p>
 
-  <section>
-    <h2 class="text-2xl text-{--secondary-color) mb-4">{{ 'privacy-page.responsible.title' | translate }}</h2>
-    <p>
-      <strong>{{ 'privacy-page.responsible.name' | translate }}:</strong> Markus Fischer<br>
-      <strong>{{ 'privacy-page.responsible.address' | translate }}:</strong> {{ 'privacy-page.responsible.address_value' | translate }}<br>
-      <strong>{{ 'privacy-page.responsible.email' | translate }}:</strong> hello[at]markusfischer-developer.de<br>
-      <strong>{{ 'privacy-page.responsible.website' | translate }}:</strong> markusfischer-developer.de
-    </p>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.general.title' | translate }}
+                </h2>
+                <p>{{ 'privacy-page.general.text' | translate }}</p>
 
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.general.title' | translate }}</h2>
-    <p>{{ 'privacy-page.general.text' | translate }}</p>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.collection.title' | translate
+                    }}</h2>
+                <p>{{ 'privacy-page.collection.text1' | translate }}</p>
+                <p>{{ 'privacy-page.collection.text2' | translate }}</p>
 
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.collection.title' | translate }}</h2>
-    <p>{{ 'privacy-page.collection.text1' | translate }}</p>
-    <p>{{ 'privacy-page.collection.text2' | translate }}</p>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.contact_form.title' | translate
+                    }}</h2>
+                <p>{{ 'privacy-page.contact_form.text' | translate }}</p>
+                <p><strong>{{ 'privacy-page.contact_form.legal_basis' | translate }}</strong></p>
 
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.contact_form.title' | translate }}</h2>
-    <p>{{ 'privacy-page.contact_form.text' | translate }}</p>
-    <p><strong>{{ 'privacy-page.contact_form.legal_basis' | translate }}</strong></p>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.server_logs.title' | translate
+                    }}</h2>
+                <p>{{ 'privacy-page.server_logs.text' | translate }}</p>
+                <ul class="list-disc pl-6">
+                    <li>{{ 'privacy-page.server_logs.entries.browser' | translate }}</li>
+                    <li>{{ 'privacy-page.server_logs.entries.os' | translate }}</li>
+                    <li>{{ 'privacy-page.server_logs.entries.referrer' | translate }}</li>
+                    <li>{{ 'privacy-page.server_logs.entries.hostname' | translate }}</li>
+                    <li>{{ 'privacy-page.server_logs.entries.time' | translate }}</li>
+                    <li>{{ 'privacy-page.server_logs.entries.ip' | translate }}</li>
+                </ul>
 
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.server_logs.title' | translate }}</h2>
-    <p>{{ 'privacy-page.server_logs.text' | translate }}</p>
-    <ul class="list-disc pl-6">
-      <li>{{ 'privacy-page.server_logs.entries.browser' | translate }}</li>
-      <li>{{ 'privacy-page.server_logs.entries.os' | translate }}</li>
-      <li>{{ 'privacy-page.server_logs.entries.referrer' | translate }}</li>
-      <li>{{ 'privacy-page.server_logs.entries.hostname' | translate }}</li>
-      <li>{{ 'privacy-page.server_logs.entries.time' | translate }}</li>
-      <li>{{ 'privacy-page.server_logs.entries.ip' | translate }}</li>
-    </ul>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.rights.title' | translate }}
+                </h2>
+                <p>{{ 'privacy-page.rights.text1' | translate }}</p>
+                <p>{{ 'privacy-page.rights.text2' | translate }}</p>
 
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.rights.title' | translate }}</h2>
-    <p>{{ 'privacy-page.rights.text1' | translate }}</p>
-    <p>{{ 'privacy-page.rights.text2' | translate }}</p>
-
-    <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.encryption.title' | translate }}</h2>
-    <p>{{ 'privacy-page.encryption.text' | translate }}</p>
-  </section>
-</main>
-<app-footer></app-footer>
+                <h2 class="text-2xl text-{--secondary-color) mt-8 mb-4">{{ 'privacy-page.encryption.title' | translate
+                    }}</h2>
+                <p>{{ 'privacy-page.encryption.text' | translate }}</p>
+            </div>
+        </section>
+    </main>
+    <!-- #region Footer Section-->
+    <footer class="bg-(--secondary-color) order-4 footer-container w-full">
+        <div class="flex flex-col md:flex-row flex-wrap justify-evenly item-center mx-auto sm:gap-20 max-w-7xl p-4">
+            <div class="flex justify-center items-center gap-3">
+                <a href="#">
+                    <img src="./assets/images/logo.svg" class="h-14" alt="Logo Markus Fischer" />
+                    <span class="text-base font-light text-gray-700">markus fischer</span>
+                </a>
+            </div>
+            <div class="text-(--primary-color) flex justify-center mt-5 items-center">
+                <ul class="flex flex-wrap gap-3 text-(--primary-color)">
+                    <li>
+                        <a routerLink="/imprint" class=" hover:animate-pulse hover:cursor-pointer">
+                            {{ 'footer.imprint' | translate }}
+                        </a>
+                    </li>
+                    <li>
+                        <a routerLink="/privacy" class=" hover:animate-pulse hover:cursor-pointer">
+                            {{ 'footer.privacy' | translate }}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:h-6  mt-9 flex flex-wrap items-center justify-center gap-4">
+                <a href="https://github.com/mideasdesign" target="_blank">
+                    <img src="./assets/images/icons/icon-github/github-light-blue-hover.svg"
+                        class="h-7 hover:animate-pulse" alt="">
+                </a>
+                <a href="mailto:hello@markusfischer-developer.de" target="_blank">
+                    <img src="./assets/images/icons/icon-mail/mail-light-blue-hover.svg" class="h-7 hover:animate-pulse"
+                        alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/markus-fischer-mideasdesign/" target="_blank">
+                    <img src="./assets/images/icons/icons-linkedin/linkedin-light-blue-hover.svg"
+                        class="h-7 hover:animate-pulse" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- #endregion -->
+</div>

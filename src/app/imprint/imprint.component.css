@@ -1,6 +1,15 @@
 .imprint-containter{
-    height: calc(100svh - 260px);
+    height:100svh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+.imprint-content{
+    min-height: calc(100svh - 228px);
+}
+ .footer-container{
+    display:flex;
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100svw;
 }

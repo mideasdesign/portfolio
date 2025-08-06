@@ -1,6 +1,15 @@
 .privacy-containter{
-    height: calc(100svh - 260px);
+    min-height:100svh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.privacy-content{
+    min-height: calc(100svh - 228px);
+}
+ .footer-container{
+    display:flex;
+    position: absolute;
+    bottom:0;
+    left:0;
 }
