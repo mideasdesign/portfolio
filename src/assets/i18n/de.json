@@ -10,15 +10,16 @@
     "join": {
       "about": {
         "title": "Über das Projekt",
-        "text": "Diese App ist ein Slack-Klon, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
+        "text": "Eine moderne Aufgabenverwaltungsanwendung im Kanban-Stil, entwickelt mit Angular und Firebase. Join unterstützt Teams dabei, Aufgaben in Echtzeit zu organisieren, zuzuweisen und nachzuverfolgen – mit Drag-&-Drop-Funktionalität und responsivem Design."
+},
       },
       "process": {
         "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
+        "text": "Ich habe das Projekt in wiederverwendbare Angular-Komponenten und -Services strukturiert. Klare Datei- und Ordnerbenennungen, TypeScript-Interfaces und SCSS-Module stellten Skalierbarkeit und Wartbarkeit sicher. Für Backend-Dienste wie Authentifizierung und Echtzeit-Datenverarbeitung kam Firebase zum Einsatz."
       },
       "team": {
-        "title": "Meine Erfahrung in der Teamarbeit",
-        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
+        "title": "Meine Erfahrung",
+        "text": "Ich konnte mein Wissen in Angular 19 und TypeScript 5 vertiefen, insbesondere in den Bereichen Reactive Forms, Routing und Animationen. Die Arbeit mit Firebase vermittelte mir Kenntnisse über Authentifizierung, die Struktur von Firestore-Datenbanken sowie das Deployment moderner Webanwendungen mit Echtzeitfunktionen."
       },
       "technologies": {
         "title": "Technologien"
@@ -91,7 +92,7 @@
       {
         "name": "Marco Giering",
         "role": "Frontend Entwickler",
-        "quote": "Die Zusammenarbeit mit Markus war bereichernd und hat Spaß gemacht. Seine HTML/CSS-Skills und Offenheit für neue Ideen haben das Projekt deutlich vorangebracht.",
+        "quote": "Markus ueberzeugte in der Vergangenheit durch fundiertes Fachwissen und hohe Einsatzbereitschaft. Seine Expertise war in vielen Projekten ein wichtiger Erfolgsfaktor.",
         "link": "LinkedIn Profil"
       }
     ]

@@ -29,7 +29,7 @@
       {
         "name": "Marco Giering",
         "role": "Frontend Developer",
-        "quote": "Working with Markus was enriching and fun. His HTML/CSS skills and openness to new ideas have significantly advanced the project.",
+        "quote": "In the past, Markus has impressed with his sound specialist knowledge and high level of commitment. His expertise was an important success factor in many projects.",
         "link": "LinkedIn Profile"
       }
     ]
@@ -44,15 +44,15 @@
     "join": {
       "about": {
         "title": "About the project",
-        "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+        "text": "A modern Kanban-style task management application built with Angular and Firebase. Join helps teams organize, assign, and track tasks in real-time using drag & drop functionality and responsive design."
       },
       "process": {
         "title": "How I have organised my work process",
-        "text": "How do you keep your code clean and maintainable? Have you broken the project down into reusable modules or components? Focus on documentation, naming files, variables, classes and testing."
+        "text": "I structured the project into reusable Angular components and services. Clear file and folder naming conventions, TypeScript interfaces, and SCSS modules ensured scalability and maintainability. Firebase was used for backend services like authentication and real-time data handling. "
       },
       "team": {
-        "title": "My group work experience",
-        "text": "How many people were in the team and what was your role? Describe your tasks in 1-2 sentences, for example: login form, dashboard or chat functionality. What technologies did you use? It is nice to mention good teamwork and cooperation."
+        "title": "My experience",
+        "text": "I deepened my understanding of Angular 20 and TypeScript 5, especially reactive forms, routing, and animations. Working with Firebase taught me about authentication, Firestore database structure, and deploying modern web apps with real-time features."
       },
       "technologies": {
         "title": "Technologies"
