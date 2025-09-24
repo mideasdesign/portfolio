@@ -2,6 +2,7 @@
     
   "projects": {
     "title": "Meine Projekte",
+    "more": "weitere Projekte",
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",

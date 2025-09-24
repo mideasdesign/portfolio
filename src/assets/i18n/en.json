@@ -36,6 +36,7 @@
   },
   "projects": {
     "title": "My Projects",
+    "more": "more Projects",
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
