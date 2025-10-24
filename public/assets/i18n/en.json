@@ -1,0 +1,286 @@
+{
+  "main": {
+    "title": "Why Work With Me?",
+    "iam": "I'm",
+    "hello": "a creative frontend developer from Wiesbaden.",
+    "desc-why": "I am an experienced web designer and developer with an eye for detail and a strong sense of user experience. My goal is to develop modern, performant and aesthetically pleasing web solutions that not only look good, but also work."
+  },
+  "skills": {
+    "title": "My Skills",
+    "workingOn": "I'm working on",
+    "workingDesc": "I’m currently improving my skills and learning new tools to create even better web experiences."
+  },
+  "testimonials": {
+    "title": "Looking for a team player?",
+    "subtitle": "Here's what colleagues say about working with me",
+    "entries": [
+      {
+        "name": "Mirkan Polet",
+        "role": "Frontend Developer",
+        "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!",
+        "link": "LinkedIn Profile"
+      },
+      {
+        "name": "Simon Fuchs",
+        "role": "Frontend Developer",
+        "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. ",
+        "link": "LinkedIn Profile"
+      },
+      {
+        "name": "Marco Giering",
+        "role": "Frontend Developer",
+        "quote": "In the past, Markus has impressed with his sound specialist knowledge and high level of commitment. His expertise was an important success factor in many projects.",
+        "link": "LinkedIn Profile"
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "more": "more Projects",
+    "buttons": {
+      "join": "1. Join",
+      "elpollo": "2. ElPollo Loco",
+      "pokemon-dex": "3. Pokedex"
+    },
+    "join": {
+      "about": {
+        "title": "About the project",
+        "text": "A modern Kanban-style task management application built with Angular and Firebase. Join helps teams organize, assign, and track tasks in real-time using drag & drop functionality and responsive design."
+      },
+      "process": {
+        "title": "How I have organised my work process",
+        "text": "I structured the project into reusable Angular components and services. Clear file and folder naming conventions, TypeScript interfaces, and SCSS modules ensured scalability and maintainability. Firebase was used for backend services like authentication and real-time data handling. "
+      },
+      "team": {
+        "title": "My experience",
+        "text": "I deepened my understanding of Angular 20 and TypeScript 5, especially reactive forms, routing, and animations. Working with Firebase taught me about authentication, Firestore database structure, and deploying modern web apps with real-time features."
+      },
+      "technologies": {
+        "title": "Technologies"
+      },
+      "buttons": {
+        "live": "Live Test",
+        "github": "GitHub"
+      }
+    },
+    "elpollo": {
+      "about": {
+        "title": "About the project",
+        "text": "El Pollo Loco is a browser-based platform game with HTML5, CSS3 and modern JavaScript (ES6+), without frameworks. Pepe the hero of the game moves through the level and collects coins and bottles. He has to avoid the crazy chickens and chicks by jumping. The collected bottles are thrown at the boss and hopefully killed."
+      },
+      "process": {
+        "title": "Technical basics",
+        "text": "Display of the game world and all objects (characters, background, enemies) was realized within the Canvas API. Using requestAnimationFrame or setInterval, for example, movements and collisions were realized. The game should also be playable on smaller screens."
+      },
+      "technologies": {
+        "title": "Technologies"
+      },
+      "buttons": {
+        "live": "Live Test",
+        "github": "GitHub"
+      }
+    },
+    "pokemon-dex": {
+      "about": {
+        "title": "About the project",
+        "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+      },
+      "process": {
+        "title": "How I have organised my work process",
+        "text": "How do you keep your code clean and maintainable? Have you broken the project down into reusable modules or components? Focus on documentation, naming files, variables, classes and testing."
+      },
+      "technologies": {
+        "title": "Technologies"
+      },
+      "buttons": {
+        "live": "Live Test",
+        "github": "GitHub"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "info": "I’m always up for new challenges and exciting projects. Whether you’ve got a clear idea or just want to chat – feel free to reach out. I’m open to fresh ideas, creative input, or simply working together on something great.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "form": {
+      "title": "Send Me a Message",
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name",
+        "error": "Please enter your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your.email@example.com",
+        "error": "Enter a valid email address"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "How can I help you?",
+        "error": "Please enter a subject"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Your message here...",
+        "error": "Please enter a message"
+      },
+      "privacy": {
+        "text": "I've read the",
+        "link": "Privacy Policy",
+        "error": "Please accept the Privacy Policy",
+        "read": "and accept it."
+      },
+      "submit": "Send Message"
+    },
+    "success": {
+      "title": "Message sent!",
+      "message": "Thank you for your message. I will get back to you as soon as possible.",
+      "close": "Close"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "1": {
+        "heading": "1. Responsible Party",
+        "content": {
+          "name": "Name: Markus Fischer",
+          "address": "Address: see imprint",
+          "email": "Email: hello[at]markusfischer-developer.de",
+          "website": "Website: markusfischer-developer.de"
+        }
+      },
+      "2": {
+        "heading": "2. General Information",
+        "text": "I take the protection of your personal data very seriously. Your data is handled confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+      },
+      "3": {
+        "heading": "3. Collection and Processing of Personal Data",
+        "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
+        "text2": "This data will not be shared with third parties without your explicit consent."
+      },
+      "4": {
+        "heading": "4. Contact Form",
+        "text1": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
+        "text2": "Legal basis: Art. 6(1)(b) GDPR."
+      },
+      "5": {
+        "heading": "5. Server Log Files",
+        "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
+        "list": [
+          "Browser type and version",
+          "Operating system used",
+          "Referrer URL",
+          "Host name of the accessing computer",
+          "Time of the server request",
+          "IP address"
+        ]
+      },
+      "6": {
+        "heading": "6. Your Rights",
+        "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
+        "text2": "To exercise these rights, please contact me by email (see above)."
+      },
+      "7": {
+        "heading": "7. SSL or TLS Encryption",
+        "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
+      }
+    }
+  },
+  "list": {
+  "0": "Browser type and version",
+  "1": "Operating system used",
+  "2": "Referrer URL",
+  "3": "Host name of the accessing computer",
+  "4": "Time of the server request",
+  "5": "IP address"
+  },
+  "nav": {
+    "home": "Home",
+    "about-me": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "link_home": "/",
+    "link_why_me": "about-me",
+    "link_skills": "skills",
+    "link_projects": "projects",
+    "link_contact": "contact"
+  },
+  "hero": {
+    "name": "Markus Fischer",
+    "title": "Frontend Developer"
+  },
+  "lang": {
+    "de": "DE",
+    "en": "EN"
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "section_5": "Information according to § 5 TMG:",
+    "name": "Markus Fischer",
+    "address": {
+      "street": "Scheffelstr.1",
+      "city": "65187 Wiesbaden",
+      "country": "Germany"
+    },
+  "contact": "Contact:",
+    "phone": "Phone: +49 6119705560",
+    "email": "Email: hello[at]markusfischer-developer.de",
+    "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
+    "same_address": "address as above."
+  },
+  "footer": {
+      "link-imprint": "imprint",
+       "link-privacy": "privacy",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  },
+  "privacy-page": {
+  "title": "Privacy Policy",
+  "responsible": {
+    "title": "1. Responsible Party",
+    "name": "Name",
+    "address": "Address",
+    "address_value": "see imprint",
+    "email": "Email",
+    "website": "Website"
+  },
+  "general": {
+    "title": "2. General Information",
+    "text": "I take the protection of your personal data very seriously. Your personal data is treated confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+  },
+  "collection": {
+    "title": "3. Collection and Processing of Personal Data",
+    "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
+    "text2": "This data will not be shared with third parties without your explicit consent."
+  },
+  "contact_form": {
+    "title": "4. Contact Form",
+    "text": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
+    "legal_basis": "Legal basis: Art. 6(1)(b) GDPR."
+  },
+  "server_logs": {
+    "title": "5. Server Log Files",
+    "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
+    "entries": {
+      "browser": "Browser type and version",
+      "os": "Operating system used",
+      "referrer": "Referrer URL",
+      "hostname": "Host name of the accessing computer",
+      "time": "Time of the server request",
+      "ip": "IP address"
+    }
+  },
+    "rights": {
+    "title": "6. Your Rights",
+    "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
+    "text2": "To exercise these rights, please contact me by email (see above)."
+  },
+    "encryption": {
+    "title": "7. SSL or TLS Encryption",
+    "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
+    }
+  }
+}

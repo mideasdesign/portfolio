@@ -7,7 +7,7 @@ import { LanguageService } from '../services/language.service';
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [CommonModule, TranslateModule, RouterModule, TranslatePipe],
+  imports: [CommonModule, TranslateModule, RouterModule],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })
@@ -33,7 +33,7 @@ export class NavComponent {
     this.checkScreenSize();
   }
 
-  @HostListener('window:resize', ['$event'])
+  @HostListener('window:resize')
   onResize() {
     this.checkScreenSize();
   }

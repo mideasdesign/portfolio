@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 77 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <clipPath id="_clip1">
+            <rect x="8.102" y="10" width="60" height="60"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M16.002,19.801L16.002,60.301C11.102,54.901 8.102,47.801 8.102,40.001C8.102,32.201 11.102,25.101 16.002,19.801Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M19.203,24.199L36.503,58.899L19.203,58.899L19.203,24.199Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M38.102,55.002L21.102,21.102L55.102,21.102L38.102,55.002Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M38.098,10C45.898,10 52.998,13 58.298,17.9L17.898,17.9C23.198,13 30.298,10 38.098,10Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M57.003,58.899L39.703,58.899L57.003,24.199L57.003,58.899Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M58.298,62.102C52.998,67.002 45.898,70.002 38.098,70.002C30.298,70.002 23.198,67.002 17.898,62.102L58.298,62.102Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M60.203,60.201L60.203,19.801C65.103,25.101 68.103,32.201 68.103,40.001C68.103,47.801 65.103,54.901 60.203,60.201Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M19.203,24.203L36.503,58.903L19.203,58.903L19.203,24.203Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M38.102,55.002L21.102,21.102L55.102,21.102L38.102,55.002Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M39.703,58.903L57.003,24.203L57.003,58.903L39.703,58.903Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+            <path d="M21.102,21.102L55.102,21.102L38.102,55.002L21.102,21.102Z" style="fill:rgb(137,188,217);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
