@@ -5,20 +5,12 @@
             <div>
                 <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'projects.title' | translate }}</h3>
             </div>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15 hover:cursor-pointer" [class.tab-active]="isActive('join')" (click)="setActiveTab('join')">
-                {{ 'projects.buttons.join' | translate }}
-            </button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[4px] sm:p-4 text-(--secondary-color) mr-3 sm:mx-4 min-w-15 hover:cursor-pointer"[class.tab-active]="isActive('elpollo')" (click)="setActiveTab('elpollo')">
-                2. ElPollo Loco
-            </button>
-            <button class="hover:bg-gray-700 hover:rounded-t-3xl py-2 px-[3px] sm:p-4 text-(--secondary-color) min-w-15 hover:cursor-pointer" [class.tab-active]="isActive('pokemon-dex')" (click)="setActiveTab('pokemon-dex')">
-                3. Pokedex
-            </button>
         </div>
         <div class=" bg-gray-700">
             <div class="sm:mx-auto max-w-7xl bg-gray-700 px-4">
-                <div id="join" *ngIf="isActive('join')" class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                <div id="join" class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
                     <div class="text-base text-balance flex-1">
+                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> Join</h3>
                         <h5 class="text-(--secondary-color) text-lg">
                             {{ 'projects.join.about.title' | translate }}
                         </h5>
@@ -39,7 +31,7 @@
                             {{ 'projects.join.team.text' | translate }}
                         </p>
                     </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
+                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1 items-center">
                         <div class="flex flex-col justify-center ">
                             <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
                             <div class="flex flex-wrap justify-center  gap-4 py-4">
@@ -63,8 +55,9 @@
                     </div>
                       
                 </div>
-                <div id="elpollo" *ngIf="isActive('elpollo')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                <div id="elpollo" class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center sm:flex-row-reverse">
                     <div class="text-base text-balance flex-1">
+                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> El Pollo Loco</h3>
                         <h5 class="text-lg text-(--secondary-color)">
                             {{ 'projects.elpollo.about.title' | translate }}
                         </h5>
@@ -80,7 +73,7 @@
                     </div>
                     <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
                         <div class="flex flex-col justify-center">
-                            <h5 class="text-lg text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
+                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
                             <div class="flex flex-wrap justify-center  gap-4 py-4">
                                 <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
                                 <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
@@ -102,8 +95,9 @@
                     </div>
                       
                 </div>
-                <div id="pokemon-dex" *ngIf="isActive('pokemon-dex')"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+                <div id="pokemon-dex"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center">
                     <div class="text-base text-balance flex-1">
+                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> Pokedex</h3>
                         <h5 class="text-lg text-(--secondary-color)">
                             {{ 'projects.pokemon-dex.about.title' | translate }}
                         </h5>
@@ -140,6 +134,13 @@
                     </div>
                       
                 </div>
+            </div>
+            <div>
+                <li>
+                    <a routerLink="/more-projects" class=" hover:animate-pulse hover:cursor-pointer">
+                        <h3 class="text-3xl text-center text-(--secondary-color) font-heading pb-8"> {{ 'projects.more' | translate }}</h3>
+                    </a>
+                </li>
             </div>
         </div>
     </section>

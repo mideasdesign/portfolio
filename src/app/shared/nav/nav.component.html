@@ -6,13 +6,13 @@
             </a>
             <div class="flex items-center  justify-between mt-5 z-[10000]">
                 <div>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')" 
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')"
                     [class]="languageService.isCurrentLanguage('de') ? 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm rounded-lg text-(--accent-color) bg-[url(./assets/images/ellipse24.svg)] bg-no-repeat bg-center lang-backgr transition-colors hover:opacity-90' : 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg border border-(--secondary-color) transition-colors lang-backgr hover:text-(--accent-color)'">
-                     <span class="mt-1">DE</span> 
+                     <span class="mt-1">DE</span>
                     </button>
-                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')" 
+                    <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('en')"
                     [class]="languageService.isCurrentLanguage('en') ? 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm rounded-lg text-(--accent-color) bg-[url(./assets/images/ellipse24.svg)] bg-no-repeat bg-center lang-backgr transition-colors hover:opacity-90' : 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg border border-(--secondary-color) lang-backgr transition-colors hover:text-(--accent-color)'">
-                      <span class="mt-1">EN</span> 
+                      <span class="mt-1">EN</span>
                     </button>
                 </div>
                 <div #burger (click)="burgermenu()" class="burger">
@@ -31,7 +31,7 @@
             </div>
         </div>
     </nav>
-        <!-- #region Nav Section-->
+    <!-- #region Nav Section-->
     <nav class="bg-(--secondary-color) sticky-nav hidden md:block w-full h-20 z-[10000]">
         <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between px-4 h-20 mx-auto hover:cursor-pointer z-[10000]">
                 <a href="#" class="flex flex-col items-center">
@@ -48,13 +48,13 @@
             </div>
             <div class="flex justify-center">
                 <div class="flex  items-center">
-                    <button type="button" (click)="switchLang('de')" 
+                    <button type="button" (click)="switchLang('de')"
                     [class]="languageService.isCurrentLanguage('de') ? 'flex items-center justify-center px-2 text-sm text-(--accent-color) bg-[url(./assets/images/ellipse24.svg)] bg-no-repeat bg-center lang-backgr  hover:cursor-pointer transition-colors hover:opacity-90' : 'flex items-center justify-center px-2 text-sm text-gray-700 border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer lang-backgr transition-colors'">
-                    <span class="mt-1">DE</span> 
+                    <span class="mt-1">DE</span>
                     </button>
-                    <button type="button" (click)="switchLang('en')" 
+                    <button type="button" (click)="switchLang('en')"
                     [class]="languageService.isCurrentLanguage('en') ? 'flex items-center justify-center px-2 text-sm text-(--accent-color) bg-[url(./assets/images/ellipse24.svg)] bg-no-repeat bg-center lang-backgr  hover:cursor-pointer transition-colors hover:opacity-90' : 'flex items-center justify-center px-2 text-sm text-gray-700 border border-(--secondary-color) hover:text-(--accent-color) hover:cursor-pointer lang-backgr transition-colors'">
-                    <span class="mt-1">EN</span> 
+                    <span class="mt-1">EN</span>
                     </button>
                 </div>
                 <div click="burgermenu()" class="burger">

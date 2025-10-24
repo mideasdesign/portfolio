@@ -40,7 +40,7 @@ export class MainComponent {
   closeMenu(): void {
     this.showMobileMenu.set(false);
   }
-    @HostListener('window:scroll', ['$event'])
+    @HostListener('window:scroll')
     onWindowScroll() {
       // Show button when scrolled more than 500px
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
