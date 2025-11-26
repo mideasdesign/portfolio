@@ -1,50 +1,105 @@
 {
-    
+  "main": {
+    "title": "Warum ich?",
+    "hello": "kreativer Frontend-Entwickler aus Wiesbaden.",
+    "desc-why": "Ich bin ein erfahrener Webdesigner und Entwickler mit einem Auge für Detail und einem starken Gespür für Nutzererfahrung. Mein Ziel ist es, moderne, performante und ästhetisch ansprechende Weblösungen zu entwickeln, die nicht nur gut aussehen, sondern auch funktionieren."
+  },
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "workingOn": "Woran ich gerade arbeite",
+    "workingDesc": "Aktuell vertiefe ich meine Kenntnisse in modernen Webtechnologien und Frameworks"
+  },
+  "testimonials": {
+    "title": "Brauchen Sie einen Teamplayer?",
+    "subtitle": "Das sagen Kolleg:innen über die Zusammenarbeit mit mir",
+    "entries": [
+      {
+        "name": "Mirkan Polet",
+        "role": "Junior Frontend Entwickler",
+        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Ich habe enorm viel von Ihn gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
+        "link": "LinkedIn Profil"
+      },
+      {
+        "name": "Simon Fuchs",
+        "role": "Junior Frontend Entwickler",
+        "quote": "Markus’ fundierte HTML- und CSS-Kenntnisse sowie seine Offenheit für neue Ansätze haben unser Projekt maßgeblich bereichert.",
+        "link": "LinkedIn Profil"
+      },
+      {
+        "name": "Sarah Williams",
+        "role": "Produktmanagerin bei DesignHub",
+        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Ich habe enorm viel von Ihn gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
+        "link": "LinkedIn Profil"
+      }
+    ]
+  },
   "projects": {
     "title": "Meine Projekte",
-    "more": "weitere Projekte",
+    "technologies": {
+      "title": "Technologien"
+    },
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
-      "pokemon-dex": "3. Pokedex"
+      "pokemon-dex": "3. Pokemon-dex"
     },
+    "more": "weitere Projekte",
     "join": {
+      "title":"Join",
       "about": {
         "title": "Über das Projekt",
-        "text": "Eine moderne Aufgabenverwaltungsanwendung im Kanban-Stil, entwickelt mit Angular und Firebase. Join unterstützt Teams dabei, Aufgaben in Echtzeit zu organisieren, zuzuweisen und nachzuverfolgen – mit Drag-&-Drop-Funktionalität und responsivem Design."
-},
+        "text": "Diese App ist ein Slack-Klon, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
       },
       "process": {
         "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Ich habe das Projekt in wiederverwendbare Angular-Komponenten und -Services strukturiert. Klare Datei- und Ordnerbenennungen, TypeScript-Interfaces und SCSS-Module stellten Skalierbarkeit und Wartbarkeit sicher. Für Backend-Dienste wie Authentifizierung und Echtzeit-Datenverarbeitung kam Firebase zum Einsatz."
+        "text": "Wie halte ich meinen Code sauber und wartbar? Ich habe das Projekt in wiederverwendbare Module und Komponenten aufgeteilt und auf Dokumentation, konsistente Benennung von Dateien, Variablen und Klassen sowie Tests geachtet."
       },
       "team": {
-        "title": "Meine Erfahrung",
-        "text": "Ich konnte mein Wissen in Angular 19 und TypeScript 5 vertiefen, insbesondere in den Bereichen Reactive Forms, Routing und Animationen. Die Arbeit mit Firebase vermittelte mir Kenntnisse über Authentifizierung, die Struktur von Firestore-Datenbanken sowie das Deployment moderner Webanwendungen mit Echtzeitfunktionen."
+        "title": "Meine Erfahrung in der Teamarbeit",
+        "text": "Das Team bestand aus mehreren Mitgliedern. Meine Aufgaben umfassten z. B. Login-Formular, Dashboard und Chat-Funktionalität. Zum Einsatz kamen verschiedene Technologien. Besonders positiv war die gute Zusammenarbeit im Team."
       },
       "technologies": {
-        "title": "Technologien"
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
       },
-      "buttons": {
-        "live": "Live-Demo",
-        "github": "GitHub"
+      "image-links": {
+        "image": "./assets/images/screenshot-join.webp",
+        "demo": "https://join.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/join"
       }
     },
     "elpollo": {
+      "title":"El Pollo Loco",
       "about": {
         "title": "Über das Projekt",
-        "text": "El Pollo Loco ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
       },
       "process": {
         "title": "Technische Grundlagen",
         "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
       },
-      "buttons": {
-        "live": "Live-Demo",
-        "github": "GitHub"
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     },
     "pokemon-dex": {
+      "title":"Pokemon Dex",
       "about": {
         "title": "Über das Projekt",
         "text": "Diese Webanwendung bietet ein interaktives Pokédex-Erlebnis. Nutzer können Pokémon durchsuchen, sich per Klick Details anzeigen lassen und durch die Pokémon-Liste navigieren. Die Gestaltung orientiert sich visuell am typischen Pokémon-Stil mit responsive Layout und Overlay-Detailansicht."
@@ -54,49 +109,20 @@
         "text": "Ich strukturiere meine Projekte in wiederverwendbare Module und Komponenten, um Übersicht und Skalierbarkeit zu gewährleisten. Sauberer Code entsteht bei mir durch klare Namenskonventionen, Dokumentation und gezielte Tests."
       },
       "technologies": {
-        "title": "Technologien"
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
       },
-      "buttons": {
-        "live": "Live-Demo",
-        "github": "GitHub"
+      "image-links": {
+        "image": "./assets/images/screenshot-pokemon-dex.webp",
+        "demo": "https://pokemon-dex.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/pokemon-dex"
       }
     }
-  },
-
-  "main": {
-    "title": "Über mich",
-    "iam": "Ich bin",
-    "hello": "ein kreativer Frontend-Entwickler aus Wiesbaden.",
-    "desc-why": "Ich bin ein erfahrener Webdesigner und Entwickler mit einem Auge für Detail und einem starken Gespür für Nutzererfahrung. Mein Ziel ist es, moderne, performante und ästhetisch ansprechende Weblösungen zu entwickeln, die nicht nur gut aussehen, sondern auch funktionieren."
-  },
-  "skills": {
-    "title": "Meine Fähigkeiten",
-    "workingOn": "Woran ich gerade arbeite",
-    "workingDesc": "Aktuell beschäftige ich mich mehr mit den Möglichkeiten von Tailwind CSS"
-  },
-  "testimonials": {
-    "title": "Brauchen Sie einen Teamplayer?",
-    "subtitle": "Das sagen Kolleg:innen über die Zusammenarbeit mit mir",
-    "entries": [
-      {
-        "name": "Mirkan Polet",
-        "role": "Frontend Entwickler",
-        "quote": "Die Zusammenarbeit mit Markus an unserem Projekt hat mir riesigen Spaß gemacht. Ich habe enorm viel von Ihn gelernt und würde jederzeit wieder mit ihm ein Projekt starten!",
-        "link": "LinkedIn Profil"
-      },
-      {
-        "name": "Simon Fuchs",
-        "role": "Frontend Entwickler",
-        "quote": "Markus’ fundierte HTML- und CSS-Kenntnisse sowie seine Offenheit für neue Ansätze haben unser Projekt maßgeblich bereichert.",
-        "link": "LinkedIn Profil"
-      },
-      {
-        "name": "Marco Giering",
-        "role": "Frontend Entwickler",
-        "quote": "Markus ueberzeugte in der Vergangenheit durch fundiertes Fachwissen und hohe Einsatzbereitschaft. Seine Expertise war in vielen Projekten ein wichtiger Erfolgsfaktor.",
-        "link": "LinkedIn Profil"
-      }
-    ]
   },
   "contact": {
     "title": "So kannst du mich kontaktieren",
@@ -108,27 +134,27 @@
       "name": {
         "label": "Name",
         "placeholder": "Dein Name",
-        "error": "Gib deinen Vor- und Nachnamen ein"
+        "error": "Bitte gib deinen Namen ein"
       },
       "email": {
         "label": "E-Mail",
         "placeholder": "deine.email@beispiel.de",
-        "error": "Gib eine gültige E-Mail-Adresse ein"
+        "error": "Bitte gib eine gültige E-Mail-Adresse ein"
       },
       "subject": {
         "label": "Betreff",
         "placeholder": "Worum geht es?",
-        "error": "Gib einen Betreff ein"
+        "error": "Bitte gib einen Betreff ein"
       },
       "message": {
         "label": "Nachricht",
         "placeholder": "Deine Nachricht...",
-        "error": "Gib eine Nachricht ein"
+        "error": "Bitte gib eine Nachricht ein"
       },
       "privacy": {
         "text": "Ich habe die",
         "link": "Datenschutzerklärung",
-        "error": "Akzeptiere die Datenschutzerklärung",
+        "error": "Bitte akzeptiere die Datenschutzerklärung",
         "read": "gelesen und akzeptiere sie."
       },
       "submit": "Nachricht senden"
@@ -188,7 +214,7 @@
       }
     }
   },
-    "nav": {
+  "nav": {
     "home": "Home",
     "about-me": "Über mich",
     "skills": "Skills",
@@ -223,57 +249,56 @@
     "responsible": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:",
     "same_address": "Anschrift wie oben."
   },
-    "footer": {
+  "footer": {
     "imprint": "Impressum",
     "link-imprint": "impressum",
     "link-privacy": "datenschutz",
     "privacy": "Datenschutz"
   },
   "privacy-page": {
-  "title": "Datenschutzerklärung",
-  "responsible": {
-    "title": "1. Verantwortliche Stelle",
-    "name": "Name",
-    "address": "Adresse",
-    "address_value": "siehe Impressum",
-    "email": "E-Mail",
-    "website": "Website"
-  },
-  "general": {
-    "title": "2. Allgemeine Hinweise",
-    "text": "Ich nehme den Schutz Ihrer persönlichen Daten sehr ernst. Ihre personenbezogenen Daten werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung behandelt."
-  },
-  "collection": {
-    "title": "3. Erhebung und Verarbeitung personenbezogener Daten",
-    "text1": "Die Nutzung dieser Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf dieser Seite personenbezogene Daten (z. B. Name oder E-Mail-Adresse) erhoben werden, erfolgt dies auf freiwilliger Basis – z. B. über das Kontaktformular.",
-    "text2": "Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben."
-  },
-  "contact_form": {
-    "title": "4. Kontaktformular",
-    "text": "Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert.",
-    "legal_basis": "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO."
-  },
-  "server_logs": {
-    "title": "5. Server-Log-Dateien",
-    "text": "Der Hosting-Provider erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt:",
-    "entries": {
-      "browser": "Browsertyp und Browserversion",
-      "os": "Verwendetes Betriebssystem",
-      "referrer": "Referrer URL",
-      "hostname": "Hostname des zugreifenden Rechners",
-      "time": "Uhrzeit der Serveranfrage",
-      "ip": "IP-Adresse"
+    "title": "Datenschutzerklärung",
+    "responsible": {
+      "title": "1. Verantwortliche Stelle",
+      "name": "Name",
+      "address": "Adresse",
+      "address_value": "siehe Impressum",
+      "email": "E-Mail",
+      "website": "Website"
+    },
+    "general": {
+      "title": "2. Allgemeine Hinweise",
+      "text": "Ich nehme den Schutz Ihrer persönlichen Daten sehr ernst. Ihre personenbezogenen Daten werden vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung behandelt."
+    },
+    "collection": {
+      "title": "3. Erhebung und Verarbeitung personenbezogener Daten",
+      "text1": "Die Nutzung dieser Website ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf dieser Seite personenbezogene Daten (z. B. Name oder E-Mail-Adresse) erhoben werden, erfolgt dies auf freiwilliger Basis – z. B. über das Kontaktformular.",
+      "text2": "Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben."
+    },
+    "contact_form": {
+      "title": "4. Kontaktformular",
+      "text": "Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert.",
+      "legal_basis": "Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO."
+    },
+    "server_logs": {
+      "title": "5. Server-Log-Dateien",
+      "text": "Der Hosting-Provider erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser automatisch übermittelt:",
+      "entries": {
+        "browser": "Browsertyp und Browserversion",
+        "os": "Verwendetes Betriebssystem",
+        "referrer": "Referrer URL",
+        "hostname": "Hostname des zugreifenden Rechners",
+        "time": "Uhrzeit der Serveranfrage",
+        "ip": "IP-Adresse"
+      }
+    },
+    "rights": {
+      "title": "6. Ihre Rechte",
+      "text1": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch.",
+      "text2": "Zur Ausübung dieser Rechte kontaktieren Sie mich bitte per E-Mail (siehe oben)."
+    },
+    "encryption": {
+      "title": "7. SSL- bzw. TLS-Verschlüsselung",
+      "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung."
     }
-  },
-  "rights": {
-    "title": "6. Ihre Rechte",
-    "text1": "Sie haben jederzeit das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch.",
-    "text2": "Zur Ausübung dieser Rechte kontaktieren Sie mich bitte per E-Mail (siehe oben)."
-  },
-  "encryption": {
-    "title": "7. SSL- bzw. TLS-Verschlüsselung",
-    "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung."
   }
-}
-
 }

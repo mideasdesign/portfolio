@@ -1,15 +1,15 @@
-import { Component, ElementRef, ViewChild, signal, computed, inject, HostListener } from '@angular/core';
-import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+import { Component, ElementRef, ViewChild, signal, computed, inject, HostListener, ChangeDetectionStrategy } from '@angular/core';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
+
 import { Router, RouterModule } from '@angular/router';
 import { LanguageService } from '../services/language.service';
 
 @Component({
-  selector: 'app-nav',
-  standalone: true,
-  imports: [CommonModule, TranslateModule, RouterModule, TranslatePipe],
-  templateUrl: './nav.component.html',
-  styleUrl: './nav.component.css'
+    selector: 'app-nav',
+    imports: [TranslateModule, RouterModule],
+    templateUrl: './nav.component.html',
+    styleUrl: './nav.component.css',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class NavComponent {
     @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
@@ -17,13 +17,16 @@ export class NavComponent {
 
   // Signal for screen size
   isMobile = signal(false);
-  
+
   // Computed signal for the appropriate image
-  personImage = computed(() => 
-    this.isMobile() 
-      ? './assets/images/markus-fischer-mobile.webp' 
+  personImage = computed(() =>
+    this.isMobile()
+      ? './assets/images/markus-fischer-mobile.webp'
       : './assets/images/person.webp'
   );
+
+  // Trigger change detection when language changes
+  currentLanguage = computed(() => this.languageService.currentLanguage());
 
   constructor(
     private translate: TranslateService,
@@ -33,7 +36,7 @@ export class NavComponent {
     this.checkScreenSize();
   }
 
-  @HostListener('window:resize', ['$event'])
+  @HostListener('window:resize')
   onResize() {
     this.checkScreenSize();
   }

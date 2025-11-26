@@ -1,27 +1,23 @@
-import { CommonModule } from '@angular/common';
+
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import {TranslatePipe, TranslateService} from "@ngx-translate/core";
+import {TranslateModule, TranslateService} from "@ngx-translate/core";
 
 
 @Component({
-  selector: 'app-contact',
-  standalone: true,
-  imports: [FormsModule, CommonModule, RouterModule, TranslatePipe],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+    selector: 'app-contact',
+    imports: [FormsModule, RouterModule, TranslateModule],
+    templateUrl: './contact.component.html',
+    styleUrl: './contact.component.css'
 })
 export class ContactComponent {
 
   constructor(private translate: TranslateService){}
-  
+
   // Signal for the overlay
   showSuccessOverlay = signal(false);
-  switchLang(language: string){
-   this.translate.use(language);
-}
 
 http = inject(HttpClient);
   contactData ={

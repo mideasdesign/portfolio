@@ -37,12 +37,16 @@
   "projects": {
     "title": "My Projects",
     "more": "more Projects",
+    "technologies": {
+      "title": "Technologies"
+    },
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
       "pokemon-dex": "3. Pokedex"
     },
     "join": {
+      "title":"Join",
       "about": {
         "title": "About the project",
         "text": "A modern Kanban-style task management application built with Angular and Firebase. Join helps teams organize, assign, and track tasks in real-time using drag & drop functionality and responsive design."
@@ -64,6 +68,7 @@
       }
     },
     "elpollo": {
+      "title":"El Pollo Loco",
       "about": {
         "title": "About the project",
         "text": "El Pollo Loco is a browser-based platform game with HTML5, CSS3 and modern JavaScript (ES6+), without frameworks. Pepe the hero of the game moves through the level and collects coins and bottles. He has to avoid the crazy chickens and chicks by jumping. The collected bottles are thrown at the boss and hopefully killed."
@@ -81,6 +86,7 @@
       }
     },
     "pokemon-dex": {
+      "title":"Pokemon Dex",
       "about": {
         "title": "About the project",
         "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
