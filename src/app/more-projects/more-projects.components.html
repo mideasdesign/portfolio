@@ -16,9 +16,10 @@
                             </h3>
                         </div>
 
-                        @for (project of projects; track project.titleKey) {
+                        @for (project of projects; track project.titleKey; let odd = $odd) {
                             <div
-                                class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center sm:flex-row-reverse"
+                                class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center"
+                                [class.lg:flex-row-reverse]="odd"
                             >
                                 <div class="text-base text-balance flex-1">
                                     <h3
@@ -115,20 +116,6 @@
                                 </div>
                             </div>
                         }
-                        <div>
-                            <li>
-                                <a
-                                    routerLink="/more-projects"
-                                    class="hover:animate-pulse hover:cursor-pointer"
-                                >
-                                    <h3
-                                        class="text-3xl text-center text-secondary font-heading pb-8"
-                                    >
-                                        {{ 'projects.more' | translate }}
-                                    </h3>
-                                </a>
-                            </li>
-                        </div>
                     </div>
                 </section>
             </div>

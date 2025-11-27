@@ -1,23 +1,14 @@
 import { Component } from '@angular/core';
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
-
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-projects',
-    imports: [TranslateModule],
+    standalone: true,
+    imports: [TranslateModule, RouterModule],
     templateUrl: './projects.component.html',
     styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  activeTab: string = 'join';
-
   constructor(private translate: TranslateService) {}
-
-  setActiveTab(tab: string) {
-    this.activeTab = tab;
-  }
-
-  isActive(tab: string): boolean {
-    return this.activeTab === tab;
-  }
 }
