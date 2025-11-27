@@ -123,15 +123,11 @@
         "link": "https://github.com/mideasdesign/pokemon-dex"
       }
     },
-    "Falke-Facility-Managment": {
-      "title":"Falke Facility Managment",
+    "ccn-umzuege": {
+      "title":"CCN Umzüge",
       "about": {
         "title": "Über das Projekt",
-        "text": "Der Kunde wünschte sich hier ein zeitgemäßes Design für seine Website. Es sollte auf zu viele Effekte verzichtet werden. So habe ich hier mit dezenten Transitions gearbeitet und das Logo als Stilelement etabliert. "
-      },
-      "process": {
-        "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Ich strukturiere meine Projekte in wiederverwendbare Module und Komponenten, um Übersicht und Skalierbarkeit zu gewährleisten. Sauberer Code entsteht bei mir durch klare Namenskonventionen, Dokumentation und gezielte Tests."
+        "text": "Auf Basis von WordPress habe ich für das Unternehmen CCN Umzüge einen Relaunch der Website gestaltet. Der Focus lag auch hier wieder auf einem zeitgemäßen Design und einer klaren Strukturierung der Inhalte. Auch sollte ein Kalkulator für das Umzugsgut erstellt werden. Durch die eigens für die Website produzierten Bilder und Video. Bekam die Seite eine sehr persönliche und individuelle Note."
       },
       "technologies": {
         "title": "Technologien",
@@ -143,8 +139,8 @@
       },
       "image-links": {
         "image": "./assets/images/screenshot-pokemon-dex.webp",
-        "demo": "https://pokemon-dex.markusfischer-developer.de",
-        "link": ""
+        "demo": "https://www.ccnumzuege.de/",
+        "link": "https://diefliese-living.de/"
       }
     }
   },

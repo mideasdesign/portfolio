@@ -31,20 +31,27 @@
                                         {{ project.aboutTitleKey | translate }}
                                     </h5>
                                     <p class="mb-4">
-                                        {{ project.aboutTextKey | translate }}
+                                        {{ project.aboutTextKey || '' | translate }}
                                     </p>
+
+                                    @if (project.processTitleKey) {
+                                      <h5 class="text-lg text-secondary">
+                                          {{ project.processTitleKey | translate }}
+                                      </h5>
+
+                                      <p class="mb-4">
+                                          {{ project.processTextKey || '' | translate }}
+                                      </p>
+                                    }
+
+                                    @if (project.teamTitleKey) {
                                     <h5 class="text-lg text-secondary">
-                                        {{ project.processTitleKey | translate }}
-                                    </h5>
-                                    <p class="mb-4">
-                                        {{ project.processTextKey | translate }}
-                                    </p>
-                                    <h5 class="text-lg text-secondary">
-                                        {{ project.teamTitleKey || '' | translate }}
+                                        {{ project.teamTitleKey | translate }}
                                     </h5>
                                     <p class="text-balance">
                                         {{ project.teamTextKey || '' | translate }}
                                     </p>
+                                    }
                                 </div>
                                 <div
                                     class="flex flex-col justify-center sm:gap-4 mt-5 flex-1"
@@ -89,29 +96,33 @@
                                             [alt]="project.titleKey | translate"
                                         />
                                     </div>
-                                    <div class="mt-5 flex justify-center">
-                                        <button
-                                            type="button"
-                                            class="py-2 px-3 rounded-2xl text-sm border border-secondary transition-colors hover:text-primary hover:cursor-pointer hover:bg-secondary hover:animate-pulse"
-                                        >
-                                            <a
-                                                [href]="project.liveUrl"
-                                                target="_blank"
+                                    <div class="mt-5 flex justify-center gap-4">
+                                        @if (project.liveUrl) {
+                                            <button
+                                                type="button"
+                                                class="py-2 px-3 rounded-2xl text-sm border border-secondary transition-colors hover:text-primary hover:cursor-pointer hover:bg-secondary hover:animate-pulse"
                                             >
-                                                Live Test
-                                            </a>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="ml-4 py-2 px-3 rounded-2xl text-sm text-primary hover:text-secondary border border-secondary transition-colors hover:cursor-pointer bg-secondary hover:bg-transparent hover:animate-pulse"
-                                        >
-                                            <a
-                                                [href]="project.githubUrl"
-                                                target="_blank"
+                                                <a
+                                                    [href]="project.liveUrl"
+                                                    target="_blank"
+                                                >
+                                                    Live Test
+                                                </a>
+                                            </button>
+                                        }
+                                        @if (project.githubUrl) {
+                                            <button
+                                                type="button"
+                                                class="py-2 px-3 rounded-2xl text-sm text-primary hover:text-secondary border border-secondary transition-colors hover:cursor-pointer bg-secondary hover:bg-transparent hover:animate-pulse"
                                             >
-                                                github
-                                            </a>
-                                        </button>
+                                                <a
+                                                    [href]="project.githubUrl"
+                                                    target="_blank"
+                                                >
+                                                    github
+                                                </a>
+                                            </button>
+                                        }
                                     </div>
                                 </div>
                             </div>

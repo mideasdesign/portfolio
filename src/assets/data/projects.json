@@ -19,8 +19,6 @@
     "aboutTextKey": "projects.elpollo.about.text",
     "processTitleKey": "projects.elpollo.process.title",
     "processTextKey": "projects.elpollo.process.text",
-    "teamTitleKey": "projects.elpollo.process.title",
-    "teamTextKey": "projects.elpollo.process.text",
     "image": "./assets/images/screenshot-elpollo.webp",
     "liveUrl": "https://el-pollo-loco.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/el-pollo-loco"
@@ -32,8 +30,41 @@
     "aboutTextKey": "projects.pokemon-dex.about.text",
     "processTitleKey": "projects.pokemon-dex.process.title",
     "processTextKey": "projects.pokemon-dex.process.text",
-    "teamTitleKey": "projects.pokemon-dex.process.title",
-    "teamTextKey": "projects.pokemon-dex.process.text",
+    "image": "./assets/images/screenshot-pokemon-dex.webp",
+    "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
+    "githubUrl": "https://github.com/mideasdesign/poke-dex"
+  },
+    {
+    "id": 4,
+    "titleKey": "projects.ccn-umzuege.title",
+    "aboutTitleKey": "projects.ccn-umzuege.about.title",
+    "aboutTextKey": "projects.ccn-umzuege.about.text",
+    "image": "./assets/images/screenshot-pokemon-dex.webp",
+    "liveUrl": "https://www.ccnumzuege.de/full-service-umzug/",
+    "githubUrl": ""
+  },
+  {
+    "id": 5,
+    "titleKey": "projects.falke-facility-managment.title",
+    "aboutTitleKey": "projects.falke-facility-managment.about.title",
+    "aboutTextKey": "projects.falke-facility-managment.about.text",
+    "processTitleKey": "projects.falke-facility-managment.process.title",
+    "processTextKey": "projects.falke-facility-managment.process.text",
+    "teamTitleKey": "projects.falke-facility-managment.team.title",
+    "teamTextKey": "projects.falke-facility-managment.team.text",
+    "image": "./assets/images/screenshot-pokemon-dex.webp",
+    "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
+    "githubUrl": "https://github.com/mideasdesign/poke-dex"
+  },
+    {
+    "id": 6,
+    "titleKey": "projects.falke-facility-managment.title",
+    "aboutTitleKey": "projects.falke-facility-managment.about.title",
+    "aboutTextKey": "projects.falke-facility-managment.about.text",
+    "processTitleKey": "projects.falke-facility-managment.process.title",
+    "processTextKey": "projects.falke-facility-managment.process.text",
+    "teamTitleKey": "projects.falke-facility-managment.team.title",
+    "teamTextKey": "projects.falke-facility-managment.team.text",
     "image": "./assets/images/screenshot-pokemon-dex.webp",
     "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
     "githubUrl": "https://github.com/mideasdesign/poke-dex"
