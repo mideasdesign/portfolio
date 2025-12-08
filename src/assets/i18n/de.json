@@ -45,7 +45,7 @@
     },
     "more": "weitere Projekte",
     "join": {
-      "title":"Join",
+      "title": "Join",
       "about": {
         "title": "Über das Projekt",
         "text": "Diese App ist ein Slack-Klon, der Teamkommunikation und Zusammenarbeit durch eine intuitive Benutzeroberfläche, Echtzeitnachrichten und strukturierte Kanalorganisation revolutioniert."
@@ -74,7 +74,7 @@
       }
     },
     "elpollo": {
-      "title":"El Pollo Loco",
+      "title": "El Pollo Loco",
       "about": {
         "title": "Über das Projekt",
         "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
@@ -99,7 +99,7 @@
       }
     },
     "pokemon-dex": {
-      "title":"Pokemon Dex",
+      "title": "Pokemon Dex",
       "about": {
         "title": "Über das Projekt",
         "text": "Diese Webanwendung bietet ein interaktives Pokédex-Erlebnis. Nutzer können Pokémon durchsuchen, sich per Klick Details anzeigen lassen und durch die Pokémon-Liste navigieren. Die Gestaltung orientiert sich visuell am typischen Pokémon-Stil mit responsive Layout und Overlay-Detailansicht."
@@ -124,7 +124,7 @@
       }
     },
     "ccn-umzuege": {
-      "title":"CCN Umzüge",
+      "title": "CCN Umzüge",
       "about": {
         "title": "Über das Projekt",
         "text": "Auf Basis von WordPress habe ich für das Unternehmen CCN Umzüge einen Relaunch der Website gestaltet. Der Focus lag auch hier wieder auf einem zeitgemäßen Design und einer klaren Strukturierung der Inhalte. Auch sollte ein Kalkulator für das Umzugsgut erstellt werden. Durch die eigens für die Website produzierten Bilder und Video. Bekam die Seite eine sehr persönliche und individuelle Note."
@@ -138,9 +138,64 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-pokemon-dex.webp",
-        "demo": "https://www.ccnumzuege.de/",
-        "link": "https://diefliese-living.de/"
+        "image": "./assets/images/screenshot-ccn-1.webp",
+        "demo": "https://www.ccnumzuege.de/"
+      }
+    },
+    "falke-facility-management": {
+      "title": "Falke Facility Management",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Auf Basis von WordPress habe ich für das Unternehmen Falke Facility Management einen Relaunch der Website gestaltet. Der Focus lag auch hier wieder auf einem zeitgemäßen Design und einer klaren Strukturierung der Inhalte. Durch die eigens für die Website produzierten Bilder und Videos bekam die Seite eine sehr persönliche und individuelle Note."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-ffm1.webp",
+        "demo": "https://www.falke-fm.com/"
+      }
+    },
+    "die-fliese": {
+      "title": "Die Fliese - Living Bad & Wohnen",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Für das Unternehmen Die Fliese habe ich ein komplettes Redesign des Webauftritts erstellt. Der Focus lag hier der besseren Präsentation der verschiedenen Fliesen. Weg von den Textwüsten hin zu einem modernen frischen Design. Das lust macht die Fliesen in Beispiel Objekten anzuschauen."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-die-fliese1.webp",
+        "demo": "https://diefliese-living.de/"
+      }
+    },
+    "mlz-immobilien": {
+      "title": "MLZ Immobilien",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Der Kunde wünschte sich ein zeitgemäßes Design für seine Website, das auf übermäßige Effekte verzichtet. Daher habe ich mit dezenten Übergängen gearbeitet und das Logo als stilistisches Element etabliert."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-mlz1.webp"
       }
     }
   },
