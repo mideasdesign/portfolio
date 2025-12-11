@@ -8,7 +8,7 @@
     "processTextKey": "projects.join.process.text",
     "teamTitleKey": "projects.join.team.title",
     "teamTextKey": "projects.join.team.text",
-    "image": "./assets/images/screenshot-join.webp",
+    "images": ["./assets/images/screenshot-join.webp"],
     "liveUrl": "https://join-app.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/join-app"
   },
@@ -19,7 +19,7 @@
     "aboutTextKey": "projects.elpollo.about.text",
     "processTitleKey": "projects.elpollo.process.title",
     "processTextKey": "projects.elpollo.process.text",
-    "image": "./assets/images/screenshot-elpollo.webp",
+    "images": ["./assets/images/screenshot-elpollo.webp"],
     "liveUrl": "https://el-pollo-loco.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/el-pollo-loco"
   },
@@ -30,7 +30,7 @@
     "aboutTextKey": "projects.pokemon-dex.about.text",
     "processTitleKey": "projects.pokemon-dex.process.title",
     "processTextKey": "projects.pokemon-dex.process.text",
-    "image": "./assets/images/screenshot-pokemon-dex.webp",
+    "images": ["./assets/images/screenshot-pokemon-dex.webp"],
     "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
     "githubUrl": "https://github.com/mideasdesign/poke-dex"
   },
@@ -39,7 +39,7 @@
     "titleKey": "projects.ccn-umzuege.title",
     "aboutTitleKey": "projects.ccn-umzuege.about.title",
     "aboutTextKey": "projects.ccn-umzuege.about.text",
-    "image": "./assets/images/screenshot-ccn-1.webp",
+    "images": ["./assets/images/screenshot-ccn-1.webp"],
     "liveUrl": "https://www.ccnumzuege.de/"
   },
   {
@@ -49,20 +49,66 @@
     "aboutTextKey": "projects.falke-facility-managment.about.text",
     "processTitleKey": "projects.falke-facility-managment.process.title",
     "processTextKey": "projects.falke-facility-managment.process.text",
-    "teamTitleKey": "projects.falke-facility-managment.team.title",
-    "teamTextKey": "projects.falke-facility-managment.team.text",
-    "image": "./assets/images/screenshot-ffm1.webp",
+    "images": ["./assets/images/screenshot-ffm1.webp"],
     "liveUrl": "https://www.falke-fm.com/"
   },
   {
     "id": 6,
+    "titleKey": "projects.die-fliese.title",
+    "aboutTitleKey": "projects.die-fliese.about.title",
+    "aboutTextKey": "projects.die-fliese.about.text",
+    "processTitleKey": "projects.die-fliese.process.title",
+    "processTextKey": "projects.die-fliese.process.text",
+    "images": ["./assets/images/screenshot-die-fliese1.webp"],
+    "liveUrl": "https://www.falke-fm.com/"
+  },
+  {
+    "id": 7,
     "titleKey": "projects.mlz-immobilien.title",
     "aboutTitleKey": "projects.mlz-immobilien.about.title",
     "aboutTextKey": "projects.mlz-immobilien.about.text",
     "processTitleKey": "projects.mlz-immobilien.process.title",
     "processTextKey": "projects.mlz-immobilien.process.text",
-    "teamTitleKey": "projects.mlz-immobilien.team.title",
-    "teamTextKey": "projects.mlz-immobilien.team.text",
-    "image": "./assets/images/screenshot-mlz1.webp"
+    "images": [
+      "./assets/images/screenshot-mlz1.webp",
+      "./assets/images/screenshot-mlz2.webp",
+      "./assets/images/screenshot-mlz3.webp"
+    ]
+  },
+    {
+    "id": 8,
+    "titleKey": "projects.uebel.title",
+    "aboutTitleKey": "projects.uebel.about.title",
+    "aboutTextKey": "projects.uebel.about.text",
+    "processTitleKey": "projects.uebel.process.title",
+    "processTextKey": "projects.uebel.process.text",
+    "images": ["./assets/images/screenshot-mlz1.webp"]
+  },
+    {
+    "id": 9,
+    "titleKey": "projects.is-clinical.title",
+    "aboutTitleKey": "projects.is-clinical.about.title",
+    "aboutTextKey": "projects.is-clinical.about.text",
+    "processTitleKey": "projects.is-clinical.process.title",
+    "processTextKey": "projects.is-clinical.process.text",
+    "images": ["./assets/images/screenshot-mlz1.webp"]
+  },
+    {
+    "id": 10,
+    "titleKey": "projects.widmann.title",
+    "aboutTitleKey": "projects.widmann.about.title",
+    "aboutTextKey": "projects.widmann.about.text",
+    "processTitleKey": "projects.widmann.process.title",
+    "processTextKey": "projects.widmann.process.text",
+    "images": ["./assets/images/screenshot-mlz1.webp"]
+  },
+    {
+    "id": 11,
+    "titleKey": "projects.haendlerbackend.title",
+    "aboutTitleKey": "projects.haendlerbackend.about.title",
+    "aboutTextKey": "projects.haendlerbackend.about.text",
+    "processTitleKey": "projects.haendlerbackend.process.title",
+    "processTextKey": "projects.haendlerbackend.process.text",
+    "images": ["./assets/images/screenshot-mlz1.webp"]
   }
 ]

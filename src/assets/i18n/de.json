@@ -127,7 +127,11 @@
       "title": "CCN Umzüge",
       "about": {
         "title": "Über das Projekt",
-        "text": "Auf Basis von WordPress habe ich für das Unternehmen CCN Umzüge einen Relaunch der Website gestaltet. Der Focus lag auch hier wieder auf einem zeitgemäßen Design und einer klaren Strukturierung der Inhalte. Auch sollte ein Kalkulator für das Umzugsgut erstellt werden. Durch die eigens für die Website produzierten Bilder und Video. Bekam die Seite eine sehr persönliche und individuelle Note."
+        "text": "Diese Plattform ist das Ergebnis eines umfassenden Relaunches für CCN Umzüge. Neben der Modernisierung des Designs stand hier die Funktionalität im Vordergrund: Die Website sollte nicht nur informieren, sondern als interaktives Tool dienen. Durch die Implementierung eines Umzugsgut-Kalkulators wurde die Website von einer reinen Informationsseite zu einem echten Service-Werkzeug für den Endkunden aufgewertet."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie integriere ich komplexe Funktionen benutzerfreundlich? Der Fokus lag auf der Entwicklung einer intuitiven Benutzeroberfläche (UI), insbesondere für den Kalkulator. Ich habe den Prozess so organisiert, dass technische Features nahtlos in das Design eingebettet sind. Durch Konsistenz in der Gestaltung und klare Call-to-Action-Bereiche wird der Nutzer logisch durch die Anfrageprozesse geführt. Auch hier habe ich auf Wartbarkeit geachtet, damit Preisstrukturen im Kalkulator vom Kunden leicht angepasst werden können."
       },
       "technologies": {
         "title": "Technologien",
@@ -146,7 +150,11 @@
       "title": "Falke Facility Management",
       "about": {
         "title": "Über das Projekt",
-        "text": "Auf Basis von WordPress habe ich für das Unternehmen Falke Facility Management einen Relaunch der Website gestaltet. Der Focus lag auch hier wieder auf einem zeitgemäßen Design und einer klaren Strukturierung der Inhalte. Durch die eigens für die Website produzierten Bilder und Videos bekam die Seite eine sehr persönliche und individuelle Note."
+        "text": "Bei diesem Projekt handelte es sich um einen kompletten Relaunch für das Unternehmen Falke Facility Management. Ziel war es, das Dienstleistungsangebot durch ein zeitgemäßes Design und eine klare Informationsarchitektur neu zu positionieren. Die Website dient nun als digitale Visitenkarte, die Professionalität und Vertrauen ausstrahlt und potenzielle Kunden durch eine strukturierte Nutzerführung direkt anspricht."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie verbinde ich technische Performance mit hochwertigem Content?\nDa für dieses Projekt eigens Bilder und Videos produziert wurden, lag ein besonderer Fokus auf der Integration dieser Medien, ohne die Ladezeiten der Website negativ zu beeinflussen. Ich habe den Aufbau der Seite so strukturiert, dass visuelle Elemente und Informationstexte in einer perfekten Balance stehen. Sauberer Code und optimierte Medien-Assets sorgen dafür, dass die Seite auf allen Endgeräten flüssig und performant läuft."
       },
       "technologies": {
         "title": "Technologien",
@@ -165,10 +173,13 @@
       "title": "Die Fliese - Living Bad & Wohnen",
       "about": {
         "title": "Über das Projekt",
-        "text": "Für das Unternehmen Die Fliese habe ich ein komplettes Redesign des Webauftritts erstellt. Der Focus lag hier der besseren Präsentation der verschiedenen Fliesen. Weg von den Textwüsten hin zu einem modernen frischen Design. Das lust macht die Fliesen in Beispiel Objekten anzuschauen."
+        "text": "Dieses Projekt ist ein umfassendes Redesign und Relaunch für das Unternehmen „Die Fliese Living“. Das Ziel war es, den Webauftritt von einer rein informativen, textlastigen Seite in eine moderne, visuelle Erlebniswelt zu verwandeln. Der Fokus liegt nun auf der ästhetischen Präsentation der Materialien: Ein frisches Screendesign rückt die Produkte in den Mittelpunkt und inspiriert den Nutzer durch hochwertige Objektbeispiele."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie stelle ich sicher, dass Design und Technik harmonieren? Ich habe das Projekt ganzheitlich betreut – vom ersten Screendesign bis zur technischen Implementierung in WordPress. Dabei habe ich das Projektmanagement in klare Phasen unterteilt: Konzeption, Design-Entwurf und Entwicklung. Um die Wartbarkeit der Seite zu gewährleisten, habe ich auf eine saubere Strukturierung der WordPress-Installation geachtet, performante Bild-Optimierungen vorgenommen (wichtig für die Ladezeiten der Galerien) und ein intuitives Backend für den Kunden eingerichtet."
       },
       "technologies": {
-        "title": "Technologien",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
@@ -197,6 +208,106 @@
       "image-links": {
         "image": "./assets/images/screenshot-mlz1.webp"
       }
+    }
+  },
+  "uebel": {
+    "title": "F.Arthur Uebel",
+    "about": {
+      "title": "Über das Projekt",
+      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+    },
+    "process": {
+      "title": "So habe ich meinen Arbeitsprozess organisiert",
+      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+    },
+    "technologies": {
+      "title": "Technologien",
+      "icons": [
+        "./assets/images/icons/icon-skills/css-o-font.svg",
+        "./assets/images/icons/icon-skills/html-o-font.svg",
+        "./assets/images/icons/icon-skills/javasript-o-font.svg",
+        "./assets/images/icons/icon-skills/typescript-o-font.svg"
+      ]
+    },
+    "image-links": {
+      "image": "./assets/images/screenshot-elpollo.webp",
+      "demo": "https://pollo-loco.markusfischer-developer.de",
+      "link": "https://github.com/mideasdesign/el-pollo-loco"
+    }
+  },
+  "widmann": {
+    "title": "Widmann",
+    "about": {
+      "title": "Über das Projekt",
+      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+    },
+    "process": {
+      "title": "So habe ich meinen Arbeitsprozess organisiert",
+      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+    },
+    "technologies": {
+      "title": "Technologien",
+      "icons": [
+        "./assets/images/icons/icon-skills/css-o-font.svg",
+        "./assets/images/icons/icon-skills/html-o-font.svg",
+        "./assets/images/icons/icon-skills/javasript-o-font.svg",
+        "./assets/images/icons/icon-skills/typescript-o-font.svg"
+      ]
+    },
+    "image-links": {
+      "image": "./assets/images/screenshot-elpollo.webp",
+      "demo": "https://pollo-loco.markusfischer-developer.de",
+      "link": "https://github.com/mideasdesign/el-pollo-loco"
+    }
+  },
+  "is-clinical": {
+    "title": "IS Clinical",
+    "about": {
+      "title": "Über das Projekt",
+      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+    },
+    "process": {
+      "title": "So habe ich meinen Arbeitsprozess organisiert",
+      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+    },
+    "technologies": {
+      "title": "Technologien",
+      "icons": [
+        "./assets/images/icons/icon-skills/css-o-font.svg",
+        "./assets/images/icons/icon-skills/html-o-font.svg",
+        "./assets/images/icons/icon-skills/javasript-o-font.svg",
+        "./assets/images/icons/icon-skills/typescript-o-font.svg"
+      ]
+    },
+    "image-links": {
+      "image": "./assets/images/screenshot-elpollo.webp",
+      "demo": "https://pollo-loco.markusfischer-developer.de",
+      "link": "https://github.com/mideasdesign/el-pollo-loco"
+    }
+  },
+  "haendlerbackend": {
+    "title": "Widmann",
+    "about": {
+      "title": "Über das Projekt",
+      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+    },
+    "process": {
+      "title": "So habe ich meinen Arbeitsprozess organisiert",
+      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+    },
+    "technologies": {
+      "title": "Technologien",
+      "icons": [
+        "./assets/images/icons/icon-skills/css-o-font.svg",
+        "./assets/images/icons/icon-skills/html-o-font.svg",
+        "./assets/images/icons/icon-skills/javasript-o-font.svg",
+        "./assets/images/icons/icon-skills/typescript-o-font.svg"
+      ]
+    },
+    "image-links": {
+      "image": "./assets/images/screenshot-elpollo.webp",
+      "demo": "https://pollo-loco.markusfischer-developer.de",
+      "link": "https://github.com/mideasdesign/el-pollo-loco"
     }
   },
   "contact": {

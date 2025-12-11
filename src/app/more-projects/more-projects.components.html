@@ -16,7 +16,7 @@
                             </h3>
                         </div>
 
-                        @for (project of projects; track project.titleKey; let odd = $odd) {
+                        @for (project of projects; track project.titleKey; let odd = $odd; let i = $index) {
                             <div
                                 class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center"
                                 [class.lg:flex-row-reverse]="odd"
@@ -90,11 +90,18 @@
                                         </div>
                                     </div>
                                     <div class="flex justify-center">
-                                        <img
-                                            [src]="project.image"
-                                            class="min-w-[280px] max-w-full rounded-3xl"
-                                            [alt]="project.titleKey | translate"
-                                        />
+                                        <div
+                                            #lightgallery
+                                            class="gallery-item"
+                                            (click)="openGallery(i)"
+                                            style="cursor: pointer;">
+                                            <img
+                                                *ngIf="project.images && project.images.length > 0"
+                                                [src]="project.images[0]"
+                                                class="min-w-[280px] max-w-full rounded-3xl"
+                                                [alt]="project.titleKey | translate"
+                                            />
+                                        </div>
                                     </div>
                                     <div class="mt-5 flex justify-center gap-4">
                                         @if (project.liveUrl) {
@@ -106,7 +113,7 @@
                                                     [href]="project.liveUrl"
                                                     target="_blank"
                                                 >
-                                                    Live Test
+                                                    Website
                                                 </a>
                                             </button>
                                         }
