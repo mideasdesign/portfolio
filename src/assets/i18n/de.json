@@ -124,10 +124,10 @@
       }
     },
     "ccn-umzuege": {
-      "title": "CCN Umzüge",
+      "title": "CCN Umzüge – Relaunch der Website",
       "about": {
         "title": "Über das Projekt",
-        "text": "Diese Plattform ist das Ergebnis eines umfassenden Relaunches für CCN Umzüge. Neben der Modernisierung des Designs stand hier die Funktionalität im Vordergrund: Die Website sollte nicht nur informieren, sondern als interaktives Tool dienen. Durch die Implementierung eines Umzugsgut-Kalkulators wurde die Website von einer reinen Informationsseite zu einem echten Service-Werkzeug für den Endkunden aufgewertet."
+        "text": "Diese Plattform ist das Ergebnis eines umfassenden Relaunches für CCN Umzüge. Neben der Modernisierung des Designs stand hier die Funktionalität im Vordergrund: Die Website sollte nicht nur informieren, sondern als interaktives Tool dienen. Durch die Implementierung eines Umzugsgut-Kalkulators wurde die Website von einer reinen Informationsseite zu einem echten Service-Werkzeug für den Endkunden aufgewertet. Die Plattform ist jetzt nicht nur visuell ansprechend, sondern auch intuitiv nutzbar und bietet eine klare Orientierung für Kunden."
       },
       "process": {
         "title": "So habe ich meinen Arbeitsprozess organisiert",
@@ -146,7 +146,7 @@
         "demo": "https://www.ccnumzuege.de/"
       }
     },
-    "falke-facility-management": {
+    "falke-facility-managment": {
       "title": "Falke Facility Management",
       "about": {
         "title": "Über das Projekt",
@@ -197,8 +197,11 @@
         "title": "Über das Projekt",
         "text": "Der Kunde wünschte sich ein zeitgemäßes Design für seine Website, das auf übermäßige Effekte verzichtet. Daher habe ich mit dezenten Übergängen gearbeitet und das Logo als stilistisches Element etabliert."
       },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie stelle ich sicher, dass Design und Technik harmonieren? Ich habe das Projekt ganzheitlich betreut – vom ersten Screendesign bis zur technischen Implementierung in WordPress. Dabei habe ich das Projektmanagement in klare Phasen unterteilt: Konzeption, Design-Entwurf und Entwicklung. Um die Wartbarkeit der Seite zu gewährleisten, habe ich auf eine saubere Strukturierung der WordPress-Installation geachtet, performante Bild-Optimierungen vorgenommen (wichtig für die Ladezeiten der Galerien) und ein intuitives Backend für den Kunden eingerichtet."
+      },
       "technologies": {
-        "title": "Technologien",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
@@ -208,106 +211,106 @@
       "image-links": {
         "image": "./assets/images/screenshot-mlz1.webp"
       }
-    }
-  },
-  "uebel": {
-    "title": "F.Arthur Uebel",
-    "about": {
-      "title": "Über das Projekt",
-      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
     },
-    "process": {
-      "title": "So habe ich meinen Arbeitsprozess organisiert",
-      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+    "uebel": {
+      "title": "F. Arthur Uebel – Redesign des Internetauftritts",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Für die Marke F. Arthur Uebel wurde der veraltete Internetauftritt umfassend redigiert, um eine moderne Imageseite zu schaffen. Die neue Website sollte die Klarinetten und Künstler klar in den Vordergrund rücken, um das Markenimage stärker und emotionaler darzustellen. Die Umsetzung erfolgte auf Basis von WordPress und WooCommerce, um Flexibilität, Skalierbarkeit und eine einfache Pflege der Plattform zu gewährleisten. Das Projekt umfasste nicht nur die Gestaltung, sondern auch die vollständige Umsetzung und Betreuung vom ersten Gespräch bis zur Live-Veröffentlichung."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie kann eine Imageseite sowohl emotional wirken als auch funktionell sein? Der Fokus lag auf der Schaffung einer klaren, visuellen Struktur, die die Klarinetten und Künstler der Marke F. Arthur Uebel im Zentrum stellt. Ich organisierte den Prozess so, dass die Gestaltung und technische Umsetzung nahtlos aufeinander abgestimmt waren. Durch emotionale Bildsprache, eine klare Navigation und einen intuitiven E-Commerce-Bereich wurde die Benutzererfahrung optimiert. Zudem achtete ich besonders auf Konsistenz in der Gestaltung und die Wartbarkeit der Plattform, um zukünftige Anpassungen durch den Betreiber zu ermöglichen."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
     },
-    "technologies": {
-      "title": "Technologien",
-      "icons": [
-        "./assets/images/icons/icon-skills/css-o-font.svg",
-        "./assets/images/icons/icon-skills/html-o-font.svg",
-        "./assets/images/icons/icon-skills/javasript-o-font.svg",
-        "./assets/images/icons/icon-skills/typescript-o-font.svg"
-      ]
+    "widmann": {
+      "title": "Widmann Germany – Redesign des Internetauftritts",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Für die Marke Widmann Germany wurde der veraltete Internetauftritt umfassend redigiert, um eine moderne Imageseite mit integrierter Shopfunktion zu schaffen. Die neue Website stand im Fokus, die Produkte klar in den Vordergrund zu rücken und gleichzeitig mehr Emotionen sowie eine stärkere Markendarstellung zu transportieren. Die Umsetzung erfolgte auf Basis von Shopware, um Flexibilität und Skalierbarkeit für zukünftige Anforderungen zu gewährleisten. Das Projekt umfasste nicht nur die Gestaltung, sondern auch die vollständige Umsetzung und Betreuung vom ersten Gespräch bis zur Live-Veröffentlichung."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie kann ein Internetauftritt sowohl emotional wirken als auch funktionell sein? Der Fokus lag auf der Schaffung einer klaren, visuell ansprechenden Website mit Produktschwerpunkt, die sowohl E-Commerce-Funktionen als auch Markenimage stärkt. Ich organisierte den Prozess so, dass die Gestaltung und technische Umsetzung nahtlos aufeinander abgestimmt waren. Durch eine klare Struktur, emotionale Bildsprache und einen intuitiven Bestellprozess wurde die Benutzererfahrung optimiert. Zudem achtete ich besonders auf Konsistenz in der Gestaltung und die Wartbarkeit der Plattform, um zukünftige Anpassungen durch den Betreiber zu ermöglichen."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
     },
-    "image-links": {
-      "image": "./assets/images/screenshot-elpollo.webp",
-      "demo": "https://pollo-loco.markusfischer-developer.de",
-      "link": "https://github.com/mideasdesign/el-pollo-loco"
-    }
-  },
-  "widmann": {
-    "title": "Widmann",
-    "about": {
-      "title": "Über das Projekt",
-      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+    "is-clinical": {
+      "title": "Is clinical – Onlineshop für die EcoMedic Produktlinie",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Für die neue Produktlinie EcoMedic, die Is clinical in ihr Angebot aufgenommen hat, wurde ein Onlineshop auf Basis von Magento CE eingerichtet. Das Projekt beinhaltete die Adaption des B2B-Shops des Herstellers Innovative Skincare, um auf die Anforderungen der neuen Produktlinie abgestimmt zu sein. Neben der technischen Umsetzung standen die Anpassung an die deutsche Rechtssprechung, eine klare Darstellung der Produkte sowie eine optimierte Benutzererfahrung im Vordergrund. Besonders wichtig war, den Bestellprozess so zu gestalten, dass er sowohl für Händler als auch Endkunden intuitiv und effizient ist."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie kann ein B2B-Onlineshop für eine neue Produktlinie sowohl rechtssicher als auch benutzerfreundlich gestaltet werden? Der Fokus lag auf der sorgfältigen Anpassung des bestehenden Shops an die Anforderungen der deutschen Rechtsvorschriften, insbesondere im Bereich des E-Commerce und der Verbraucherschutzgesetze. Ich habe den Prozess so organisiert, dass technische und designbedingte Anpassungen (wie Templates, Produktdetails oder der Bestellprozess) nahtlos in das System integriert wurden. Dabei achtete ich besonders auf Konsistenz in der Gestaltung und klare Aktionen (z. B. „Zur Kasse“, „Produktvergleich“), um den Nutzern eine reibungslose Nutzung zu ermöglichen. Auch die Wartbarkeit des Shops war ein zentrales Ziel, damit zukünftige Anpassungen der Plattform problemlos möglich sind."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
     },
-    "process": {
-      "title": "So habe ich meinen Arbeitsprozess organisiert",
-      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
-    },
-    "technologies": {
-      "title": "Technologien",
-      "icons": [
-        "./assets/images/icons/icon-skills/css-o-font.svg",
-        "./assets/images/icons/icon-skills/html-o-font.svg",
-        "./assets/images/icons/icon-skills/javasript-o-font.svg",
-        "./assets/images/icons/icon-skills/typescript-o-font.svg"
-      ]
-    },
-    "image-links": {
-      "image": "./assets/images/screenshot-elpollo.webp",
-      "demo": "https://pollo-loco.markusfischer-developer.de",
-      "link": "https://github.com/mideasdesign/el-pollo-loco"
-    }
-  },
-  "is-clinical": {
-    "title": "IS Clinical",
-    "about": {
-      "title": "Über das Projekt",
-      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
-    },
-    "process": {
-      "title": "So habe ich meinen Arbeitsprozess organisiert",
-      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
-    },
-    "technologies": {
-      "title": "Technologien",
-      "icons": [
-        "./assets/images/icons/icon-skills/css-o-font.svg",
-        "./assets/images/icons/icon-skills/html-o-font.svg",
-        "./assets/images/icons/icon-skills/javasript-o-font.svg",
-        "./assets/images/icons/icon-skills/typescript-o-font.svg"
-      ]
-    },
-    "image-links": {
-      "image": "./assets/images/screenshot-elpollo.webp",
-      "demo": "https://pollo-loco.markusfischer-developer.de",
-      "link": "https://github.com/mideasdesign/el-pollo-loco"
-    }
-  },
-  "haendlerbackend": {
-    "title": "Widmann",
-    "about": {
-      "title": "Über das Projekt",
-      "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
-    },
-    "process": {
-      "title": "So habe ich meinen Arbeitsprozess organisiert",
-      "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
-    },
-    "technologies": {
-      "title": "Technologien",
-      "icons": [
-        "./assets/images/icons/icon-skills/css-o-font.svg",
-        "./assets/images/icons/icon-skills/html-o-font.svg",
-        "./assets/images/icons/icon-skills/javasript-o-font.svg",
-        "./assets/images/icons/icon-skills/typescript-o-font.svg"
-      ]
-    },
-    "image-links": {
-      "image": "./assets/images/screenshot-elpollo.webp",
-      "demo": "https://pollo-loco.markusfischer-developer.de",
-      "link": "https://github.com/mideasdesign/el-pollo-loco"
+    "haendlerbackend": {
+      "title": "Händlerbackend für den Marktplatz Bruchköbel",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Das Händlerbackend für den Marktplatz der Stadt Bruchköbel wurde mit einem Facelift und einer überarbeiteten User Experience revitalisiert, um attraktiver für lokale Unternehmen zu werden. Ziel war es, die Plattform so zu gestalten, dass sich mehr Händler aus der Region auf dem Marktplatz präsentieren möchten. Neben der visuellen Modernisierung stand die Verbesserung der Bedienbarkeit im Vordergrund, um den Nutzern ein einfacheres und effizienteres Arbeiten zu ermöglichen."
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Wie kann ein Händlerbackend intuitiv und nutzerfreundlich gestaltet werden? Der Fokus lag auf der Entwicklung einer klaren Benutzeroberfläche (UI), die für Händler im Alltag leicht verständlich und effizient ist. Ich habe den Prozess so organisiert, dass technische Features wie Formulare oder Datenverarbeitung nahtlos in das Design eingebettet sind. Durch konsistente Gestaltungselemente und klare Aktionen (z. B. „Speichern“, „Zurücksetzen“) wird der Nutzer logisch durch die Anwendungsprozesse geführt. Auch habe ich auf Wartbarkeit geachtet, damit zukünftige Anpassungen der Plattform durch den Betreiber möglich bleiben."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
     }
   },
   "contact": {

@@ -109,12 +109,15 @@
         "title": "About the project",
         "text": "I designed a relaunch of the website for the company CCN Umzüge based on WordPress. Here, too, the focus was on a contemporary design and a clear structure of the content. A calculator for the removal goods was also to be created. The images and video produced specifically for the website gave the site a very personal and individual touch."
       },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structure for the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
       "technologies": {
-        "title": "Technologies",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
         ]
       },
       "image-links": {
@@ -128,12 +131,15 @@
         "title": "About the project",
         "text": "The client requested a contemporary design for their website, avoiding excessive effects. Therefore, I worked with subtle transitions and established the logo as a stylistic element."
       },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structure for the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
       "technologies": {
-        "title": "Technologies",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
         ]
       },
       "image-links": {
@@ -147,12 +153,15 @@
         "title": "About the project",
         "text": "For the company Die Fliese, I created a complete redesign of their website. The focus here was on showcasing the different tiles more effectively. Moving away from walls of text, I shifted to a fresh, modern design that invites visitors to explore the tiles in real-life settings."
       },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structure for the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
       "technologies": {
-        "title": "Technologies",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
         ]
       },
       "image-links": {
@@ -166,202 +175,305 @@
         "title": "About the project",
         "text": "The client requested a contemporary design for their website, avoiding excessive effects. Therefore, I worked with subtle transitions and established the logo as a stylistic element."
       },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structure for the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
       "technologies": {
-        "title": "Technologies",
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
         ]
       },
       "image-links": {
         "image": "./assets/images/screenshot-mlz1.webp"
       }
-    }
-  },
-  "contact": {
-    "title": "Get In Touch",
-    "info": "I’m always up for new challenges and exciting projects. Whether you’ve got a clear idea or just want to chat – feel free to reach out. I’m open to fresh ideas, creative input, or simply working together on something great.",
-    "emailLabel": "Email",
-    "phoneLabel": "Phone",
-    "form": {
-      "title": "Send Me a Message",
-      "name": {
-        "label": "Name",
-        "placeholder": "Your name",
-        "error": "Please enter your name"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "your.email@example.com",
-        "error": "Enter a valid email address"
-      },
-      "subject": {
-        "label": "Subject",
-        "placeholder": "How can I help you?",
-        "error": "Please enter a subject"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Your message here...",
-        "error": "Please enter a message"
-      },
-      "privacy": {
-        "text": "I've read the",
-        "link": "Privacy Policy",
-        "error": "Please accept the Privacy Policy",
-        "read": "and accept it."
-      },
-      "submit": "Send Message"
     },
-    "success": {
-      "title": "Message sent!",
-      "message": "Thank you for your message. I will get back to you as soon as possible.",
-      "close": "Close"
+    "uebel": {
+      "title": "F.Arthur Uebel",
+      "about": {
+        "title": "About the project",
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+      },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+      },
+      "technologies": {
+        "title": "technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "widmann": {
+      "title": "Widmann",
+      "about": {
+        "title": "About the project",
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+      },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+      },
+      "technologies": {
+        "title": "technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "is-clinical": {
+      "title": "IS Clinical",
+      "about": {
+        "title": "About the project",
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+      },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+      },
+      "technologies": {
+        "title": "technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "haendlerbackend": {
+      "title": "Retailer backend",
+      "about": {
+        "title": "About the project",
+        "text": "El Pollo Loc ist ein browserbasierten Jump’n’Run-Spiels mit HTML5, CSS3 und modernem JavaScript (ES6+), ohne Frameworks. Pepe der Held des Spieles Bewegt sich durch das Level und sammel Münzen und Flaschen ein. Es muss duch springen den verrückten Hühner und kücken ausweichen. Mit den eingesammelten flaschen wird er Endgegner beworfen und hoffentlich getötet."
+      },
+      "process": {
+        "title": "How I organized my work process",
+        "text": "Darstellung der Spielwelt und aller Objekte (Charaktere, Hintergrund, Gegner)wurde innerhalb der Canvas API realisiert. Per requestAnimationFrame oder setInterval wurden z.B. Bewegungen und Kollisionen realisiert. Das Spiel sollte auch auf kleiner bildschirmen Spielbar sein."
+      },
+      "technologies": {
+        "title": "technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
     }
   },
-  "privacy": {
-    "title": "Privacy Policy",
-    "sections": {
-      "1": {
-        "heading": "1. Responsible Party",
-        "content": {
-          "name": "Name: Markus Fischer",
-          "address": "Address: see imprint",
-          "email": "Email: hello[at]markusfischer-developer.de",
-          "website": "Website: markusfischer-developer.de"
+    "contact": {
+      "title": "Get In Touch",
+      "info": "I’m always up for new challenges and exciting projects. Whether you’ve got a clear idea or just want to chat – feel free to reach out. I’m open to fresh ideas, creative input, or simply working together on something great.",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "form": {
+        "title": "Send Me a Message",
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "error": "Please enter your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your.email@example.com",
+          "error": "Enter a valid email address"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "How can I help you?",
+          "error": "Please enter a subject"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Your message here...",
+          "error": "Please enter a message"
+        },
+        "privacy": {
+          "text": "I've read the",
+          "link": "Privacy Policy",
+          "error": "Please accept the Privacy Policy",
+          "read": "and accept it."
+        },
+        "submit": "Send Message"
+      },
+      "success": {
+        "title": "Message sent!",
+        "message": "Thank you for your message. I will get back to you as soon as possible.",
+        "close": "Close"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": {
+        "1": {
+          "heading": "1. Responsible Party",
+          "content": {
+            "name": "Name: Markus Fischer",
+            "address": "Address: see imprint",
+            "email": "Email: hello[at]markusfischer-developer.de",
+            "website": "Website: markusfischer-developer.de"
+          }
+        },
+        "2": {
+          "heading": "2. General Information",
+          "text": "I take the protection of your personal data very seriously. Your data is handled confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+        },
+        "3": {
+          "heading": "3. Collection and Processing of Personal Data",
+          "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
+          "text2": "This data will not be shared with third parties without your explicit consent."
+        },
+        "4": {
+          "heading": "4. Contact Form",
+          "text1": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
+          "text2": "Legal basis: Art. 6(1)(b) GDPR."
+        },
+        "5": {
+          "heading": "5. Server Log Files",
+          "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
+          "list": [
+            "Browser type and version",
+            "Operating system used",
+            "Referrer URL",
+            "Host name of the accessing computer",
+            "Time of the server request",
+            "IP address"
+          ]
+        },
+        "6": {
+          "heading": "6. Your Rights",
+          "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
+          "text2": "To exercise these rights, please contact me by email (see above)."
+        },
+        "7": {
+          "heading": "7. SSL or TLS Encryption",
+          "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
         }
+      }
+    },
+    "list": {
+      "0": "Browser type and version",
+      "1": "Operating system used",
+      "2": "Referrer URL",
+      "3": "Host name of the accessing computer",
+      "4": "Time of the server request",
+      "5": "IP address"
+    },
+    "nav": {
+      "home": "Home",
+      "about-me": "About me",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "link_home": "/",
+      "link_why_me": "about-me",
+      "link_skills": "skills",
+      "link_projects": "projects",
+      "link_contact": "contact"
+    },
+    "hero": {
+      "name": "Markus Fischer",
+      "title": "Frontend Developer"
+    },
+    "lang": {
+      "de": "DE",
+      "en": "EN"
+    },
+    "legal": {
+      "title": "Legal Notice",
+      "section_5": "Information according to § 5 TMG:",
+      "name": "Markus Fischer",
+      "address": {
+        "street": "Scheffelstr.1",
+        "city": "65187 Wiesbaden",
+        "country": "Germany"
       },
-      "2": {
-        "heading": "2. General Information",
-        "text": "I take the protection of your personal data very seriously. Your data is handled confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+      "contact": "Contact:",
+      "phone": "Phone: +49 6119705560",
+      "email": "Email: hello[at]markusfischer-developer.de",
+      "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
+      "same_address": "address as above."
+    },
+    "footer": {
+      "link-imprint": "imprint",
+      "link-privacy": "privacy",
+      "imprint": "Imprint",
+      "privacy": "Privacy"
+    },
+    "privacy-page": {
+      "title": "Privacy Policy",
+      "responsible": {
+        "title": "1. Responsible Party",
+        "name": "Name",
+        "address": "Address",
+        "address_value": "see imprint",
+        "email": "Email",
+        "website": "Website"
       },
-      "3": {
-        "heading": "3. Collection and Processing of Personal Data",
+      "general": {
+        "title": "2. General Information",
+        "text": "I take the protection of your personal data very seriously. Your personal data is treated confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+      },
+      "collection": {
+        "title": "3. Collection and Processing of Personal Data",
         "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
         "text2": "This data will not be shared with third parties without your explicit consent."
       },
-      "4": {
-        "heading": "4. Contact Form",
-        "text1": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
-        "text2": "Legal basis: Art. 6(1)(b) GDPR."
+      "contact_form": {
+        "title": "4. Contact Form",
+        "text": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
+        "legal_basis": "Legal basis: Art. 6(1)(b) GDPR."
       },
-      "5": {
-        "heading": "5. Server Log Files",
+      "server_logs": {
+        "title": "5. Server Log Files",
         "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
-        "list": [
-          "Browser type and version",
-          "Operating system used",
-          "Referrer URL",
-          "Host name of the accessing computer",
-          "Time of the server request",
-          "IP address"
-        ]
+        "entries": {
+          "browser": "Browser type and version",
+          "os": "Operating system used",
+          "referrer": "Referrer URL",
+          "hostname": "Host name of the accessing computer",
+          "time": "Time of the server request",
+          "ip": "IP address"
+        }
       },
-      "6": {
-        "heading": "6. Your Rights",
+      "rights": {
+        "title": "6. Your Rights",
         "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
         "text2": "To exercise these rights, please contact me by email (see above)."
       },
-      "7": {
-        "heading": "7. SSL or TLS Encryption",
+      "encryption": {
+        "title": "7. SSL or TLS Encryption",
         "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
       }
     }
-  },
-  "list": {
-    "0": "Browser type and version",
-    "1": "Operating system used",
-    "2": "Referrer URL",
-    "3": "Host name of the accessing computer",
-    "4": "Time of the server request",
-    "5": "IP address"
-  },
-  "nav": {
-    "home": "Home",
-    "about-me": "About me",
-    "skills": "Skills",
-    "projects": "Projects",
-    "contact": "Contact",
-    "link_home": "/",
-    "link_why_me": "about-me",
-    "link_skills": "skills",
-    "link_projects": "projects",
-    "link_contact": "contact"
-  },
-  "hero": {
-    "name": "Markus Fischer",
-    "title": "Frontend Developer"
-  },
-  "lang": {
-    "de": "DE",
-    "en": "EN"
-  },
-  "legal": {
-    "title": "Legal Notice",
-    "section_5": "Information according to § 5 TMG:",
-    "name": "Markus Fischer",
-    "address": {
-      "street": "Scheffelstr.1",
-      "city": "65187 Wiesbaden",
-      "country": "Germany"
-    },
-    "contact": "Contact:",
-    "phone": "Phone: +49 6119705560",
-    "email": "Email: hello[at]markusfischer-developer.de",
-    "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
-    "same_address": "address as above."
-  },
-  "footer": {
-    "link-imprint": "imprint",
-    "link-privacy": "privacy",
-    "imprint": "Imprint",
-    "privacy": "Privacy"
-  },
-  "privacy-page": {
-    "title": "Privacy Policy",
-    "responsible": {
-      "title": "1. Responsible Party",
-      "name": "Name",
-      "address": "Address",
-      "address_value": "see imprint",
-      "email": "Email",
-      "website": "Website"
-    },
-    "general": {
-      "title": "2. General Information",
-      "text": "I take the protection of your personal data very seriously. Your personal data is treated confidentially and in accordance with the applicable data protection regulations and this privacy policy."
-    },
-    "collection": {
-      "title": "3. Collection and Processing of Personal Data",
-      "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
-      "text2": "This data will not be shared with third parties without your explicit consent."
-    },
-    "contact_form": {
-      "title": "4. Contact Form",
-      "text": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
-      "legal_basis": "Legal basis: Art. 6(1)(b) GDPR."
-    },
-    "server_logs": {
-      "title": "5. Server Log Files",
-      "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
-      "entries": {
-        "browser": "Browser type and version",
-        "os": "Operating system used",
-        "referrer": "Referrer URL",
-        "hostname": "Host name of the accessing computer",
-        "time": "Time of the server request",
-        "ip": "IP address"
-      }
-    },
-    "rights": {
-      "title": "6. Your Rights",
-      "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
-      "text2": "To exercise these rights, please contact me by email (see above)."
-    },
-    "encryption": {
-      "title": "7. SSL or TLS Encryption",
-      "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
-    }
   }
-}

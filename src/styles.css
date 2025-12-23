@@ -56,7 +56,7 @@
 }
 @theme{
   --font-display: 'Josefin Sans', 'sans';
-  --text-*:initial;  
+  --text-*:initial;
   --text-xs: clamp(0.5425rem, 0.5086rem + 0.1695vw, 0.64rem);
   --text-sm: clamp(0.7813rem, 0.7052rem + 0.3804vw, 0.8rem);
   --text-base:clamp(1rem, 0.9643rem + 0.1786vw, 1rem);
@@ -130,7 +130,7 @@
 img{
   display: block;
   max-width:100%;
-}  
+}
 input,
   button,
   select,
@@ -159,15 +159,15 @@ input,
     padding-right: 1rem;
   }
   .sticky-nav{
-    position: sticky; 
-    top: 0; 
-    left: 0; 
+    position: sticky;
+    top: 0;
+    left: 0;
     z-index: 1000;
   }
     .sticky-mobile-nav{
-    position: fixed; 
-    top: 0; 
-    left: 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1000;
     width:100svw;
   }
@@ -226,7 +226,7 @@ input,
     background: url("./assets/images/ellipse35.svg") no-repeat center / contain;
  @media (width < 767px){
     background: none;
-  } 
+  }
 }
 
 .animate-me:hover::before {
@@ -339,4 +339,7 @@ textarea:-moz-autofill {
     background-color: var(--primary-color) !important;
     color: #d1d5db !important;
     border-color: var(--secondary-color) !important;
+}
+.lg-backdrop{
+  background-color: rgba(0,0,0,0.8)!important;
 }
