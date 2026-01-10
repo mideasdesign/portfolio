@@ -1,147 +1,270 @@
 <!-- #region Projects -->
- <div id="projects" class="py-6">&nbsp;</div>
-    <section class="py-6 sm:py-12">
-        <div class="mx-auto max-w-7xl px-1">
-            <div>
-                <h3 class="text-4xl text-(--secondary-color) text-center font-heading pb-8"> {{ 'projects.title' | translate }}</h3>
-            </div>
+<div id="projects" class="py-6">&nbsp;</div>
+<section class="py-6 sm:py-12">
+  <div class="mx-auto max-w-7xl px-1">
+    <div>
+      <h3
+        class="text-4xl text-(--secondary-color) text-center font-heading pb-8"
+      >
+        {{ "projects.title" | translate }}
+      </h3>
+    </div>
+  </div>
+  <div class="bg-gray-700">
+    <div class="sm:mx-auto max-w-7xl bg-gray-700 px-4">
+      <div id="join" class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
+        <div class="text-base text-balance flex-1">
+          <h3 class="text-3xl text-(--secondary-color) font-heading pb-8">
+            Join
+          </h3>
+          <h5 class="text-(--secondary-color) text-lg">
+            {{ "projects.join.about.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.join.about.text" | translate }}
+          </p>
+          <h5 class="text-(--secondary-color) text-lg">
+            {{ "projects.join.process.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.join.process.text" | translate }}
+          </p>
+          <h5 class="text-(--secondary-color) text-lg">
+            {{ "projects.join.team.title" | translate }}
+          </h5>
+          <p class="text-balance">
+            {{ "projects.join.team.text" | translate }}
+          </p>
         </div>
-        <div class=" bg-gray-700">
-            <div class="sm:mx-auto max-w-7xl bg-gray-700 px-4">
-                <div id="join" class="py-6 lg:flex sm:gap-3 text-center lg:text-left">
-                    <div class="text-base text-balance flex-1">
-                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> Join</h3>
-                        <h5 class="text-(--secondary-color) text-lg">
-                            {{ 'projects.join.about.title' | translate }}
-                        </h5>
-                        <p class="mb-4  text-balance">
-                            {{ 'projects.join.about.text' | translate }}
-                        </p>
-                        <h5 class="text-(--secondary-color) text-lg">
-                            {{ 'projects.join.process.title' | translate }}
-                        </h5>
-                        <p class="mb-4  text-balance">
-                            {{ 'projects.join.process.text' | translate }}
-                        </p>
-                        <h5 class="text-(--secondary-color) text-lg">
-
-                            {{ 'projects.join.team.title' | translate }}
-                        </h5>
-                        <p class=" text-balance">
-                            {{ 'projects.join.team.text' | translate }}
-                        </p>
-                    </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1 items-center">
-                        <div class="flex flex-col justify-center ">
-                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.join.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center  gap-4 py-4">
-                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript-o-font.svg" class="h-8" alt="">
-                            </div>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="./assets/images/screenshot-join.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">
-                        </div>
-                        <div class="mt-5 flex justify-center">
-                            <button type="button" class=" py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
-                                <a href="https://join-app.markusfischer-developer.de" target="_blank">Website</a>
-                            </button>
-                            <button type="button" class=" ml-4 py-2 px-3 rounded-2xl text-sm text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse">
-                                <a href="https://github.com/mideasdesign/join-app" target="_blank">github</a>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="elpollo" class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center sm:flex-row-reverse">
-                    <div class="text-base text-balance flex-1">
-                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> El Pollo Loco</h3>
-                        <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.elpollo.about.title' | translate }}
-                        </h5>
-                        <p class="mb-4 text-balance">
-                            {{ 'projects.elpollo.about.text' | translate }}
-                        </p>
-                        <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.elpollo.process.title' | translate }}
-                        </h5>
-                        <p class="mb-4 text-balance">
-                            {{ 'projects.elpollo.process.text' | translate }}
-                        </p>
-                    </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
-                        <div class="flex flex-col justify-center">
-                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.elpollo.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center  gap-4 py-4">
-                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/typescript-o-font.svg" class="h-8" alt="">
-                            </div>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="./assets/images/screenshot-elpollo.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">
-                        </div>
-                        <div class="mt-5 flex justify-center">
-                            <button type="button" class=" py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
-                                <a href="https://el-pollo-loco.markusfischer-developer.de" target="_blank">Website</a>
-                            </button>
-                            <button type="button" class=" ml-4 py-2 px-3 rounded-2xl text-sm text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse">
-                                <a href="https://github.com/mideasdesign/el-pollo-loco" target="_blank">github</a>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-                <div id="pokemon-dex"  class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center">
-                    <div class="text-base text-balance flex-1">
-                        <h3 class="text-3xl text-(--secondary-color) font-heading pb-8"> Pokedex</h3>
-                        <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.pokemon-dex.about.title' | translate }}
-                        </h5>
-                        <p class="mb-4  text-balance">
-                            {{ 'projects.pokemon-dex.about.text' | translate }}
-                        </p>
-                        <h5 class="text-lg text-(--secondary-color)">
-                            {{ 'projects.pokemon-dex.process.title' | translate }}
-                        </h5>
-                        <p class="mb-4  text-balance">
-                            {{ 'projects.pokemon-dex.process.text' | translate }}
-                        </p>
-                    </div>
-                    <div class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1">
-                        <div class="flex flex-col justify-center">
-                            <h5 class="text-lg text-center text-(--secondary-color)">{{ 'projects.pokemon-dex.technologies.title' | translate }}</h5>
-                            <div class="flex flex-wrap justify-center  gap-4 py-4">
-                                <img src="./assets/images/icons/icon-skills/css-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/html-o-font.svg" class="h-8" alt="">
-                                <img src="./assets/images/icons/icon-skills/javasript-o-font.svg" class="h-8" alt="">
-                            </div>
-                        </div>
-                        <div class="flex justify-center">
-                            <img src="./assets/images/screenshot-pokemon-dex.webp" class="min-w-[280px] max-w-full rounded-3xl" alt="">
-                        </div>
-                        <div class="mt-5 flex justify-center">
-                            <button type="button" class=" py-2 px-3 text-sm rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse">
-                                <a href="https://pokemon-dex.markusfischer-developer.de/" target="_blank">Website</a>
-                            </button>
-                            <button type="button" class=" ml-4 py-2 px-3 text-sm rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse">
-                                <a href="https://github.com/mideasdesign/poke-dex" target="_blank">github</a>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
+        <div
+          class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1 items-center"
+        >
+          <div class="flex flex-col justify-center">
+            <h5 class="text-lg text-center text-(--secondary-color)">
+              {{ "projects.join.technologies.title" | translate }}
+            </h5>
+            <div class="flex flex-wrap justify-center gap-4 py-4">
+              <img
+                src="./assets/images/icons/icon-skills/css-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/html-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/javasript-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/typescript-o-font.svg"
+                class="h-8"
+                alt=""
+              />
             </div>
-            <ul>
-                <li>
-                    <a routerLink="/more-projects" class=" hover:animate-pulse hover:cursor-pointer">
-                        <h3 class="text-3xl text-center text-secondary font-heading pb-8"> {{ 'projects.more' | translate }}</h3>
-                    </a>
-                </li>
-            </ul>
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="./assets/images/projects/screenshot-join.webp"
+              class="min-w-[280px] max-w-full rounded-3xl"
+              alt=""
+            />
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              type="button"
+              class="py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse"
+            >
+              <a
+                href="https://join-app.markusfischer-developer.de"
+                target="_blank"
+                >Website</a
+              >
+            </button>
+            <button
+              type="button"
+              class="ml-4 py-2 px-3 rounded-2xl text-sm text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse"
+            >
+              <a href="https://github.com/mideasdesign/join-app" target="_blank"
+                >github</a
+              >
+            </button>
+          </div>
         </div>
-    </section>
-    <!-- #endregion -->
+      </div>
+      <div
+        id="elpollo"
+        class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center sm:flex-row-reverse"
+      >
+        <div class="text-base text-balance flex-1">
+          <h3 class="text-3xl text-(--secondary-color) font-heading pb-8">
+            El Pollo Loco
+          </h3>
+          <h5 class="text-lg text-(--secondary-color)">
+            {{ "projects.elpollo.about.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.elpollo.about.text" | translate }}
+          </p>
+          <h5 class="text-lg text-(--secondary-color)">
+            {{ "projects.elpollo.process.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.elpollo.process.text" | translate }}
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1"
+        >
+          <div class="flex flex-col justify-center">
+            <h5 class="text-lg text-center text-(--secondary-color)">
+              {{ "projects.elpollo.technologies.title" | translate }}
+            </h5>
+            <div class="flex flex-wrap justify-center gap-4 py-4">
+              <img
+                src="./assets/images/icons/icon-skills/css-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/html-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/javasript-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/typescript-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="./assets/images/projects/screenshot-elpollo.webp"
+              class="min-w-[280px] max-w-full rounded-3xl"
+              alt=""
+            />
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              type="button"
+              class="py-2 px-3 rounded-2xl text-sm border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse"
+            >
+              <a
+                href="https://el-pollo-loco.markusfischer-developer.de"
+                target="_blank"
+                >Website</a
+              >
+            </button>
+            <button
+              type="button"
+              class="ml-4 py-2 px-3 rounded-2xl text-sm text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse"
+            >
+              <a
+                href="https://github.com/mideasdesign/el-pollo-loco"
+                target="_blank"
+                >github</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        id="pokemon-dex"
+        class="py-6 lg:flex sm:gap-3 text-center lg:text-left items-center"
+      >
+        <div class="text-base text-balance flex-1">
+          <h3 class="text-3xl text-(--secondary-color) font-heading pb-8">
+            Pokedex
+          </h3>
+          <h5 class="text-lg text-(--secondary-color)">
+            {{ "projects.pokemon-dex.about.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.pokemon-dex.about.text" | translate }}
+          </p>
+          <h5 class="text-lg text-(--secondary-color)">
+            {{ "projects.pokemon-dex.process.title" | translate }}
+          </h5>
+          <p class="mb-4 text-balance">
+            {{ "projects.pokemon-dex.process.text" | translate }}
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center sm:gap-4 text-balance mt-5 flex-1"
+        >
+          <div class="flex flex-col justify-center">
+            <h5 class="text-lg text-center text-(--secondary-color)">
+              {{ "projects.pokemon-dex.technologies.title" | translate }}
+            </h5>
+            <div class="flex flex-wrap justify-center gap-4 py-4">
+              <img
+                src="./assets/images/icons/icon-skills/css-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/html-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+              <img
+                src="./assets/images/icons/icon-skills/javasript-o-font.svg"
+                class="h-8"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="./assets/images/projects/screenshot-pokemon-dex.webp"
+              class="min-w-[280px] max-w-full rounded-3xl"
+              alt=""
+            />
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              type="button"
+              class="py-2 px-3 text-sm rounded-2xl border border-(--secondary-color) transition-colors hover:text-(--primary-color) hover:cursor-pointer hover:bg-(--secondary-color) hover:animate-pulse"
+            >
+              <a
+                href="https://pokemon-dex.markusfischer-developer.de/"
+                target="_blank"
+                >Website</a
+              >
+            </button>
+            <button
+              type="button"
+              class="ml-4 py-2 px-3 text-sm rounded-2xl text-(--primary-color) hover:text-(--secondary-color) border border-(--secondary-color) transition-colors hover:cursor-pointer bg-(--secondary-color) hover:bg-transparent hover:animate-pulse"
+            >
+              <a href="https://github.com/mideasdesign/poke-dex" target="_blank"
+                >github</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul>
+      <li>
+        <a
+          routerLink="/more-projects"
+          class="hover:animate-pulse hover:cursor-pointer"
+        >
+          <h3 class="text-3xl text-center text-secondary font-heading pb-8">
+            {{ "projects.more" | translate }}
+          </h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- #endregion -->

@@ -8,9 +8,7 @@
     "processTextKey": "projects.join.process.text",
     "teamTitleKey": "projects.join.team.title",
     "teamTextKey": "projects.join.team.text",
-    "images": [
-      "./assets/images/screenshot-join.webp"
-    ],
+    "images": ["./assets/images/projects/screenshot-join.webp"],
     "liveUrl": "https://join-app.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/join-app"
   },
@@ -21,9 +19,7 @@
     "aboutTextKey": "projects.elpollo.about.text",
     "processTitleKey": "projects.elpollo.process.title",
     "processTextKey": "projects.elpollo.process.text",
-    "images": [
-      "./assets/images/screenshot-elpollo.webp"
-    ],
+    "images": ["./assets/images/projects/screenshot-elpollo.webp"],
     "liveUrl": "https://el-pollo-loco.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/el-pollo-loco"
   },
@@ -34,9 +30,7 @@
     "aboutTextKey": "projects.pokemon-dex.about.text",
     "processTitleKey": "projects.pokemon-dex.process.title",
     "processTextKey": "projects.pokemon-dex.process.text",
-    "images": [
-      "./assets/images/screenshot-pokemon-dex.webp"
-    ],
+    "images": ["./assets/images/projects/screenshot-pokemon-dex.webp"],
     "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
     "githubUrl": "https://github.com/mideasdesign/poke-dex"
   },
@@ -47,9 +41,7 @@
     "aboutTextKey": "projects.uebel.about.text",
     "processTitleKey": "projects.uebel.process.title",
     "processTextKey": "projects.uebel.process.text",
-    "images": [
-      "./assets/images/screenshot-ccn-1-1.webp"
-    ],
+    "images": ["./assets/images/projects/screenshot-ccn-1-1.webp"],
     "liveUrl": "https://www.ccnumzuege.de/"
   },
   {
@@ -59,9 +51,7 @@
     "aboutTextKey": "projects.falke-facility-managment.about.text",
     "processTitleKey": "projects.falke-facility-managment.process.title",
     "processTextKey": "projects.falke-facility-managment.process.text",
-    "images": [
-      "./assets/images/screenshot-ffm1.webp"
-    ],
+    "images": ["./assets/images/projects/screenshot-ffm1.webp"],
     "liveUrl": "https://www.falke-fm.com/"
   },
   {
@@ -72,9 +62,9 @@
     "processTitleKey": "projects.die-fliese.process.title",
     "processTextKey": "projects.die-fliese.process.text",
     "images": [
-      "./assets/images/screenshot-diefliese1.webp",
-      "./assets/images/screenshot-diefliese2.webp",
-      "./assets/images/screenshot-diefliese3.webp"
+      "./assets/images/projects/screenshot-diefliese1.webp",
+      "./assets/images/projects/screenshot-diefliese2.webp",
+      "./assets/images/projects/screenshot-diefliese3.webp"
     ],
     "liveUrl": "https://diefliese-living.de/"
   },
@@ -86,9 +76,9 @@
     "processTitleKey": "projects.mlz-immobilien.process.title",
     "processTextKey": "projects.mlz-immobilien.process.text",
     "images": [
-      "./assets/images/screenshot-mlz1.webp",
-      "./assets/images/screenshot-mlz2.webp",
-      "./assets/images/screenshot-mlz3.webp"
+      "./assets/images/projects/screenshot-mlz1.webp",
+      "./assets/images/projects/screenshot-mlz2.webp",
+      "./assets/images/projects/screenshot-mlz3.webp"
     ]
   },
   {
@@ -99,9 +89,9 @@
     "processTitleKey": "projects.uebel.process.title",
     "processTextKey": "projects.uebel.process.text",
     "images": [
-      "./assets/images/screenshot-uebel1.webp",
-      "./assets/images/screenshot-uebel2.webp",
-      "./assets/images/screenshot-uebel3.webp"
+      "./assets/images/projects/screenshot-uebel1.webp",
+      "./assets/images/projects/screenshot-uebel2.webp",
+      "./assets/images/projects/screenshot-uebel3.webp"
     ]
   },
   {
@@ -112,9 +102,9 @@
     "processTitleKey": "projects.is-clinical.process.title",
     "processTextKey": "projects.is-clinical.process.text",
     "images": [
-      "./assets/images/screenshot-uebel1.webp",
-      "./assets/images/screenshot-uebel2.webp",
-      "./assets/images/screenshot-uebel3.webp"
+      "./assets/images/projects/screenshot-is-clinical1.webp",
+      "./assets/images/projects/screenshot-is-clinical2.webp",
+      "./assets/images/projects/screenshot-is-clinical3.webp"
     ]
   },
   {
@@ -125,9 +115,9 @@
     "processTitleKey": "projects.widmann.process.title",
     "processTextKey": "projects.widmann.process.text",
     "images": [
-      "./assets/images/screenshot-widmann1.webp",
-      "./assets/images/screenshot-widmann2.webp",
-      "./assets/images/screenshot-widmann3.webp"
+      "./assets/images/projects/screenshot-widmann1.webp",
+      "./assets/images/projects/screenshot-widmann2.webp",
+      "./assets/images/projects/screenshot-widmann3.webp"
     ]
   },
   {
@@ -138,9 +128,14 @@
     "processTitleKey": "projects.haendlerbackend.process.title",
     "processTextKey": "projects.haendlerbackend.process.text",
     "images": [
-      "./assets/images/screenshot-haendlerbackend1.webp",
-      "./assets/images/screenshot-haendlerbackend2.webp",
-      "./assets/images/screenshot-haendlerbackend3.webp"
+      "./assets/images/projects/screenshot-haendlerbackend0.webp",
+      "./assets/images/projects/screenshot-haendlerbackend1.webp",
+      "./assets/images/projects/screenshot-haendlerbackend2.webp",
+      "./assets/images/projects/screenshot-haendlerbackend4.webp",
+      "./assets/images/projects/screenshot-haendlerbackend5.webp",
+      "./assets/images/projects/screenshot-haendlerbackend6.webp",
+      "./assets/images/projects/screenshot-haendlerbackend7.webp",
+      "./assets/images/projects/screenshot-haendlerbackend8.webp"
     ]
   }
 ]

@@ -68,7 +68,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-join.webp",
+        "image": "./assets/images/projects/screenshot-join.webp",
         "demo": "https://join.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/join"
       }
@@ -93,7 +93,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-elpollo.webp",
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
         "demo": "https://pollo-loco.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
@@ -118,7 +118,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-pokemon-dex.webp",
+        "image": "./assets/images/projects/screenshot-pokemon-dex.webp",
         "demo": "https://pokemon-dex.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/pokemon-dex"
       }
@@ -142,7 +142,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-ccn-1.webp",
+        "image": "./assets/images/projects/screenshot-ccn-1.webp",
         "demo": "https://www.ccnumzuege.de/"
       }
     },
@@ -165,7 +165,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-ffm1.webp",
+        "image": "./assets/images/projects/screenshot-ffm1.webp",
         "demo": "https://www.falke-fm.com/"
       }
     },
@@ -187,7 +187,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-die-fliese1.webp",
+        "image": "./assets/images/projects/screenshot-die-fliese1.webp",
         "demo": "https://diefliese-living.de/"
       }
     },
@@ -209,7 +209,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-mlz1.webp"
+        "image": "./assets/images/projects/screenshot-mlz1.webp"
       }
     },
     "uebel": {
@@ -232,7 +232,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-elpollo.webp",
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
         "demo": "https://pollo-loco.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
@@ -257,7 +257,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-elpollo.webp",
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
         "demo": "https://pollo-loco.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
@@ -282,7 +282,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-elpollo.webp",
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
         "demo": "https://pollo-loco.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
@@ -307,7 +307,7 @@
         ]
       },
       "image-links": {
-        "image": "./assets/images/screenshot-elpollo.webp",
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
         "demo": "https://pollo-loco.markusfischer-developer.de",
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
