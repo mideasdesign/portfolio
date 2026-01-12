@@ -262,31 +262,6 @@
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     },
-    "is-clinical": {
-      "title": "Is clinical",
-      "about": {
-        "title": "Über das Projekt",
-        "text": "Für die neue Produktlinie EcoMedic, die Is clinical in ihr Angebot aufgenommen hat, wurde ein Onlineshop auf Basis von Magento CE eingerichtet. Das Projekt beinhaltete die Adaption des B2B-Shops des Herstellers Innovative Skincare, um auf die Anforderungen der neuen Produktlinie abgestimmt zu sein. Neben der technischen Umsetzung standen die Anpassung an die deutsche Rechtssprechung, eine klare Darstellung der Produkte sowie eine optimierte Benutzererfahrung im Vordergrund. Besonders wichtig war, den Bestellprozess so zu gestalten, dass er sowohl für Händler als auch Endkunden intuitiv und effizient ist."
-      },
-      "process": {
-        "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Wie kann ein B2B-Onlineshop für eine neue Produktlinie sowohl rechtssicher als auch benutzerfreundlich gestaltet werden? Der Fokus lag auf der sorgfältigen Anpassung des bestehenden Shops an die Anforderungen der deutschen Rechtsvorschriften, insbesondere im Bereich des E-Commerce und der Verbraucherschutzgesetze. Ich habe den Prozess so organisiert, dass technische und designbedingte Anpassungen (wie Templates, Produktdetails oder der Bestellprozess) nahtlos in das System integriert wurden. Dabei achtete ich besonders auf Konsistenz in der Gestaltung und klare Aktionen (z. B. „Zur Kasse“, „Produktvergleich“), um den Nutzern eine reibungslose Nutzung zu ermöglichen. Auch die Wartbarkeit des Shops war ein zentrales Ziel, damit zukünftige Anpassungen der Plattform problemlos möglich sind."
-      },
-      "technologies": {
-        "title": "Technologien",
-        "icons": [
-          "./assets/images/icons/icon-skills/css-o-font.svg",
-          "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
-        ]
-      },
-      "image-links": {
-        "image": "./assets/images/projects/screenshot-elpollo.webp",
-        "demo": "https://pollo-loco.markusfischer-developer.de",
-        "link": "https://github.com/mideasdesign/el-pollo-loco"
-      }
-    },
     "haendlerbackend": {
       "title": "Händlerbackend für den Marktplatz Bruchköbel",
       "about": {

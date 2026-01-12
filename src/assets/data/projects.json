@@ -41,7 +41,12 @@
     "aboutTextKey": "projects.uebel.about.text",
     "processTitleKey": "projects.uebel.process.title",
     "processTextKey": "projects.uebel.process.text",
-    "images": ["./assets/images/projects/screenshot-ccn-1-1.webp"],
+    "images": [
+      "./assets/images/projects/screenshot-ccn-1.webp",
+      "./assets/images/projects/screenshot-ccn-1-1.webp",
+      "./assets/images/projects/screenshot-ccn-2.webp",
+      "./assets/images/projects/screenshot-ccn-3.webp"
+    ],
     "liveUrl": "https://www.ccnumzuege.de/"
   },
   {
@@ -51,7 +56,11 @@
     "aboutTextKey": "projects.falke-facility-managment.about.text",
     "processTitleKey": "projects.falke-facility-managment.process.title",
     "processTextKey": "projects.falke-facility-managment.process.text",
-    "images": ["./assets/images/projects/screenshot-ffm1.webp"],
+    "images": [
+      "./assets/images/projects/screenshot-ffm1.webp",
+      "./assets/images/projects/screenshot-ffm2.webp",
+      "./assets/images/projects/screenshot-ffm1.webp"
+    ],
     "liveUrl": "https://www.falke-fm.com/"
   },
   {
@@ -91,7 +100,8 @@
     "images": [
       "./assets/images/projects/screenshot-uebel1.webp",
       "./assets/images/projects/screenshot-uebel2.webp",
-      "./assets/images/projects/screenshot-uebel3.webp"
+      "./assets/images/projects/screenshot-uebel3.webp",
+      "./assets/images/projects/screenshot-uebel4.webp"
     ]
   },
   {
