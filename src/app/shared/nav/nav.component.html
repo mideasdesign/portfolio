@@ -1,10 +1,10 @@
 
-     <nav class="bg-(--secondary-color) sticky-mobile-nav md:hidden z-[10000]">
-        <div class=" max-w-7xl flex sm:items-center justify-between p-4 mx-auto z-[10000]">
+     <nav class="bg-(--secondary-color) sticky-mobile-nav md:hidden z-10000">
+        <div class=" max-w-7xl flex sm:items-center justify-between p-4 mx-auto z-10000">
             <a href="#" class="flex justify-center items-center">
                 <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
             </a>
-            <div class="flex items-center  justify-between mt-5 z-[10000]">
+            <div class="flex items-center  justify-between mt-5 z-10000">
                 <div>
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" (click)="switchLang('de')"
                     [class]="languageService.isCurrentLanguage('de') ? 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm rounded-lg text-(--accent-color) bg-[url(./assets/images/ellipse24.svg)] bg-no-repeat bg-center lang-backgr transition-colors hover:opacity-90' : 'inline-flex items-center font-medium justify-center px-2 py-2 text-sm text-gray-700 rounded-lg border border-(--secondary-color) transition-colors lang-backgr hover:text-(--accent-color)'">
@@ -21,8 +21,8 @@
                 <div class="layers"></div>
                 </div>
             </div>
-            <div #togglemenu class="menu hidden z-[10000]">
-                <ul class=" w-[17rem] mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 gap-5">
+            <div #togglemenu class="menu hidden z-10000">
+                <ul class=" w-68 mx-auto bg-[url(./assets/images/ellipse35.svg)] bg-no-repeat bg-cover bg-center py-8 gap-5">
                     <li class="py-4 text-center"><a href="#about-me" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:text-(--accent-color) md:hover:bg-transparent  md:p-0">{{ 'nav.about-me' | translate }}</a></li>
                     <li class="py-4 text-center"><a href="#skills" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.skills' | translate }}</a></li>
                     <li class="py-4 text-center"><a href="#projects" (click)="closeMenu()" class=" text-center text-gray-900  rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0">{{ 'nav.projects' | translate }}</a></li>
@@ -31,9 +31,9 @@
             </div>
         </div>
     </nav>
-    <!-- #region Nav Section-->
-    <nav class="bg-(--secondary-color) sticky-nav hidden md:block w-full h-20 z-[10000]">
-        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between px-4 h-20 mx-auto hover:cursor-pointer z-[10000]">
+        <!-- #region Nav Section-->
+    <nav class="bg-(--secondary-color) sticky-nav hidden md:block w-full h-20 z-10000">
+        <div class="max-w-7xl flex flex-wrap items-center justify-center sm:justify-between px-4 h-20 mx-auto hover:cursor-pointer z-10000">
                 <a href="#" class="flex flex-col items-center">
                 <img src="./assets/images/logo.svg" class="h-12" alt="Logo Markus Fischer" />
                 <span class="text-sm font-light text-gray-700">markus fischer</span>

@@ -1,137 +1,352 @@
 {
   "main": {
-    "title": "Why Work With Me?",
-    "iam": "I'm",
-    "hello": "a creative frontend developer from Wiesbaden.",
-    "desc-why": "I am an experienced web designer and developer with an eye for detail and a strong sense of user experience. My goal is to develop modern, performant and aesthetically pleasing web solutions that not only look good, but also work."
+    "title": "Why me?",
+    "hello": "creative front-end developer from Wiesbaden.",
+    "desc-why": "I am an experienced web designer and developer with an eye for detail and a strong sense of user experience. My goal is to develop modern, high-performance, and aesthetically pleasing web solutions that not only look good but also function effectively."
   },
   "skills": {
     "title": "My Skills",
-    "workingOn": "I'm working on",
-    "workingDesc": "I’m currently improving my skills and learning new tools to create even better web experiences."
+    "workingOn": "What I'm currently working on",
+    "workingDesc": "I am currently deepening my knowledge of modern web technologies and frameworks."
   },
   "testimonials": {
-    "title": "Looking for a team player?",
+    "title": "Need a team player?",
     "subtitle": "Here's what colleagues say about working with me",
     "entries": [
       {
         "name": "Mirkan Polet",
-        "role": "Frontend Developer",
-        "quote": "I really enjoyed working with Markus on our project. He was not only very reliable and competent, but also worked with a lot of commitment and creativity. I learned an enormous amount and would start a project with him again at any time!",
+        "role": "Junior Frontend Developer",
+        "quote": "I had a great time working with Markus on our project. I learned a tremendous amount from him and would start a project with him again anytime!",
         "link": "LinkedIn Profile"
       },
       {
         "name": "Simon Fuchs",
-        "role": "Frontend Developer",
-        "quote": "Markus' knowledge of HTML structures and CSS was of great value in our project. Despite all his experience, I am impressed that he is always interested in learning more and is willing to try out other approaches. ",
+        "role": "Junior Frontend Developer",
+        "quote": "Markus’s deep knowledge of HTML and CSS, as well as his openness to new approaches, significantly enriched our project.",
         "link": "LinkedIn Profile"
       },
       {
-        "name": "Marco Giering",
-        "role": "Frontend Developer",
-        "quote": "In the past, Markus has impressed with his sound specialist knowledge and high level of commitment. His expertise was an important success factor in many projects.",
+        "name": "Sarah Williams",
+        "role": "Product Manager at DesignHub",
+        "quote": "Working with Markus on our project was a fantastic experience. I learned so much from him and would be thrilled to collaborate with him again on future projects.",
         "link": "LinkedIn Profile"
       }
     ]
   },
   "projects": {
     "title": "My Projects",
-    "more": "more Projects",
+    "technologies": {
+      "title": "Technologies"
+    },
     "buttons": {
       "join": "1. Join",
       "elpollo": "2. ElPollo Loco",
-      "pokemon-dex": "3. Pokedex"
+      "pokemon-dex": "3. Pokemon-dex"
     },
+    "more": "More Projects",
     "join": {
+      "title": "Join",
       "about": {
-        "title": "About the project",
-        "text": "A modern Kanban-style task management application built with Angular and Firebase. Join helps teams organize, assign, and track tasks in real-time using drag & drop functionality and responsive design."
+        "title": "About the Project",
+        "text": "This app is a Slack clone that revolutionizes team communication and collaboration through an intuitive user interface, real-time messaging, and structured channel organization."
       },
       "process": {
-        "title": "How I have organised my work process",
-        "text": "I structured the project into reusable Angular components and services. Clear file and folder naming conventions, TypeScript interfaces, and SCSS modules ensured scalability and maintainability. Firebase was used for backend services like authentication and real-time data handling. "
+        "title": "How I Organized My Workflow",
+        "text": "How do I keep my code clean and maintainable? I divided the project into reusable modules and components, focusing on documentation, consistent naming for files, variables, and classes, as well as thorough testing."
       },
       "team": {
-        "title": "My experience",
-        "text": "I deepened my understanding of Angular 20 and TypeScript 5, especially reactive forms, routing, and animations. Working with Firebase taught me about authentication, Firestore database structure, and deploying modern web apps with real-time features."
+        "title": "My Experience in Teamwork",
+        "text": "The team consisted of several members. My responsibilities included the login form, dashboard, and chat functionality, among others. We used various technologies, and the positive collaboration within the team was a standout feature."
       },
       "technologies": {
-        "title": "Technologies"
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
       },
-      "buttons": {
-        "live": "Live Test",
-        "github": "GitHub"
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-join.webp",
+        "demo": "https://join.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/join"
       }
     },
     "elpollo": {
+      "title": "El Pollo Loco",
       "about": {
-        "title": "About the project",
-        "text": "El Pollo Loco is a browser-based platform game with HTML5, CSS3 and modern JavaScript (ES6+), without frameworks. Pepe the hero of the game moves through the level and collects coins and bottles. He has to avoid the crazy chickens and chicks by jumping. The collected bottles are thrown at the boss and hopefully killed."
+        "title": "About the Project",
+        "text": "El Pollo Loco is a browser-based jump 'n' run game created with HTML5, CSS3, and modern JavaScript (ES6+), without using any frameworks. Pepe, the hero of the game, moves through the level collecting coins and bottles. He must avoid crazy chickens and chicks by jumping. The collected bottles are used to throw at the final boss, hopefully defeating him."
       },
       "process": {
-        "title": "Technical basics",
-        "text": "Display of the game world and all objects (characters, background, enemies) was realized within the Canvas API. Using requestAnimationFrame or setInterval, for example, movements and collisions were realized. The game should also be playable on smaller screens."
+        "title": "Technical Foundations",
+        "text": "The game world and all objects (characters, background, enemies) were rendered using the Canvas API. Movements and collisions were implemented using requestAnimationFrame or setInterval. The game was also designed to be playable on smaller screens."
       },
       "technologies": {
-        "title": "Technologies"
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
       },
-      "buttons": {
-        "live": "Live Test",
-        "github": "GitHub"
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     },
     "pokemon-dex": {
+      "title": "Pokemon Dex",
       "about": {
-        "title": "About the project",
-        "text": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+        "title": "About the Project",
+        "text": "This web application offers an interactive Pokédex experience. Users can search for Pokémon, view details with a click, and navigate through the Pokémon list. The design is visually inspired by the typical Pokémon style, featuring a responsive layout and an overlay for detailed views."
       },
       "process": {
-        "title": "How I have organised my work process",
-        "text": "How do you keep your code clean and maintainable? Have you broken the project down into reusable modules or components? Focus on documentation, naming files, variables, classes and testing."
+        "title": "How I Organized My Workflow",
+        "text": "I structure my projects into reusable modules and components to ensure clarity and scalability. For me, clean code is achieved through clear naming conventions, documentation, and targeted tests."
       },
       "technologies": {
-        "title": "Technologies"
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
       },
-      "buttons": {
-        "live": "Live Test",
-        "github": "GitHub"
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-pokemon-dex.webp",
+        "demo": "https://pokemon-dex.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/pokemon-dex"
+      }
+    },
+    "ccn-umzuege": {
+      "title": "CCN Removals",
+      "about": {
+        "title": "About the Project",
+        "text": "This platform is the result of a comprehensive relaunch for CCN Removals. In addition to modernizing the design, the focus was on functionality: the website should not only inform but also serve as an interactive tool. By implementing a moving goods calculator, the website was upgraded from a purely informational site to a real service tool for the end customer. The platform is now not only visually appealing but also intuitive to use and offers clear guidance for customers."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How do I integrate complex functions in a user-friendly way? The focus was on developing an intuitive user interface (UI), especially for the calculator. I organized the process so that technical features are seamlessly embedded into the design. Through consistency in design and clear call-to-action areas, the user is logically guided through the inquiry processes. I also paid attention to maintainability so that price structures in the calculator can be easily adjusted by the client."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-ccn-1.webp",
+        "demo": "https://www.ccnumzuege.de/"
+      }
+    },
+    "falke-facility-managment": {
+      "title": "Falke Facility Management",
+      "about": {
+        "title": "About the Project",
+        "text": "This project was a complete relaunch for the company Falke Facility Management. The goal was to reposition the service offering through a contemporary design and a clear information architecture. The website now serves as a digital business card that radiates professionalism and trust, directly addressing potential customers through structured user guidance."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How do I combine technical performance with high-quality content? Since images and videos were specially produced for this project, a special focus was placed on integrating this media without negatively affecting the website's loading times. I structured the site's layout to create a perfect balance between visual elements and informational texts. Clean code and optimized media assets ensure that the site runs smoothly and performs well on all devices."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-ffm1.webp",
+        "demo": "https://www.falke-fm.com/"
+      }
+    },
+    "die-fliese": {
+      "title": "Die Fliese - Living Bath & Home",
+      "about": {
+        "title": "About the Project",
+        "text": "This project is a comprehensive redesign and relaunch for the company 'Die Fliese Living'. The goal was to transform the web presence from a purely informative, text-heavy site into a modern, visual experience. The focus is now on the aesthetic presentation of materials: a fresh screen design puts the products in the spotlight and inspires the user with high-quality project examples."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structuring of the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
+      "technologies": {
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-die-fliese1.webp",
+        "demo": "https://diefliese-living.de/"
+      }
+    },
+    "mlz-immobilien": {
+      "title": "MLZ Real Estate",
+      "about": {
+        "title": "About the Project",
+        "text": "The client wanted a contemporary design for their website that avoids excessive effects. Therefore, I worked with subtle transitions and established the logo as a stylistic element."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How do I ensure that design and technology harmonize? I managed the project holistically – from the initial screen design to the technical implementation in WordPress. I divided the project management into clear phases: conception, design draft, and development. To ensure the site's maintainability, I focused on a clean structuring of the WordPress installation, performed image optimizations for performance (important for the galleries' loading times), and set up an intuitive backend for the client."
+      },
+      "technologies": {
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-mlz1.webp"
+      }
+    },
+    "uebel": {
+      "title": "F. Arthur Uebel",
+      "about": {
+        "title": "About the Project",
+        "text": "For the F. Arthur Uebel brand, the outdated website was comprehensively revised to create a modern image site. The new website was intended to clearly highlight the clarinets and artists to present the brand image more strongly and emotionally. The implementation was based on WordPress and WooCommerce to ensure flexibility, scalability, and easy maintenance of the platform. The project included not only the design but also the complete implementation and support from the initial consultation to the live launch."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How can an image site be both emotional and functional? The focus was on creating a clear, visual structure that centers on the clarinets and artists of the F. Arthur Uebel brand. I organized the process so that the design and technical implementation were seamlessly coordinated. Through emotional imagery, clear navigation, and an intuitive e-commerce area, the user experience was optimized. I also paid special attention to consistency in design and the platform's maintainability to allow for future adjustments by the operator."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "qchess": {
+      "title": "Qchess",
+      "about": {
+        "title": "About the Project",
+        "text": "For the F. Arthur Uebel brand, the outdated website was comprehensively revised to create a modern image site. The new website was intended to clearly highlight the clarinets and artists to present the brand image more strongly and emotionally. The implementation was based on WordPress and WooCommerce to ensure flexibility, scalability, and easy maintenance of the platform. The project included not only the design but also the complete implementation and support from the initial consultation to the live launch."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How can an image site be both emotional and functional? The focus was on creating a clear, visual structure that centers on the clarinets and artists of the F. Arthur Uebel brand. I organized the process so that the design and technical implementation were seamlessly coordinated. Through emotional imagery, clear navigation, and an intuitive e-commerce area, the user experience was optimized. I also paid special attention to consistency in design and the platform's maintainability to allow for future adjustments by the operator."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "widmann": {
+      "title": "Widmann Germany",
+      "about": {
+        "title": "About the Project",
+        "text": "For the Widmann Germany brand, the outdated website was comprehensively revised to create a modern image site with an integrated shop function. The new website focused on clearly highlighting the products while conveying more emotion and a stronger brand identity. The implementation was based on Shopware to ensure flexibility and scalability for future requirements. The project included not only the design but also the complete implementation and support from the initial consultation to the live launch."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How can a website be both emotional and functional? The focus was on creating a clear, visually appealing website with a product focus that strengthens both e-commerce functions and the brand image. I organized the process so that the design and technical implementation were seamlessly coordinated. Through a clear structure, emotional imagery, and an intuitive ordering process, the user experience was optimized. I also paid special attention to consistency in design and the platform's maintainability to allow for future adjustments by the operator."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
+    "haendlerbackend": {
+      "title": "Dealer Backend for the Bruchköbel Marketplace",
+      "about": {
+        "title": "About the Project",
+        "text": "The dealer backend for the Bruchköbel city marketplace was revitalized with a facelift and a revised user experience to become more attractive to local businesses. The goal was to design the platform in such a way that more dealers from the region would want to present themselves on the marketplace. In addition to the visual modernization, the focus was on improving usability to enable users to work more easily and efficiently."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How can a dealer backend be designed to be intuitive and user-friendly? The focus was on developing a clear user interface (UI) that is easy for dealers to understand and efficient in daily use. I organized the process so that technical features like forms or data processing are seamlessly embedded into the design. Through consistent design elements and clear actions (e.g., 'Save', 'Reset'), the user is logically guided through the application processes. I also paid attention to maintainability so that future adjustments to the platform by the operator remain possible."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     }
   },
   "contact": {
-    "title": "Get In Touch",
-    "info": "I’m always up for new challenges and exciting projects. Whether you’ve got a clear idea or just want to chat – feel free to reach out. I’m open to fresh ideas, creative input, or simply working together on something great.",
+    "title": "How you can contact me",
+    "info": "I look forward to new challenges and exciting projects. Feel free to get in touch. I am open to fresh ideas, creative approaches, or simply good collaboration.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "form": {
-      "title": "Send Me a Message",
+      "title": "Write me",
       "name": {
         "label": "Name",
-        "placeholder": "Your name",
+        "placeholder": "Your Name",
         "error": "Please enter your name"
       },
       "email": {
         "label": "Email",
         "placeholder": "your.email@example.com",
-        "error": "Enter a valid email address"
+        "error": "Please enter a valid email address"
       },
       "subject": {
         "label": "Subject",
-        "placeholder": "How can I help you?",
+        "placeholder": "What is it about?",
         "error": "Please enter a subject"
       },
       "message": {
         "label": "Message",
-        "placeholder": "Your message here...",
+        "placeholder": "Your message...",
         "error": "Please enter a message"
       },
       "privacy": {
-        "text": "I've read the",
+        "text": "I have read and accept the",
         "link": "Privacy Policy",
-        "error": "Please accept the Privacy Policy",
-        "read": "and accept it."
+        "error": "Please accept the privacy policy",
+        "read": "."
       },
-      "submit": "Send Message"
+      "submit": "Send message"
     },
     "success": {
       "title": "Message sent!",
@@ -143,58 +358,50 @@
     "title": "Privacy Policy",
     "sections": {
       "1": {
-        "heading": "1. Responsible Party",
+        "heading": "1. Responsible Body",
         "content": {
           "name": "Name: Markus Fischer",
-          "address": "Address: see imprint",
+          "address": "Address: see Imprint",
           "email": "Email: hello[at]markusfischer-developer.de",
           "website": "Website: markusfischer-developer.de"
         }
       },
       "2": {
         "heading": "2. General Information",
-        "text": "I take the protection of your personal data very seriously. Your data is handled confidentially and in accordance with the applicable data protection regulations and this privacy policy."
+        "text": "I take the protection of your personal data very seriously. Your personal data will be treated confidentially and in accordance with the statutory data protection regulations and this privacy policy."
       },
       "3": {
         "heading": "3. Collection and Processing of Personal Data",
-        "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
-        "text2": "This data will not be shared with third parties without your explicit consent."
+        "text1": "The use of this website is generally possible without providing personal data. Insofar as personal data (e.g., name or email address) is collected on this site, this is done on a voluntary basis – e.g., via the contact form.",
+        "text2": "This data will not be passed on to third parties without your express consent."
       },
       "4": {
         "heading": "4. Contact Form",
-        "text1": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
-        "text2": "Legal basis: Art. 6(1)(b) GDPR."
+        "text1": "If you send me inquiries via the contact form, your details, including the contact data you provided there, will be stored for the purpose of processing the inquiry and in case of follow-up questions.",
+        "text2": "Legal basis: Art. 6 para. 1 lit. b GDPR."
       },
       "5": {
         "heading": "5. Server Log Files",
-        "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
+        "text": "The hosting provider automatically collects and stores information in so-called server log files, which your browser automatically transmits:",
         "list": [
-          "Browser type and version",
+          "Browser type and browser version",
           "Operating system used",
           "Referrer URL",
-          "Host name of the accessing computer",
+          "Hostname of the accessing computer",
           "Time of the server request",
           "IP address"
         ]
       },
       "6": {
         "heading": "6. Your Rights",
-        "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
+        "text1": "You have the right to information, correction, deletion, restriction of processing, data portability, and objection at any time.",
         "text2": "To exercise these rights, please contact me by email (see above)."
       },
       "7": {
-        "heading": "7. SSL or TLS Encryption",
+        "heading": "7. SSL/TLS Encryption",
         "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
       }
     }
-  },
-  "list": {
-  "0": "Browser type and version",
-  "1": "Operating system used",
-  "2": "Referrer URL",
-  "3": "Host name of the accessing computer",
-  "4": "Time of the server request",
-  "5": "IP address"
   },
   "nav": {
     "home": "Home",
@@ -203,10 +410,10 @@
     "projects": "Projects",
     "contact": "Contact",
     "link_home": "/",
-    "link_why_me": "about-me",
+    "link_why_me": "why-me",
     "link_skills": "skills",
     "link_projects": "projects",
-    "link_contact": "contact"
+    "link_contact": "#contact"
   },
   "hero": {
     "name": "Markus Fischer",
@@ -217,70 +424,70 @@
     "en": "EN"
   },
   "legal": {
-    "title": "Legal Notice",
+    "title": "Imprint",
     "section_5": "Information according to § 5 TMG:",
     "name": "Markus Fischer",
     "address": {
-      "street": "Scheffelstr.1",
+      "street": "Scheffelstr. 1",
       "city": "65187 Wiesbaden",
       "country": "Germany"
     },
-  "contact": "Contact:",
+    "contact": "Contact:",
     "phone": "Phone: +49 6119705560",
     "email": "Email: hello[at]markusfischer-developer.de",
-    "responsible": "Responsible for content according to § 55 Abs. 2 RStV:",
-    "same_address": "address as above."
+    "responsible": "Responsible for the content according to § 55 Abs. 2 RStV:",
+    "same_address": "Address as above."
   },
   "footer": {
-      "link-imprint": "imprint",
-       "link-privacy": "privacy",
     "imprint": "Imprint",
+    "link-imprint": "imprint",
+    "link-privacy": "privacy",
     "privacy": "Privacy"
   },
   "privacy-page": {
-  "title": "Privacy Policy",
-  "responsible": {
-    "title": "1. Responsible Party",
-    "name": "Name",
-    "address": "Address",
-    "address_value": "see imprint",
-    "email": "Email",
-    "website": "Website"
-  },
-  "general": {
-    "title": "2. General Information",
-    "text": "I take the protection of your personal data very seriously. Your personal data is treated confidentially and in accordance with the applicable data protection regulations and this privacy policy."
-  },
-  "collection": {
-    "title": "3. Collection and Processing of Personal Data",
-    "text1": "Using this website is generally possible without providing personal data. If personal data (such as name or email address) is collected on this site, it is done on a voluntary basis—e.g., via the contact form.",
-    "text2": "This data will not be shared with third parties without your explicit consent."
-  },
-  "contact_form": {
-    "title": "4. Contact Form",
-    "text": "If you send me inquiries via the contact form, your details from the form, including the contact information you provide, will be stored for the purpose of processing your request and in case of follow-up questions.",
-    "legal_basis": "Legal basis: Art. 6(1)(b) GDPR."
-  },
-  "server_logs": {
-    "title": "5. Server Log Files",
-    "text": "The hosting provider automatically collects and stores information in server log files, which your browser automatically transmits:",
-    "entries": {
-      "browser": "Browser type and version",
-      "os": "Operating system used",
-      "referrer": "Referrer URL",
-      "hostname": "Host name of the accessing computer",
-      "time": "Time of the server request",
-      "ip": "IP address"
-    }
-  },
+    "title": "Privacy Policy",
+    "responsible": {
+      "title": "1. Responsible Body",
+      "name": "Name",
+      "address": "Address",
+      "address_value": "see Imprint",
+      "email": "Email",
+      "website": "Website"
+    },
+    "general": {
+      "title": "2. General Information",
+      "text": "I take the protection of your personal data very seriously. Your personal data will be treated confidentially and in accordance with the statutory data protection regulations and this privacy policy."
+    },
+    "collection": {
+      "title": "3. Collection and Processing of Personal Data",
+      "text1": "The use of this website is generally possible without providing personal data. Insofar as personal data (e.g., name or email address) is collected on this site, this is done on a voluntary basis – e.g., via the contact form.",
+      "text2": "This data will not be passed on to third parties without your express consent."
+    },
+    "contact_form": {
+      "title": "4. Contact Form",
+      "text": "If you send me inquiries via the contact form, your details from the form, including the contact data you provided there, will be stored by me for the purpose of processing the inquiry and in case of follow-up questions.",
+      "legal_basis": "Legal basis: Art. 6 para. 1 lit. b GDPR."
+    },
+    "server_logs": {
+      "title": "5. Server Log Files",
+      "text": "The hosting provider automatically collects and stores information in so-called server log files, which your browser automatically transmits:",
+      "entries": {
+        "browser": "Browser type and browser version",
+        "os": "Operating system used",
+        "referrer": "Referrer URL",
+        "hostname": "Hostname of the accessing computer",
+        "time": "Time of the server request",
+        "ip": "IP address"
+      }
+    },
     "rights": {
-    "title": "6. Your Rights",
-    "text1": "You have the right to request access, correction, deletion, restriction of processing, data portability, and objection at any time.",
-    "text2": "To exercise these rights, please contact me by email (see above)."
-  },
+      "title": "6. Your Rights",
+      "text1": "You have the right to information, correction, deletion, restriction of processing, data portability, and objection at any time.",
+      "text2": "To exercise these rights, please contact me by email (see above)."
+    },
     "encryption": {
-    "title": "7. SSL or TLS Encryption",
-    "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
+      "title": "7. SSL/TLS Encryption",
+      "text": "This site uses SSL or TLS encryption for security reasons and to protect the transmission of confidential content."
     }
   }
 }

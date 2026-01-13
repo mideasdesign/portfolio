@@ -1,27 +1,14 @@
 import { Component } from '@angular/core';
-import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-projects',
-  standalone: true,
-  imports: [CommonModule, TranslatePipe],
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+    selector: 'app-projects',
+    standalone: true,
+    imports: [TranslateModule, RouterModule],
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  activeTab: string = 'join';
-
   constructor(private translate: TranslateService) {}
-
-  switchLang(language: string){
-   this.translate.use(language);
-  }
-  setActiveTab(tab: string) {
-    this.activeTab = tab;
-  }
-
-  isActive(tab: string): boolean {
-    return this.activeTab === tab;
-  }
 }

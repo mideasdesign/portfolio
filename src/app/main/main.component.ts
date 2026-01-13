@@ -2,21 +2,20 @@ import { Component, ElementRef, HostListener, ViewChild, signal } from '@angular
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
-import { TranslateModule, TranslateService, TranslatePipe } from "@ngx-translate/core";
+import { TranslateModule, TranslateService } from "@ngx-translate/core";
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { HeaderComponent } from '../shared/header/header.component';
 import { FooterComponent } from '../shared/footer/footer.component';
 import { NavComponent } from '../shared/nav/nav.component';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
-  selector: 'app-main',
-  standalone: true,
-  imports: [AboutMeComponent, SkillsComponent, ProjectsComponent, ContactComponent, TestimonialsComponent, FormsModule, TranslateModule, HeaderComponent, NavComponent, FooterComponent, CommonModule],
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+    selector: 'app-main',
+    imports: [AboutMeComponent, SkillsComponent, ProjectsComponent, ContactComponent, TestimonialsComponent, FormsModule, TranslateModule, HeaderComponent, NavComponent, FooterComponent],
+    templateUrl: './main.component.html',
+    styleUrl: './main.component.css'
 })
 export class MainComponent {
   @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
@@ -46,7 +45,7 @@ export class MainComponent {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
       this.showScrollButton.set(scrollTop > 500);
     }
-  
+
     scrollToTop() {
       window.scrollTo({
         top: 0,

@@ -1,14 +1,13 @@
 import { Component, ElementRef, ViewChild, signal, computed, inject, HostListener } from '@angular/core';
-import { TranslateService, TranslateModule, TranslatePipe } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
+
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [CommonModule, TranslateModule, RouterModule],
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+    selector: 'app-header',
+    imports: [TranslateModule, RouterModule],
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
   @ViewChild('togglemenu') menuRef!: ElementRef<HTMLElement>;
@@ -16,11 +15,11 @@ export class HeaderComponent {
 
   // Signal for screen size
   isMobile = signal(false);
-  
+
   // Computed signal for the appropriate image
-  personImage = computed(() => 
-    this.isMobile() 
-      ? './assets/images/person-mobile.webp' 
+  personImage = computed(() =>
+    this.isMobile()
+      ? './assets/images/person-mobile.webp'
       : './assets/images/person.webp'
   );
 

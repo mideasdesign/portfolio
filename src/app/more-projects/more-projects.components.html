@@ -1,0 +1,121 @@
+<div class="projects-containter">
+  <app-nav></app-nav>
+  <main class="mx-auto px-4 py-12 projects-content">
+    <section class="my-16" id="projects-details">
+      <div
+        class="max-w-7xl flex flex-col items-center justify-center p-4 mx-auto text-center"
+      >
+        <div id="projects" class="py-6">&nbsp;</div>
+        <section class="py-6 sm:py-12">
+          <div class="mx-auto max-w-7xl px-1">
+            <div>
+              <h3 class="text-4xl text-secondary text-center font-heading pb-8">
+                {{ 'projects.title' | translate }}
+              </h3>
+            </div>
+
+            @for (project of projects; track project.titleKey; let odd = $odd;
+            let i = $index) {
+            <div
+              class="py-15 lg:flex sm:gap-15 text-center lg:text-left items-center"
+              [class.lg:flex-row-reverse]="odd"
+            >
+              <div class="text-md text-balance flex-1 text-(--secondary-color)">
+                <h3 class="text-3xl text-secondary font-heading mb-2">
+                  {{ project.titleKey | translate }}
+                </h3>
+                <h5
+                  class="text-lg text-secondary text-(--secondary-color) mb-2"
+                >
+                  {{ project.aboutTitleKey | translate }}
+                </h5>
+                <p class="mb-4">{{ project.aboutTextKey || '' | translate }}</p>
+
+                @if (project.processTitleKey) {
+                <h5 class="text-lg text-secondary mb-2">
+                  {{ project.processTitleKey | translate }}
+                </h5>
+
+                <p class="mb-4">
+                  {{ project.processTextKey || '' | translate }}
+                </p>
+                } @if (project.teamTitleKey) {
+                <h5 class="text-lg text-secondary mb-2">
+                  {{ project.teamTitleKey | translate }}
+                </h5>
+                <p class="text-balance">
+                  {{ project.teamTextKey || '' | translate }}
+                </p>
+                }
+              </div>
+              <div class="flex flex-col justify-center sm:gap-4 mt-5 flex-1">
+                <div class="flex flex-col justify-center">
+                  <h5 class="text-lg text-center text-secondary">
+                    {{ 'projects.technologies.title' | translate }}
+                  </h5>
+                  <div class="flex flex-wrap justify-center gap-4 py-4">
+                    <!-- Technologien als Icons (beispielhaft) -->
+                    <img
+                      src="./assets/images/icons/icon-skills/css-o-font.svg"
+                      class="h-8"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/icons/icon-skills/html-o-font.svg"
+                      class="h-8"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/icons/icon-skills/javascript-o-font.svg"
+                      class="h-8"
+                      alt=""
+                    />
+                    <img
+                      src="./assets/images/icons/icon-skills/typescript-o-font.svg"
+                      class="h-8"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="flex justify-center">
+                  <div
+                    #lightgallery
+                    class="gallery-item"
+                    (click)="openGallery(i)"
+                    style="cursor: pointer"
+                  >
+                    <img
+                      *ngIf="project.images && project.images.length > 0"
+                      [src]="project.images[0]"
+                      class="min-w-[280px] max-w-full rounded-3xl"
+                      [alt]="project.titleKey | translate"
+                    />
+                  </div>
+                </div>
+                <div class="mt-5 flex justify-center gap-4">
+                  @if (project.liveUrl) {
+                  <button
+                    type="button"
+                    class="py-2 px-3 rounded-2xl text-sm border border-secondary transition-colors hover:text-primary hover:cursor-pointer hover:bg-secondary hover:animate-pulse"
+                  >
+                    <a [href]="project.liveUrl" target="_blank"> Website </a>
+                  </button>
+                  } @if (project.githubUrl) {
+                  <button
+                    type="button"
+                    class="py-2 px-3 rounded-2xl text-sm text-primary hover:text-secondary border border-secondary transition-colors hover:cursor-pointer bg-secondary hover:bg-transparent hover:animate-pulse"
+                  >
+                    <a [href]="project.githubUrl" target="_blank"> github </a>
+                  </button>
+                  }
+                </div>
+              </div>
+            </div>
+            }
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <!-- Footer (unverändert) -->
+</div>

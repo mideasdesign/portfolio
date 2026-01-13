@@ -1,13 +1,12 @@
 import { Component, signal, computed } from '@angular/core';
 import { TranslateService, TranslateModule } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+
 
 @Component({
-  selector: 'app-testimonials',
-  standalone: true,
-  imports: [CommonModule, TranslateModule],
-  templateUrl: './testimonials.component.html',
-  styleUrl: './testimonials.component.css'
+    selector: 'app-testimonials',
+    imports: [TranslateModule],
+    templateUrl: './testimonials.component.html',
+    styleUrl: './testimonials.component.css'
 })
 export class TestimonialsComponent {
   currentIndex = signal(0);

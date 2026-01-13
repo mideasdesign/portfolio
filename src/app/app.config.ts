@@ -9,9 +9,10 @@ const httpLoaderFactory: (http: HttpClient) => TranslateHttpLoader = (http: Http
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideHttpClient(),  
+    provideHttpClient(),
    provideZoneChangeDetection({ eventCoalescing: true }),
     provideTranslateService({
+      defaultLanguage: 'en',
       loader: {
         provide: TranslateLoader,
         useFactory: httpLoaderFactory,
