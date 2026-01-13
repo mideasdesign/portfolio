@@ -8,7 +8,11 @@
     "processTextKey": "projects.join.process.text",
     "teamTitleKey": "projects.join.team.title",
     "teamTextKey": "projects.join.team.text",
-    "images": ["./assets/images/projects/screenshot-join.webp"],
+    "images": [
+      "./assets/images/projects/screenshot-join1.webp",
+      "./assets/images/projects/screenshot-join2.webp",
+      "./assets/images/projects/screenshot-join3.webp"
+    ],
     "liveUrl": "https://join-app.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/join-app"
   },
@@ -19,7 +23,11 @@
     "aboutTextKey": "projects.elpollo.about.text",
     "processTitleKey": "projects.elpollo.process.title",
     "processTextKey": "projects.elpollo.process.text",
-    "images": ["./assets/images/projects/screenshot-elpollo.webp"],
+    "images": [
+      "./assets/images/projects/screenshot-el-pollo-loco1.webp",
+      "./assets/images/projects/screenshot-el-pollo-loco2.webp",
+      "./assets/images/projects/screenshot-el-pollo-loco3.webp"
+    ],
     "liveUrl": "https://el-pollo-loco.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/el-pollo-loco"
   },
@@ -30,7 +38,11 @@
     "aboutTextKey": "projects.pokemon-dex.about.text",
     "processTitleKey": "projects.pokemon-dex.process.title",
     "processTextKey": "projects.pokemon-dex.process.text",
-    "images": ["./assets/images/projects/screenshot-pokemon-dex.webp"],
+    "images": [
+      "./assets/images/projects/screenshot-pokemon1.webp",
+      "./assets/images/projects/screenshot-pokemon2.webp",
+      "./assets/images/projects/screenshot-pokemon3.webp"
+    ],
     "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
     "githubUrl": "https://github.com/mideasdesign/poke-dex"
   },
@@ -106,15 +118,15 @@
   },
   {
     "id": 9,
-    "titleKey": "projects.is-clinical.title",
-    "aboutTitleKey": "projects.is-clinical.about.title",
-    "aboutTextKey": "projects.is-clinical.about.text",
-    "processTitleKey": "projects.is-clinical.process.title",
-    "processTextKey": "projects.is-clinical.process.text",
+    "titleKey": "projects.qchess.title",
+    "aboutTitleKey": "projects.qchess.about.title",
+    "aboutTextKey": "projects.qchess.about.text",
+    "processTitleKey": "projects.qchess.process.title",
+    "processTextKey": "projects.qchess.process.text",
     "images": [
-      "./assets/images/projects/screenshot-is-clinical1.webp",
-      "./assets/images/projects/screenshot-is-clinical2.webp",
-      "./assets/images/projects/screenshot-is-clinical3.webp"
+      "./assets/images/projects/screenshot-qchess1.webp",
+      "./assets/images/projects/screenshot-qchess2.webp",
+      "./assets/images/projects/screenshot-qchess3.webp"
     ]
   },
   {

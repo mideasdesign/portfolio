@@ -237,6 +237,31 @@
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     },
+    "qchess": {
+      "title": "Qchess",
+      "about": {
+        "title": "About the Project",
+        "text": "For the F. Arthur Uebel brand, the outdated website was comprehensively revised to create a modern image site. The new website was intended to clearly highlight the clarinets and artists to present the brand image more strongly and emotionally. The implementation was based on WordPress and WooCommerce to ensure flexibility, scalability, and easy maintenance of the platform. The project included not only the design but also the complete implementation and support from the initial consultation to the live launch."
+      },
+      "process": {
+        "title": "How I Organized My Workflow",
+        "text": "How can an image site be both emotional and functional? The focus was on creating a clear, visual structure that centers on the clarinets and artists of the F. Arthur Uebel brand. I organized the process so that the design and technical implementation were seamlessly coordinated. Through emotional imagery, clear navigation, and an intuitive e-commerce area, the user experience was optimized. I also paid special attention to consistency in design and the platform's maintainability to allow for future adjustments by the operator."
+      },
+      "technologies": {
+        "title": "Technologies",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://pollo-loco.markusfischer-developer.de",
+        "link": "https://github.com/mideasdesign/el-pollo-loco"
+      }
+    },
     "widmann": {
       "title": "Widmann Germany",
       "about": {

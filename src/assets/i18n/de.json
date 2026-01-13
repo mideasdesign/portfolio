@@ -237,6 +237,30 @@
         "link": "https://github.com/mideasdesign/el-pollo-loco"
       }
     },
+    "qchess": {
+      "title": "Q-Chess Mobile",
+      "about": {
+        "title": "Über das Projekt",
+        "text": "Bei dem Projekt Q-Chess Mobile habe ich das User Interface Design sowie die User Experience modernisiert, um die Anwendung auf den neuesten Stand zu bringen. Die App wurde von Grund auf neu strukturiert und an die Bedürfnisse des Kunden angepasst "
+      },
+      "process": {
+        "title": "So habe ich meinen Arbeitsprozess organisiert",
+        "text": "Zunächst erstellte ich eine Ist-Analyse, um anschließend klare, messbare Ziele zu definieren. Im nächsten Schritt konzentrierte ich mich auf die Neuorganisation der Benutzerführung und die Optimierung der Usability."
+      },
+      "technologies": {
+        "title": "Technologien",
+        "icons": [
+          "./assets/images/icons/icon-skills/css-o-font.svg",
+          "./assets/images/icons/icon-skills/html-o-font.svg",
+          "./assets/images/icons/icon-skills/javasript-o-font.svg",
+          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+        ]
+      },
+      "image-links": {
+        "image": "./assets/images/projects/screenshot-elpollo.webp",
+        "demo": "https://www.q-chess.de/filialchecks/"
+      }
+    },
     "widmann": {
       "title": "Widmann Germany",
       "about": {
