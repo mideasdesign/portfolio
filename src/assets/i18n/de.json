@@ -138,7 +138,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -161,7 +161,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -183,7 +183,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -205,7 +205,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -227,8 +227,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -241,7 +240,7 @@
       "title": "Q-Chess Mobile",
       "about": {
         "title": "Über das Projekt",
-        "text": "Bei dem Projekt Q-Chess Mobile habe ich das User Interface Design sowie die User Experience modernisiert, um die Anwendung auf den neuesten Stand zu bringen. Die App wurde von Grund auf neu strukturiert und an die Bedürfnisse des Kunden angepasst "
+        "text": "Bei dem Projekt Q-Chess Mobile habe ich das User Interface Design sowie die User Experience modernisiert, um die Anwendung auf den neuesten Stand zu bringen. Die App wurde von Grund auf neu strukturiert und an die Bedürfnisse des Kunden angepasst. "
       },
       "process": {
         "title": "So habe ich meinen Arbeitsprozess organisiert",
@@ -249,12 +248,7 @@
       },
       "technologies": {
         "title": "Technologien",
-        "icons": [
-          "./assets/images/icons/icon-skills/css-o-font.svg",
-          "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
-        ]
+        "icons": ["./assets/images/icons/icon-skills/figma.svg"]
       },
       "image-links": {
         "image": "./assets/images/projects/screenshot-elpollo.webp",
@@ -276,8 +270,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+          "./assets/images/icons/icon-skills/shopware.svg"
         ]
       },
       "image-links": {
@@ -299,16 +292,14 @@
       "technologies": {
         "title": "Technologien",
         "icons": [
+          "./assets/images/icons/icon-skills/figma.svg",
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
           "./assets/images/icons/icon-skills/typescript-o-font.svg"
         ]
       },
       "image-links": {
-        "image": "./assets/images/projects/screenshot-elpollo.webp",
-        "demo": "https://pollo-loco.markusfischer-developer.de",
-        "link": "https://github.com/mideasdesign/el-pollo-loco"
+        "image": "./assets/images/projects/screenshot-elpollo.webp"
       }
     }
   },

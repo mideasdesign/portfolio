@@ -13,6 +13,12 @@
       "./assets/images/projects/screenshot-join2.webp",
       "./assets/images/projects/screenshot-join3.webp"
     ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/javascript-o-font.svg",
+      "./assets/images/icons/icon-skills/typescript-o-font.svg"
+    ],
     "liveUrl": "https://join-app.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/join-app"
   },
@@ -28,6 +34,12 @@
       "./assets/images/projects/screenshot-el-pollo-loco2.webp",
       "./assets/images/projects/screenshot-el-pollo-loco3.webp"
     ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/javascript-o-font.svg",
+      "./assets/images/icons/icon-skills/typescript-o-font.svg"
+    ],
     "liveUrl": "https://el-pollo-loco.markusfischer-developer.de",
     "githubUrl": "https://github.com/mideasdesign/el-pollo-loco"
   },
@@ -42,6 +54,11 @@
       "./assets/images/projects/screenshot-pokemon1.webp",
       "./assets/images/projects/screenshot-pokemon2.webp",
       "./assets/images/projects/screenshot-pokemon3.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/javascript-o-font.svg"
     ],
     "liveUrl": "https://pokemon-dex.markusfischer-developer.de/",
     "githubUrl": "https://github.com/mideasdesign/poke-dex"
@@ -59,6 +76,11 @@
       "./assets/images/projects/screenshot-ccn-2.webp",
       "./assets/images/projects/screenshot-ccn-3.webp"
     ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
+    ],
     "liveUrl": "https://www.ccnumzuege.de/"
   },
   {
@@ -72,6 +94,11 @@
       "./assets/images/projects/screenshot-ffm1.webp",
       "./assets/images/projects/screenshot-ffm2.webp",
       "./assets/images/projects/screenshot-ffm1.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
     ],
     "liveUrl": "https://www.falke-fm.com/"
   },
@@ -87,6 +114,11 @@
       "./assets/images/projects/screenshot-diefliese2.webp",
       "./assets/images/projects/screenshot-diefliese3.webp"
     ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
+    ],
     "liveUrl": "https://diefliese-living.de/"
   },
   {
@@ -100,6 +132,11 @@
       "./assets/images/projects/screenshot-mlz1.webp",
       "./assets/images/projects/screenshot-mlz2.webp",
       "./assets/images/projects/screenshot-mlz3.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
     ]
   },
   {
@@ -114,6 +151,11 @@
       "./assets/images/projects/screenshot-uebel2.webp",
       "./assets/images/projects/screenshot-uebel3.webp",
       "./assets/images/projects/screenshot-uebel4.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
     ]
   },
   {
@@ -126,8 +168,16 @@
     "images": [
       "./assets/images/projects/screenshot-qchess1.webp",
       "./assets/images/projects/screenshot-qchess2.webp",
-      "./assets/images/projects/screenshot-qchess3.webp"
-    ]
+      "./assets/images/projects/screenshot-qchess3.webp",
+      "./assets/images/projects/screenshot-qchess4.webp",
+      "./assets/images/projects/screenshot-qchess5.webp",
+      "./assets/images/projects/screenshot-qchess6.webp",
+      "./assets/images/projects/screenshot-qchess7.webp",
+      "./assets/images/projects/screenshot-qchess8.webp",
+      "./assets/images/projects/screenshot-qchess9.webp",
+      "./assets/images/projects/screenshot-qchess10.webp"
+    ],
+    "icons": ["./assets/images/icons/icon-skills/figma.svg"]
   },
   {
     "id": 10,
@@ -140,6 +190,11 @@
       "./assets/images/projects/screenshot-widmann1.webp",
       "./assets/images/projects/screenshot-widmann2.webp",
       "./assets/images/projects/screenshot-widmann3.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/shopware.svg"
     ]
   },
   {
@@ -156,8 +211,12 @@
       "./assets/images/projects/screenshot-haendlerbackend4.webp",
       "./assets/images/projects/screenshot-haendlerbackend5.webp",
       "./assets/images/projects/screenshot-haendlerbackend6.webp",
-      "./assets/images/projects/screenshot-haendlerbackend7.webp",
-      "./assets/images/projects/screenshot-haendlerbackend8.webp"
+      "./assets/images/projects/screenshot-haendlerbackend7.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/javascript-o-font.svg"
     ]
   }
 ]
