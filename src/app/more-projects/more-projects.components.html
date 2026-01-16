@@ -54,27 +54,15 @@
                     {{ 'projects.technologies.title' | translate }}
                   </h5>
                   <div class="flex flex-wrap justify-center gap-4 py-4">
-                    <!-- Technologien als Icons (beispielhaft) -->
+                    <!-- Technology icons -->
+                    @for (icon of project.icons; track icon; let i = $index) {
                     <img
-                      src="./assets/images/icons/icon-skills/css-o-font.svg"
+                      [alt]="'Technology icon'"
+                      [src]="icon"
                       class="h-8"
-                      alt=""
+                      (error)="$event.target.style.display='none'"
                     />
-                    <img
-                      src="./assets/images/icons/icon-skills/html-o-font.svg"
-                      class="h-8"
-                      alt=""
-                    />
-                    <img
-                      src="./assets/images/icons/icon-skills/javascript-o-font.svg"
-                      class="h-8"
-                      alt=""
-                    />
-                    <img
-                      src="./assets/images/icons/icon-skills/typescript-o-font.svg"
-                      class="h-8"
-                      alt=""
-                    />
+                    }
                   </div>
                 </div>
                 <div class="flex justify-center">

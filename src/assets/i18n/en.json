@@ -124,7 +124,7 @@
       }
     },
     "ccn-umzuege": {
-      "title": "CCN Removals",
+      "title": "CCN Umzüge",
       "about": {
         "title": "About the Project",
         "text": "This platform is the result of a comprehensive relaunch for CCN Removals. In addition to modernizing the design, the focus was on functionality: the website should not only inform but also serve as an interactive tool. By implementing a moving goods calculator, the website was upgraded from a purely informational site to a real service tool for the end customer. The platform is now not only visually appealing but also intuitive to use and offers clear guidance for customers."
@@ -138,7 +138,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -161,7 +161,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -170,7 +170,7 @@
       }
     },
     "die-fliese": {
-      "title": "Die Fliese - Living Bath & Home",
+      "title": "Die Fliese - Living Bad & Home",
       "about": {
         "title": "About the Project",
         "text": "This project is a comprehensive redesign and relaunch for the company 'Die Fliese Living'. The goal was to transform the web presence from a purely informative, text-heavy site into a modern, visual experience. The focus is now on the aesthetic presentation of materials: a fresh screen design puts the products in the spotlight and inspires the user with high-quality project examples."
@@ -183,7 +183,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -192,7 +192,7 @@
       }
     },
     "mlz-immobilien": {
-      "title": "MLZ Real Estate",
+      "title": "MLZ Immobilien",
       "about": {
         "title": "About the Project",
         "text": "The client wanted a contemporary design for their website that avoids excessive effects. Therefore, I worked with subtle transitions and established the logo as a stylistic element."
@@ -205,7 +205,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javascript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -227,8 +227,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+          "./assets/images/icons/icon-skills/wordpress.svg"
         ]
       },
       "image-links": {
@@ -238,28 +237,22 @@
       }
     },
     "qchess": {
-      "title": "Qchess",
+      "title": "Q-Chess Mobile",
       "about": {
         "title": "About the Project",
-        "text": "For the F. Arthur Uebel brand, the outdated website was comprehensively revised to create a modern image site. The new website was intended to clearly highlight the clarinets and artists to present the brand image more strongly and emotionally. The implementation was based on WordPress and WooCommerce to ensure flexibility, scalability, and easy maintenance of the platform. The project included not only the design but also the complete implementation and support from the initial consultation to the live launch."
+        "text": "In the Q-Chess Mobile project, I modernized the user interface design and the user experience to bring it up-to-date. The app was completely redesigned from scratch and tailored specifically to the client’s needs."
       },
       "process": {
-        "title": "How I Organized My Workflow",
-        "text": "How can an image site be both emotional and functional? The focus was on creating a clear, visual structure that centers on the clarinets and artists of the F. Arthur Uebel brand. I organized the process so that the design and technical implementation were seamlessly coordinated. Through emotional imagery, clear navigation, and an intuitive e-commerce area, the user experience was optimized. I also paid special attention to consistency in design and the platform's maintainability to allow for future adjustments by the operator."
+        "title": "How I Organized My Work Process",
+        "text": "First, I conducted an assessment of the current state to then define clear, measurable goals. In the next step, I focused on reorganizing user guidance and optimizing usability."
       },
       "technologies": {
         "title": "Technologies",
-        "icons": [
-          "./assets/images/icons/icon-skills/css-o-font.svg",
-          "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
-        ]
+        "icons": ["./assets/images/icons/figma.svg"]
       },
       "image-links": {
         "image": "./assets/images/projects/screenshot-elpollo.webp",
-        "demo": "https://pollo-loco.markusfischer-developer.de",
-        "link": "https://github.com/mideasdesign/el-pollo-loco"
+        "demo": "https://www.q-chess.de/filialchecks/"
       }
     },
     "widmann": {
@@ -277,8 +270,7 @@
         "icons": [
           "./assets/images/icons/icon-skills/css-o-font.svg",
           "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/javasript-o-font.svg",
-          "./assets/images/icons/icon-skills/typescript-o-font.svg"
+          "./assets/images/icons/icon-skills/shopware.svg"
         ]
       },
       "image-links": {
