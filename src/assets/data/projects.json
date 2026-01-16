@@ -156,7 +156,8 @@
       "./assets/images/icons/icon-skills/css-o-font.svg",
       "./assets/images/icons/icon-skills/html-o-font.svg",
       "./assets/images/icons/icon-skills/wordpress.svg"
-    ]
+    ],
+    "liveUrl": "https://www.uebel-klarinetten.de/"
   },
   {
     "id": 9,
