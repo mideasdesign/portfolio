@@ -161,6 +161,26 @@
   },
   {
     "id": 9,
+    "titleKey": "projects.di-zhao.title",
+    "aboutTitleKey": "projects.di-zhao.about.title",
+    "aboutTextKey": "projects.di-zhao.about.text",
+    "processTitleKey": "projects.di-zhao.process.title",
+    "processTextKey": "projects.di-zhao.process.text",
+    "images": [
+      "./assets/images/projects/screenshot-di-zhao1.webp",
+      "./assets/images/projects/screenshot-di-zhao2.webp",
+      "./assets/images/projects/screenshot-di-zhao3.webp",
+      "./assets/images/projects/screenshot-di-zhao4.webp"
+    ],
+    "icons": [
+      "./assets/images/icons/icon-skills/css-o-font.svg",
+      "./assets/images/icons/icon-skills/html-o-font.svg",
+      "./assets/images/icons/icon-skills/wordpress.svg"
+    ],
+    "liveUrl": "https://dizhao-floeten.de"
+  },
+  {
+    "id": 10,
     "titleKey": "projects.qchess.title",
     "aboutTitleKey": "projects.qchess.about.title",
     "aboutTextKey": "projects.qchess.about.text",
@@ -182,7 +202,7 @@
     "liveUrl": "https://www.q-chess.de/filialchecksmuth-parthners.de"
   },
   {
-    "id": 10,
+    "id": 11,
     "titleKey": "projects.widmann.title",
     "aboutTitleKey": "projects.widmann.about.title",
     "aboutTextKey": "projects.widmann.about.text",
@@ -200,7 +220,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "titleKey": "projects.haendlerbackend.title",
     "aboutTitleKey": "projects.haendlerbackend.about.title",
     "aboutTextKey": "projects.haendlerbackend.about.text",
