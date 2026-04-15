@@ -66,10 +66,10 @@
   {
     "id": 4,
     "titleKey": "projects.ccn-umzuege.title",
-    "aboutTitleKey": "projects.uebel.about.title",
-    "aboutTextKey": "projects.uebel.about.text",
-    "processTitleKey": "projects.uebel.process.title",
-    "processTextKey": "projects.uebel.process.text",
+    "aboutTitleKey": "projects.ccn-umzuege.about.title",
+    "aboutTextKey": "projects.ccn-umzuege.about.text",
+    "processTitleKey": "projects.ccn-umzuege.process.title",
+    "processTextKey": "projects.ccn-umzuege.process.text",
     "images": [
       "./assets/images/projects/screenshot-ccn-1.webp",
       "./assets/images/projects/screenshot-ccn-1-1.webp",
@@ -158,26 +158,6 @@
       "./assets/images/icons/icon-skills/wordpress.svg"
     ],
     "liveUrl": "https://www.uebel-klarinetten.de/"
-  },
-  {
-    "id": 9,
-    "titleKey": "projects.di-zhao.title",
-    "aboutTitleKey": "projects.di-zhao.about.title",
-    "aboutTextKey": "projects.di-zhao.about.text",
-    "processTitleKey": "projects.di-zhao.process.title",
-    "processTextKey": "projects.di-zhao.process.text",
-    "images": [
-      "./assets/images/projects/screenshot-di-zhao1.webp",
-      "./assets/images/projects/screenshot-di-zhao2.webp",
-      "./assets/images/projects/screenshot-di-zhao3.webp",
-      "./assets/images/projects/screenshot-di-zhao4.webp"
-    ],
-    "icons": [
-      "./assets/images/icons/icon-skills/css-o-font.svg",
-      "./assets/images/icons/icon-skills/html-o-font.svg",
-      "./assets/images/icons/icon-skills/wordpress.svg"
-    ],
-    "liveUrl": "https://dizhao-floeten.de"
   },
   {
     "id": 10,

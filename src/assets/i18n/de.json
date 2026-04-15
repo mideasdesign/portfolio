@@ -35,6 +35,7 @@
   },
   "projects": {
     "title": "Meine Projekte",
+    "desc": "Das ist ein kleiner Ausschnitt aus meinen Projekte der letzten Jahre als Web Designer und Frontend Developer",
     "technologies": {
       "title": "Technologien"
     },
@@ -214,30 +215,6 @@
     },
     "uebel": {
       "title": "F. Arthur Uebel",
-      "about": {
-        "title": "Über das Projekt",
-        "text": "Für die Marke F. Arthur Uebel wurde der veraltete Internetauftritt umfassend redigiert, um eine moderne Imageseite zu schaffen. Die neue Website sollte die Klarinetten und Künstler klar in den Vordergrund rücken, um das Markenimage stärker und emotionaler darzustellen. Die Umsetzung erfolgte auf Basis von WordPress und WooCommerce, um Flexibilität, Skalierbarkeit und eine einfache Pflege der Plattform zu gewährleisten. Das Projekt umfasste nicht nur die Gestaltung, sondern auch die vollständige Umsetzung und Betreuung vom ersten Gespräch bis zur Live-Veröffentlichung."
-      },
-      "process": {
-        "title": "So habe ich meinen Arbeitsprozess organisiert",
-        "text": "Wie kann eine Imageseite sowohl emotional wirken als auch funktionell sein? Der Fokus lag auf der Schaffung einer klaren, visuellen Struktur, die die Klarinetten und Künstler der Marke F. Arthur Uebel im Zentrum stellt. Ich organisierte den Prozess so, dass die Gestaltung und technische Umsetzung nahtlos aufeinander abgestimmt waren. Durch emotionale Bildsprache, eine klare Navigation und einen intuitiven E-Commerce-Bereich wurde die Benutzererfahrung optimiert. Zudem achtete ich besonders auf Konsistenz in der Gestaltung und die Wartbarkeit der Plattform, um zukünftige Anpassungen durch den Betreiber zu ermöglichen."
-      },
-      "technologies": {
-        "title": "Technologien",
-        "icons": [
-          "./assets/images/icons/icon-skills/css-o-font.svg",
-          "./assets/images/icons/icon-skills/html-o-font.svg",
-          "./assets/images/icons/icon-skills/wordpress.svg"
-        ]
-      },
-      "image-links": {
-        "image": "./assets/images/projects/screenshot-elpollo.webp",
-        "demo": "https://pollo-loco.markusfischer-developer.de",
-        "link": "https://github.com/mideasdesign/el-pollo-loco"
-      }
-    },
-    "di-zaho": {
-      "title": "Di Zhao",
       "about": {
         "title": "Über das Projekt",
         "text": "Für die Marke F. Arthur Uebel wurde der veraltete Internetauftritt umfassend redigiert, um eine moderne Imageseite zu schaffen. Die neue Website sollte die Klarinetten und Künstler klar in den Vordergrund rücken, um das Markenimage stärker und emotionaler darzustellen. Die Umsetzung erfolgte auf Basis von WordPress und WooCommerce, um Flexibilität, Skalierbarkeit und eine einfache Pflege der Plattform zu gewährleisten. Das Projekt umfasste nicht nur die Gestaltung, sondern auch die vollständige Umsetzung und Betreuung vom ersten Gespräch bis zur Live-Veröffentlichung."

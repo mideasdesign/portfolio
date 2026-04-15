@@ -35,6 +35,7 @@
   },
   "projects": {
     "title": "My Projects",
+    "desc": "Here is a small selection of my projects from the last few years as a web designer and front-end developer",
     "technologies": {
       "title": "Technologies"
     },

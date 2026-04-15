@@ -12,6 +12,9 @@
               <h3 class="text-4xl text-secondary text-center font-heading pb-8">
                 {{ 'projects.title' | translate }}
               </h3>
+              <h5 class="text-lg text-secondary text-(--secondary-color) mb-2">
+                {{ 'projects.desc' | translate }}
+              </h5>
             </div>
 
             @for (project of projects; track project.titleKey; let odd = $odd;
